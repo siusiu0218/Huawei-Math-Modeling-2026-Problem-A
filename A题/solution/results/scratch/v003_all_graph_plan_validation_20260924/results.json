@@ -1,0 +1,3207 @@
+{
+  "scope": "plan legality only; no performance simulation",
+  "source_sha256": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+  "elapsed": 67.8037246999993,
+  "rows": [
+    {
+      "case": "case_001",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.012485000001106528
+    },
+    {
+      "case": "case_001",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.013018100000408594
+    },
+    {
+      "case": "case_001",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.014441199999055243
+    },
+    {
+      "case": "case_001",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.013145699998858618
+    },
+    {
+      "case": "case_002",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 2,
+      "seconds": 0.02712930000052438
+    },
+    {
+      "case": "case_002",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 14,
+      "used_cores": 3,
+      "seconds": 0.02310600000055274
+    },
+    {
+      "case": "case_002",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 26,
+      "used_cores": 4,
+      "seconds": 0.025006500000017695
+    },
+    {
+      "case": "case_002",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 37,
+      "used_cores": 5,
+      "seconds": 0.023673600000620354
+    },
+    {
+      "case": "case_003",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.31460450000122364
+    },
+    {
+      "case": "case_003",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 10,
+      "used_cores": 3,
+      "seconds": 0.31704979999994976
+    },
+    {
+      "case": "case_003",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 10,
+      "used_cores": 4,
+      "seconds": 0.3315105000001495
+    },
+    {
+      "case": "case_003",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 10,
+      "used_cores": 5,
+      "seconds": 0.33746160000009695
+    },
+    {
+      "case": "case_004",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.014319900001282804
+    },
+    {
+      "case": "case_004",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01608920000035141
+    },
+    {
+      "case": "case_004",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.01440089999960037
+    },
+    {
+      "case": "case_004",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.014484899998933543
+    },
+    {
+      "case": "case_005",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 60,
+      "used_cores": 2,
+      "seconds": 0.0806639999991603
+    },
+    {
+      "case": "case_005",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 60,
+      "used_cores": 3,
+      "seconds": 0.0681153000004997
+    },
+    {
+      "case": "case_005",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 60,
+      "used_cores": 4,
+      "seconds": 0.08037970000077621
+    },
+    {
+      "case": "case_005",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 60,
+      "used_cores": 5,
+      "seconds": 0.07136180000088643
+    },
+    {
+      "case": "case_006",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.01228369999989809
+    },
+    {
+      "case": "case_006",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.013053399999989779
+    },
+    {
+      "case": "case_006",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.011125600000013947
+    },
+    {
+      "case": "case_006",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.011645300000964198
+    },
+    {
+      "case": "case_007",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09034299999984796
+    },
+    {
+      "case": "case_007",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.09171120000064548
+    },
+    {
+      "case": "case_007",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.08848249999937252
+    },
+    {
+      "case": "case_007",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.09556420000080834
+    },
+    {
+      "case": "case_008",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.022214700000404264
+    },
+    {
+      "case": "case_008",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.018742899999779183
+    },
+    {
+      "case": "case_008",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.02004510000006121
+    },
+    {
+      "case": "case_008",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.02026330000080634
+    },
+    {
+      "case": "case_009",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.12160089999997581
+    },
+    {
+      "case": "case_009",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.12498490000143647
+    },
+    {
+      "case": "case_009",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.12332040000001143
+    },
+    {
+      "case": "case_009",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.12627860000065994
+    },
+    {
+      "case": "case_010",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.011051299999962794
+    },
+    {
+      "case": "case_010",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.010859900001378264
+    },
+    {
+      "case": "case_010",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.012746899999910966
+    },
+    {
+      "case": "case_010",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.010133100000530249
+    },
+    {
+      "case": "case_011",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.01244560000122874
+    },
+    {
+      "case": "case_011",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.013420299999779672
+    },
+    {
+      "case": "case_011",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.014170200000080513
+    },
+    {
+      "case": "case_011",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 5,
+      "seconds": 0.012691099998846767
+    },
+    {
+      "case": "case_012",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.01914789999864297
+    },
+    {
+      "case": "case_012",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.02118750000045111
+    },
+    {
+      "case": "case_012",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.020014499999888358
+    },
+    {
+      "case": "case_012",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.020927699999447213
+    },
+    {
+      "case": "case_013",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.04852019999998447
+    },
+    {
+      "case": "case_013",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.04826159999902302
+    },
+    {
+      "case": "case_013",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.051903600000514416
+    },
+    {
+      "case": "case_013",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.05094529999951192
+    },
+    {
+      "case": "case_014",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 1.1367812999997113
+    },
+    {
+      "case": "case_014",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 1.1469381999995676
+    },
+    {
+      "case": "case_014",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 1.1198771999988821
+    },
+    {
+      "case": "case_014",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 1.0960605000000214
+    },
+    {
+      "case": "case_015",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.018972600000779494
+    },
+    {
+      "case": "case_015",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01846540000042296
+    },
+    {
+      "case": "case_015",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.019033000000490574
+    },
+    {
+      "case": "case_015",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.018954900000608177
+    },
+    {
+      "case": "case_016",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 1,
+      "seconds": 0.32402450000154204
+    },
+    {
+      "case": "case_016",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 19,
+      "used_cores": 1,
+      "seconds": 0.31123509999997623
+    },
+    {
+      "case": "case_016",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 1,
+      "seconds": 0.3517164999993838
+    },
+    {
+      "case": "case_016",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 37,
+      "used_cores": 1,
+      "seconds": 0.3369907000014791
+    },
+    {
+      "case": "case_017",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.026895800001511816
+    },
+    {
+      "case": "case_017",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.028664000001299428
+    },
+    {
+      "case": "case_017",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.026616099999955622
+    },
+    {
+      "case": "case_017",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.03056289999949513
+    },
+    {
+      "case": "case_018",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.06108660000063537
+    },
+    {
+      "case": "case_018",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.058610600000974955
+    },
+    {
+      "case": "case_018",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.058361600000353064
+    },
+    {
+      "case": "case_018",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.06324529999983497
+    },
+    {
+      "case": "case_019",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.010131900000487803
+    },
+    {
+      "case": "case_019",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.010523799999646144
+    },
+    {
+      "case": "case_019",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.01083699999981036
+    },
+    {
+      "case": "case_019",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.011086599999543978
+    },
+    {
+      "case": "case_020",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.14693430000079388
+    },
+    {
+      "case": "case_020",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.1670797999995557
+    },
+    {
+      "case": "case_020",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.1407416000001831
+    },
+    {
+      "case": "case_020",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.14309899999898334
+    },
+    {
+      "case": "case_021",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09483250000084809
+    },
+    {
+      "case": "case_021",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.10420560000056867
+    },
+    {
+      "case": "case_021",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.10542650000024878
+    },
+    {
+      "case": "case_021",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.10157110000000102
+    },
+    {
+      "case": "case_022",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.021819400000822498
+    },
+    {
+      "case": "case_022",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.025081699999645934
+    },
+    {
+      "case": "case_022",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.02263159999893105
+    },
+    {
+      "case": "case_022",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.02530300000034913
+    },
+    {
+      "case": "case_023",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.018345299999054987
+    },
+    {
+      "case": "case_023",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01691489999939222
+    },
+    {
+      "case": "case_023",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.018055799999274313
+    },
+    {
+      "case": "case_023",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.017022899999574292
+    },
+    {
+      "case": "case_024",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 13,
+      "used_cores": 1,
+      "seconds": 0.0957328000004054
+    },
+    {
+      "case": "case_024",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 13,
+      "used_cores": 1,
+      "seconds": 0.09540819999892847
+    },
+    {
+      "case": "case_024",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 26,
+      "used_cores": 1,
+      "seconds": 0.092738699999245
+    },
+    {
+      "case": "case_024",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 25,
+      "used_cores": 1,
+      "seconds": 0.09832710000046063
+    },
+    {
+      "case": "case_025",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.5535662999991473
+    },
+    {
+      "case": "case_025",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.5482289999999921
+    },
+    {
+      "case": "case_025",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.5555239999994228
+    },
+    {
+      "case": "case_025",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.5413284999995085
+    },
+    {
+      "case": "case_026",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.011443299999882584
+    },
+    {
+      "case": "case_026",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.009903399999529938
+    },
+    {
+      "case": "case_026",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.009342600000309176
+    },
+    {
+      "case": "case_026",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.010072000000945991
+    },
+    {
+      "case": "case_027",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.029828699998688535
+    },
+    {
+      "case": "case_027",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.030309599998872727
+    },
+    {
+      "case": "case_027",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.03314250000039465
+    },
+    {
+      "case": "case_027",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 5,
+      "seconds": 0.028684300001259544
+    },
+    {
+      "case": "case_028",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.4749040000006062
+    },
+    {
+      "case": "case_028",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.4802718000009918
+    },
+    {
+      "case": "case_028",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.4908026000011887
+    },
+    {
+      "case": "case_028",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.5045043999998597
+    },
+    {
+      "case": "case_029",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.018622100000357023
+    },
+    {
+      "case": "case_029",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.016091399998913403
+    },
+    {
+      "case": "case_029",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.016564999999900465
+    },
+    {
+      "case": "case_029",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.018655699999726494
+    },
+    {
+      "case": "case_030",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.2588446000008844
+    },
+    {
+      "case": "case_030",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.26373419999981706
+    },
+    {
+      "case": "case_030",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.2789835999992647
+    },
+    {
+      "case": "case_030",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.25615929999912623
+    },
+    {
+      "case": "case_031",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.14105770000060147
+    },
+    {
+      "case": "case_031",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.1426988999992318
+    },
+    {
+      "case": "case_031",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.15163659999961965
+    },
+    {
+      "case": "case_031",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.1504999000007956
+    },
+    {
+      "case": "case_032",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.014155700000628713
+    },
+    {
+      "case": "case_032",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.014498399999865796
+    },
+    {
+      "case": "case_032",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.013339299999643117
+    },
+    {
+      "case": "case_032",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0141514000006282
+    },
+    {
+      "case": "case_033",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.07852950000051351
+    },
+    {
+      "case": "case_033",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.09285970000019006
+    },
+    {
+      "case": "case_033",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.10207769999942684
+    },
+    {
+      "case": "case_033",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0972250000013446
+    },
+    {
+      "case": "case_034",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09329549999893061
+    },
+    {
+      "case": "case_034",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.09870469999987108
+    },
+    {
+      "case": "case_034",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.09739800000170362
+    },
+    {
+      "case": "case_034",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.09897490000003017
+    },
+    {
+      "case": "case_035",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09092489999966347
+    },
+    {
+      "case": "case_035",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.09655949999978475
+    },
+    {
+      "case": "case_035",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.09620389999872714
+    },
+    {
+      "case": "case_035",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 5,
+      "seconds": 0.08608060000005935
+    },
+    {
+      "case": "case_036",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.06471950000013749
+    },
+    {
+      "case": "case_036",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.07282929999928456
+    },
+    {
+      "case": "case_036",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.06872289999955683
+    },
+    {
+      "case": "case_036",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0754438999992999
+    },
+    {
+      "case": "case_037",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.01436430000103428
+    },
+    {
+      "case": "case_037",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.013462700000673067
+    },
+    {
+      "case": "case_037",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.015002299998741364
+    },
+    {
+      "case": "case_037",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.013546000000133063
+    },
+    {
+      "case": "case_038",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.15346839999983786
+    },
+    {
+      "case": "case_038",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.13820750000013504
+    },
+    {
+      "case": "case_038",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.1347961999999825
+    },
+    {
+      "case": "case_038",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.1538010000003851
+    },
+    {
+      "case": "case_039",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.14001350000035018
+    },
+    {
+      "case": "case_039",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.14910469999995257
+    },
+    {
+      "case": "case_039",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.1407530999986193
+    },
+    {
+      "case": "case_039",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.13276089999999385
+    },
+    {
+      "case": "case_040",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.06666760000007343
+    },
+    {
+      "case": "case_040",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.07037260000106471
+    },
+    {
+      "case": "case_040",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.06746389999898383
+    },
+    {
+      "case": "case_040",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.06646240000009129
+    },
+    {
+      "case": "case_041",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.4614645000001474
+    },
+    {
+      "case": "case_041",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.45034190000114904
+    },
+    {
+      "case": "case_041",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.4539346999990812
+    },
+    {
+      "case": "case_041",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.4640771999984281
+    },
+    {
+      "case": "case_042",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.11588880000090285
+    },
+    {
+      "case": "case_042",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.121965000000273
+    },
+    {
+      "case": "case_042",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.11348019999968528
+    },
+    {
+      "case": "case_042",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.10997250000036729
+    },
+    {
+      "case": "case_043",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.21377140000004147
+    },
+    {
+      "case": "case_043",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.23907780000081402
+    },
+    {
+      "case": "case_043",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.2343261000005441
+    },
+    {
+      "case": "case_043",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.2404041000008874
+    },
+    {
+      "case": "case_044",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.02066750000085449
+    },
+    {
+      "case": "case_044",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 3,
+      "seconds": 0.02092400000037742
+    },
+    {
+      "case": "case_044",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 4,
+      "seconds": 0.02022919999944861
+    },
+    {
+      "case": "case_044",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 5,
+      "seconds": 0.023666099999900325
+    },
+    {
+      "case": "case_045",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.025019400000019232
+    },
+    {
+      "case": "case_045",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.027973000000201864
+    },
+    {
+      "case": "case_045",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.03256700000019919
+    },
+    {
+      "case": "case_045",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.02807859999848006
+    },
+    {
+      "case": "case_046",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.014547199998560245
+    },
+    {
+      "case": "case_046",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 3,
+      "seconds": 0.015426100000695442
+    },
+    {
+      "case": "case_046",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 4,
+      "seconds": 0.016473100000439445
+    },
+    {
+      "case": "case_046",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 5,
+      "seconds": 0.015137300000787945
+    },
+    {
+      "case": "case_047",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 161,
+      "used_cores": 2,
+      "seconds": 0.30612140000084764
+    },
+    {
+      "case": "case_047",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 161,
+      "used_cores": 3,
+      "seconds": 0.32778139999936684
+    },
+    {
+      "case": "case_047",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 161,
+      "used_cores": 4,
+      "seconds": 0.3321064000010665
+    },
+    {
+      "case": "case_047",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 161,
+      "used_cores": 5,
+      "seconds": 0.3287455999998201
+    },
+    {
+      "case": "case_048",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 73,
+      "used_cores": 2,
+      "seconds": 0.02830299999914132
+    },
+    {
+      "case": "case_048",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 73,
+      "used_cores": 3,
+      "seconds": 0.027276200000414974
+    },
+    {
+      "case": "case_048",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 73,
+      "used_cores": 4,
+      "seconds": 0.030590599999413826
+    },
+    {
+      "case": "case_048",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 73,
+      "used_cores": 5,
+      "seconds": 0.027469500000734115
+    },
+    {
+      "case": "case_049",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.10109290000036708
+    },
+    {
+      "case": "case_049",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 3,
+      "seconds": 0.10282120000010764
+    },
+    {
+      "case": "case_049",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 4,
+      "seconds": 0.10795280000093044
+    },
+    {
+      "case": "case_049",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 11,
+      "used_cores": 5,
+      "seconds": 0.10958469999968656
+    },
+    {
+      "case": "case_050",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.10666379999929632
+    },
+    {
+      "case": "case_050",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.10727910000059637
+    },
+    {
+      "case": "case_050",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.1076902999993763
+    },
+    {
+      "case": "case_050",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.10629640000115614
+    },
+    {
+      "case": "case_051",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 2,
+      "seconds": 0.02030959999865445
+    },
+    {
+      "case": "case_051",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 3,
+      "seconds": 0.01862260000052629
+    },
+    {
+      "case": "case_051",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 21,
+      "used_cores": 3,
+      "seconds": 0.020153299999947194
+    },
+    {
+      "case": "case_051",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 26,
+      "used_cores": 3,
+      "seconds": 0.018917299999884563
+    },
+    {
+      "case": "case_052",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.019461200001387624
+    },
+    {
+      "case": "case_052",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.02111229999900388
+    },
+    {
+      "case": "case_052",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.020023099999889382
+    },
+    {
+      "case": "case_052",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.021996100000251317
+    },
+    {
+      "case": "case_053",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.31055300000116404
+    },
+    {
+      "case": "case_053",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.29720610000003944
+    },
+    {
+      "case": "case_053",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.30552239999997255
+    },
+    {
+      "case": "case_053",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.30397029999949154
+    },
+    {
+      "case": "case_054",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.4507047999995848
+    },
+    {
+      "case": "case_054",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.4161834999995335
+    },
+    {
+      "case": "case_054",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.4198663999995915
+    },
+    {
+      "case": "case_054",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.39239899999847694
+    },
+    {
+      "case": "case_055",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.023165200000221375
+    },
+    {
+      "case": "case_055",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.021400999999968917
+    },
+    {
+      "case": "case_055",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.023194700001113233
+    },
+    {
+      "case": "case_055",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.020962900000085938
+    },
+    {
+      "case": "case_056",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.16396359999998822
+    },
+    {
+      "case": "case_056",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.17605750000075204
+    },
+    {
+      "case": "case_056",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.19039400000110618
+    },
+    {
+      "case": "case_056",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 19,
+      "used_cores": 5,
+      "seconds": 0.17059279999921273
+    },
+    {
+      "case": "case_057",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.016813700000056997
+    },
+    {
+      "case": "case_057",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.014144700000542798
+    },
+    {
+      "case": "case_057",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.013917199999923469
+    },
+    {
+      "case": "case_057",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.01573160000043572
+    },
+    {
+      "case": "case_058",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.4468262999998842
+    },
+    {
+      "case": "case_058",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.4489813999989565
+    },
+    {
+      "case": "case_058",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.4710028000008606
+    },
+    {
+      "case": "case_058",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.46620660000007774
+    },
+    {
+      "case": "case_059",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.05945319999955245
+    },
+    {
+      "case": "case_059",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.058056899999428424
+    },
+    {
+      "case": "case_059",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.06507440000132192
+    },
+    {
+      "case": "case_059",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.060858700000608223
+    },
+    {
+      "case": "case_060",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.1374467999994522
+    },
+    {
+      "case": "case_060",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.13440220000120462
+    },
+    {
+      "case": "case_060",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.14491649999945366
+    },
+    {
+      "case": "case_060",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.14390149999962887
+    },
+    {
+      "case": "case_061",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.020010100000945386
+    },
+    {
+      "case": "case_061",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.02445870000155992
+    },
+    {
+      "case": "case_061",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.022008699999787495
+    },
+    {
+      "case": "case_061",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.022229399999559973
+    },
+    {
+      "case": "case_062",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 54,
+      "used_cores": 2,
+      "seconds": 0.40430259999993723
+    },
+    {
+      "case": "case_062",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 79,
+      "used_cores": 3,
+      "seconds": 0.3990358000010019
+    },
+    {
+      "case": "case_062",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 94,
+      "used_cores": 4,
+      "seconds": 0.41542200000003504
+    },
+    {
+      "case": "case_062",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 106,
+      "used_cores": 5,
+      "seconds": 0.40038820000154374
+    },
+    {
+      "case": "case_063",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 46,
+      "used_cores": 2,
+      "seconds": 0.14112120000027062
+    },
+    {
+      "case": "case_063",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 48,
+      "used_cores": 3,
+      "seconds": 0.1456527999998798
+    },
+    {
+      "case": "case_063",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 49,
+      "used_cores": 4,
+      "seconds": 0.15183450000040466
+    },
+    {
+      "case": "case_063",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 50,
+      "used_cores": 5,
+      "seconds": 0.1433206000001519
+    },
+    {
+      "case": "case_064",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 31,
+      "used_cores": 2,
+      "seconds": 0.01319580000017595
+    },
+    {
+      "case": "case_064",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 31,
+      "used_cores": 3,
+      "seconds": 0.012180899999293615
+    },
+    {
+      "case": "case_064",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 57,
+      "used_cores": 4,
+      "seconds": 0.013306599999850732
+    },
+    {
+      "case": "case_064",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 87,
+      "used_cores": 5,
+      "seconds": 0.015107999999599997
+    },
+    {
+      "case": "case_065",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.01496190000034403
+    },
+    {
+      "case": "case_065",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01217709999946237
+    },
+    {
+      "case": "case_065",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.012008900001092115
+    },
+    {
+      "case": "case_065",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.011794699999882141
+    },
+    {
+      "case": "case_066",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.1553622000010364
+    },
+    {
+      "case": "case_066",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.16058680000060122
+    },
+    {
+      "case": "case_066",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.15431319999879634
+    },
+    {
+      "case": "case_066",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.15185620000011113
+    },
+    {
+      "case": "case_067",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.21740240000144695
+    },
+    {
+      "case": "case_067",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.22264700000050652
+    },
+    {
+      "case": "case_067",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.21888769999895885
+    },
+    {
+      "case": "case_067",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.21583730000020296
+    },
+    {
+      "case": "case_068",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.1329081000003498
+    },
+    {
+      "case": "case_068",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.14700280000033672
+    },
+    {
+      "case": "case_068",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.1361572999994678
+    },
+    {
+      "case": "case_068",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.13939749999917694
+    },
+    {
+      "case": "case_069",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 22,
+      "used_cores": 2,
+      "seconds": 0.016391199998906814
+    },
+    {
+      "case": "case_069",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 28,
+      "used_cores": 3,
+      "seconds": 0.015358200000264333
+    },
+    {
+      "case": "case_069",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 30,
+      "used_cores": 4,
+      "seconds": 0.016367100000934443
+    },
+    {
+      "case": "case_069",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 38,
+      "used_cores": 5,
+      "seconds": 0.015620800000760937
+    },
+    {
+      "case": "case_070",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.020312999999077874
+    },
+    {
+      "case": "case_070",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.0220365999994101
+    },
+    {
+      "case": "case_070",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.021139699998457218
+    },
+    {
+      "case": "case_070",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.021351000001232023
+    },
+    {
+      "case": "case_071",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 21,
+      "used_cores": 2,
+      "seconds": 0.010826300000189804
+    },
+    {
+      "case": "case_071",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 86,
+      "used_cores": 3,
+      "seconds": 0.01035070000034466
+    },
+    {
+      "case": "case_071",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 42,
+      "used_cores": 4,
+      "seconds": 0.01041599999916798
+    },
+    {
+      "case": "case_071",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 64,
+      "used_cores": 5,
+      "seconds": 0.01230059999943478
+    },
+    {
+      "case": "case_072",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.8869126999998116
+    },
+    {
+      "case": "case_072",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.9272078999983933
+    },
+    {
+      "case": "case_072",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.9235544000002847
+    },
+    {
+      "case": "case_072",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.9009994000007282
+    },
+    {
+      "case": "case_073",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09154120000130206
+    },
+    {
+      "case": "case_073",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.0981409000014537
+    },
+    {
+      "case": "case_073",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.09659359999932349
+    },
+    {
+      "case": "case_073",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0960968999988836
+    },
+    {
+      "case": "case_074",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09611330000007001
+    },
+    {
+      "case": "case_074",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.09640360000048531
+    },
+    {
+      "case": "case_074",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.09701529999983904
+    },
+    {
+      "case": "case_074",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0998607000001357
+    },
+    {
+      "case": "case_075",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 121,
+      "used_cores": 2,
+      "seconds": 0.151884599999903
+    },
+    {
+      "case": "case_075",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 121,
+      "used_cores": 3,
+      "seconds": 0.14615699999922072
+    },
+    {
+      "case": "case_075",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 121,
+      "used_cores": 4,
+      "seconds": 0.15793420000045444
+    },
+    {
+      "case": "case_075",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 121,
+      "used_cores": 5,
+      "seconds": 0.16741839999849617
+    },
+    {
+      "case": "case_076",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 1.0046164999985194
+    },
+    {
+      "case": "case_076",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 1.001326199999312
+    },
+    {
+      "case": "case_076",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 1.022863000000143
+    },
+    {
+      "case": "case_076",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 1.0452216000012413
+    },
+    {
+      "case": "case_077",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09826930000053835
+    },
+    {
+      "case": "case_077",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.11207109999850218
+    },
+    {
+      "case": "case_077",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.10946469999908004
+    },
+    {
+      "case": "case_077",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.11740299999837589
+    },
+    {
+      "case": "case_078",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.016349100000297767
+    },
+    {
+      "case": "case_078",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 3,
+      "seconds": 0.014692799999465933
+    },
+    {
+      "case": "case_078",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 4,
+      "seconds": 0.017121200000474346
+    },
+    {
+      "case": "case_078",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 5,
+      "seconds": 0.017958299999008887
+    },
+    {
+      "case": "case_079",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.5653866999982711
+    },
+    {
+      "case": "case_079",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.5562955999994301
+    },
+    {
+      "case": "case_079",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.5930915000008099
+    },
+    {
+      "case": "case_079",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.5629312000000937
+    },
+    {
+      "case": "case_080",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.0253950000005716
+    },
+    {
+      "case": "case_080",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.020738100000016857
+    },
+    {
+      "case": "case_080",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.022113400000307593
+    },
+    {
+      "case": "case_080",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 18,
+      "used_cores": 5,
+      "seconds": 0.02017870000054245
+    },
+    {
+      "case": "case_081",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09897120000096038
+    },
+    {
+      "case": "case_081",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.08736990000033984
+    },
+    {
+      "case": "case_081",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.09492320000026666
+    },
+    {
+      "case": "case_081",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.09396229999947536
+    },
+    {
+      "case": "case_082",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 49,
+      "used_cores": 2,
+      "seconds": 0.08411819999855652
+    },
+    {
+      "case": "case_082",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 49,
+      "used_cores": 3,
+      "seconds": 0.08181280000098923
+    },
+    {
+      "case": "case_082",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 49,
+      "used_cores": 4,
+      "seconds": 0.08381740000004356
+    },
+    {
+      "case": "case_082",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 49,
+      "used_cores": 5,
+      "seconds": 0.08446739999999409
+    },
+    {
+      "case": "case_083",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.09012559999973746
+    },
+    {
+      "case": "case_083",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.08839079999961541
+    },
+    {
+      "case": "case_083",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.08336659999986296
+    },
+    {
+      "case": "case_083",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.08689159999994445
+    },
+    {
+      "case": "case_084",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.30805830000099377
+    },
+    {
+      "case": "case_084",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.32181710000077146
+    },
+    {
+      "case": "case_084",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.3102507000003243
+    },
+    {
+      "case": "case_084",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.30718940000042494
+    },
+    {
+      "case": "case_085",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 181,
+      "used_cores": 2,
+      "seconds": 0.555250999999771
+    },
+    {
+      "case": "case_085",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 181,
+      "used_cores": 3,
+      "seconds": 0.5081559000009293
+    },
+    {
+      "case": "case_085",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 181,
+      "used_cores": 4,
+      "seconds": 0.522885899999892
+    },
+    {
+      "case": "case_085",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 181,
+      "used_cores": 5,
+      "seconds": 0.5308924000000843
+    },
+    {
+      "case": "case_086",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 66,
+      "used_cores": 2,
+      "seconds": 0.11638440000024275
+    },
+    {
+      "case": "case_086",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 66,
+      "used_cores": 3,
+      "seconds": 0.10928830000011658
+    },
+    {
+      "case": "case_086",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 66,
+      "used_cores": 4,
+      "seconds": 0.1172074000005523
+    },
+    {
+      "case": "case_086",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 66,
+      "used_cores": 5,
+      "seconds": 0.11279749999994237
+    },
+    {
+      "case": "case_087",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.8179039999995439
+    },
+    {
+      "case": "case_087",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.8425738999994792
+    },
+    {
+      "case": "case_087",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.8367015000003448
+    },
+    {
+      "case": "case_087",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.8443538999999873
+    },
+    {
+      "case": "case_088",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.07683539999925415
+    },
+    {
+      "case": "case_088",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.08080530000006547
+    },
+    {
+      "case": "case_088",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.08088080000015907
+    },
+    {
+      "case": "case_088",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.07744260000072245
+    },
+    {
+      "case": "case_089",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.12993470000037632
+    },
+    {
+      "case": "case_089",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.12377319999905012
+    },
+    {
+      "case": "case_089",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.13030129999970086
+    },
+    {
+      "case": "case_089",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.13159529999938968
+    },
+    {
+      "case": "case_090",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.030696899999384186
+    },
+    {
+      "case": "case_090",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.029310500000065076
+    },
+    {
+      "case": "case_090",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 13,
+      "used_cores": 4,
+      "seconds": 0.02954640000098152
+    },
+    {
+      "case": "case_090",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 13,
+      "used_cores": 5,
+      "seconds": 0.0319629999994504
+    },
+    {
+      "case": "case_091",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.9445210000012594
+    },
+    {
+      "case": "case_091",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.9396746000002167
+    },
+    {
+      "case": "case_091",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.9694191999988107
+    },
+    {
+      "case": "case_091",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.9525453999995079
+    },
+    {
+      "case": "case_092",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.4581459000000905
+    },
+    {
+      "case": "case_092",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.44521480000003066
+    },
+    {
+      "case": "case_092",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.4707901999991009
+    },
+    {
+      "case": "case_092",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.48324420000062673
+    },
+    {
+      "case": "case_093",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.014491500000076485
+    },
+    {
+      "case": "case_093",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01188939999883587
+    },
+    {
+      "case": "case_093",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.011825100000351085
+    },
+    {
+      "case": "case_093",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.011036500000045635
+    },
+    {
+      "case": "case_094",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.012198200000057113
+    },
+    {
+      "case": "case_094",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.01058759999978065
+    },
+    {
+      "case": "case_094",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.010051600000224425
+    },
+    {
+      "case": "case_094",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.0101859999995213
+    },
+    {
+      "case": "case_095",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.12341400000150315
+    },
+    {
+      "case": "case_095",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.12651109999933396
+    },
+    {
+      "case": "case_095",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.12106889999995474
+    },
+    {
+      "case": "case_095",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.13228330000129063
+    },
+    {
+      "case": "case_096",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.019664400000692694
+    },
+    {
+      "case": "case_096",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.0211221999998088
+    },
+    {
+      "case": "case_096",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.02024639999945066
+    },
+    {
+      "case": "case_096",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.019732400000066264
+    },
+    {
+      "case": "case_097",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.18938359999992826
+    },
+    {
+      "case": "case_097",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.20067720000042755
+    },
+    {
+      "case": "case_097",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.18971939999937604
+    },
+    {
+      "case": "case_097",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.20477600000049279
+    },
+    {
+      "case": "case_098",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.0229656999999861
+    },
+    {
+      "case": "case_098",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.02482419999978447
+    },
+    {
+      "case": "case_098",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.026221699999950943
+    },
+    {
+      "case": "case_098",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.023499500000980333
+    },
+    {
+      "case": "case_099",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.18556530000023486
+    },
+    {
+      "case": "case_099",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.17276759999913338
+    },
+    {
+      "case": "case_099",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.17729419999886886
+    },
+    {
+      "case": "case_099",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.1838848000006692
+    },
+    {
+      "case": "case_100",
+      "cores": 2,
+      "status": "ok",
+      "tasks": 8,
+      "used_cores": 2,
+      "seconds": 0.02627319999919564
+    },
+    {
+      "case": "case_100",
+      "cores": 3,
+      "status": "ok",
+      "tasks": 12,
+      "used_cores": 3,
+      "seconds": 0.029144300000552903
+    },
+    {
+      "case": "case_100",
+      "cores": 4,
+      "status": "ok",
+      "tasks": 16,
+      "used_cores": 4,
+      "seconds": 0.026004199999078992
+    },
+    {
+      "case": "case_100",
+      "cores": 5,
+      "status": "ok",
+      "tasks": 20,
+      "used_cores": 5,
+      "seconds": 0.02853760000107286
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v004",
+  "experiment": "exp012_20260924_forks_development",
+  "case": "case_016",
+  "split": "holdout",
+  "cores": 2,
+  "method": "forks",
+  "status": "timeout",
+  "candidate_count": 1,
+  "plan_seconds": 0.4106980000015028,
+  "evaluation_seconds": 60.106782799999564,
+  "subgraphs": 7015,
+  "used_cores": 2,
+  "makespan": "",
+  "speedup": "",
+  "added_copy_bytes": "",
+  "partition_added_copy_bytes": "",
+  "spill_added_copy_bytes": "",
+  "scheduled_copy_bytes": "",
+  "task_busy_fraction": "",
+  "error": "evaluator exceeded 60.0 seconds"
+}

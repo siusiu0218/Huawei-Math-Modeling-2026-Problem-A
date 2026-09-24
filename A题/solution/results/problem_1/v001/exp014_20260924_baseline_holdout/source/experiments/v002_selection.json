@@ -1,0 +1,26 @@
+{
+  "algorithm_version": "v002",
+  "frozen_utc": "2026-09-24T09:06:17.303044+00:00",
+  "blocks_per_core": 16,
+  "timeout_seconds": 60,
+  "workers": 2,
+  "component_scheduler_sha256": "ef2300fccb2eba9400f9993427a65d9343fc6874adcde7bf7eaf6e1fdfd65510",
+  "tuning_runs": [
+    "exp004_20260924_components_tune",
+    "exp005_20260924_components_tune16"
+  ],
+  "tune_cases": [
+    "case_093",
+    "case_061",
+    "case_034",
+    "case_014"
+  ],
+  "holdout_cases": [
+    "case_078",
+    "case_095",
+    "case_039",
+    "case_016"
+  ],
+  "reason": "Multiplier 16 completed all 16 tuning configurations; multiplier 4 timed out on all four case_014 configurations. Retain some small-case latency regressions versus multiplier 4 in exchange for bounded evaluation feasibility. No holdout v002 outcomes used.",
+  "budget": "2 parameter settings x 4 tune cases x 4 core counts = 32 candidates; held-out evaluation uses one fixed candidate per configuration."
+}

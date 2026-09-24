@@ -1,0 +1,30 @@
+{
+  "utc": "2026-09-24T10:51:46.381190+00:00",
+  "algorithm": "v003",
+  "blocks_per_core": 4,
+  "development_cases": [
+    "case_016",
+    "case_095"
+  ],
+  "holdout_cases": [
+    {
+      "case": "case_051",
+      "split": "holdout",
+      "reason": "Previously unevaluated connected graph; width12 like development case016; smallest such graph"
+    },
+    {
+      "case": "case_002",
+      "split": "holdout",
+      "reason": "Previously unevaluated connected graph; width199; small graph with much wider frontier"
+    }
+  ],
+  "candidate_count_per_configuration": 1,
+  "timeout": 60,
+  "note": "First prototype kept unchanged despite weak development result. Two purposefully selected structural cases are not a representative full benchmark. No holdout outcomes used.",
+  "source_hashes": {
+    "baseline.py": "916801aae3e5653d948c96875eec6e9580861c6d5ef074639c8c138f0f55e287",
+    "branch_scheduler.py": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+    "component_scheduler.py": "ef2300fccb2eba9400f9993427a65d9343fc6874adcde7bf7eaf6e1fdfd65510",
+    "graph_analysis.py": "07f90f7f3b72104f904efbe1a1524466e41967eeda50bc98a090f36cc3b90da9"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v004",
+  "experiment": "exp012_20260924_forks_development",
+  "case": "case_016",
+  "split": "holdout",
+  "cores": 4,
+  "method": "forks",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.4618551000003208,
+  "evaluation_seconds": 51.08006220000061,
+  "subgraphs": 7015,
+  "used_cores": 4,
+  "makespan": 4338828,
+  "speedup": "",
+  "added_copy_bytes": 119572408,
+  "partition_added_copy_bytes": 119572408,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 119965626,
+  "task_busy_fraction": 0.7679825058748584,
+  "error": ""
+}

@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v001",
+  "experiment": "exp014_20260924_baseline_holdout",
+  "case": "case_024",
+  "split": "holdout",
+  "cores": 5,
+  "method": "baseline",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.10560270000132732,
+  "evaluation_seconds": 1.0224123999996664,
+  "subgraphs": 20,
+  "used_cores": 1,
+  "makespan": 2575748,
+  "speedup": "",
+  "added_copy_bytes": 8454608,
+  "partition_added_copy_bytes": 8454608,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 8847826,
+  "task_busy_fraction": 0.19985247003977097,
+  "error": ""
+}

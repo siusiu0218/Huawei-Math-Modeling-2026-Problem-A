@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v002",
+  "experiment": "exp007_20260924_components_diagnosis4",
+  "case": "case_016",
+  "split": "holdout",
+  "cores": 5,
+  "method": "components",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.45346790000076,
+  "evaluation_seconds": 3.5410824000009598,
+  "subgraphs": 20,
+  "used_cores": 1,
+  "makespan": 7735928,
+  "speedup": "",
+  "added_copy_bytes": 8454644,
+  "partition_added_copy_bytes": 8454644,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 8847862,
+  "task_busy_fraction": 0.19995087855005889,
+  "error": ""
+}

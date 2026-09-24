@@ -1,0 +1,3 @@
+﻿problem,algorithm_version,experiment,case,split,cores,method,status,candidate_count,plan_seconds,evaluation_seconds,subgraphs,used_cores,makespan,speedup,added_copy_bytes,partition_added_copy_bytes,spill_added_copy_bytes,scheduled_copy_bytes,task_busy_fraction,error
+1,v004,exp015_20260924_forks_retry,case_016,holdout,2,forks,ok,1,0.3645887999991828,47.10168000000158,7015,2,5619110,1.3730863072621822,119572408,119572408,0,119965626,0.8667703604307444,
+1,v004,exp015_20260924_forks_retry,case_016,holdout,3,forks,ok,1,0.3373790999994526,45.04622870000094,7015,3,4768686,1.6179557639148394,119572408,119572408,0,119965626,0.7909210210108193,

@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "counts": {
+    "development": {
+      "configurations": 8,
+      "wins": 4,
+      "ties": 0,
+      "losses": 4,
+      "added_bytes_increased": 4
+    },
+    "holdout": {
+      "configurations": 8,
+      "wins": 8,
+      "ties": 0,
+      "losses": 0,
+      "added_bytes_increased": 4
+    }
+  },
+  "input_hashes": {
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\experiments\\v003_selection.json": "71ffe3836dfddf001b701b64d2d618dc7cc9a799fcb480af9ae786e3bfbd65c0",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp002_20260924_baseline\\manifest.json": "7a80e20f07c9c2802d709c4f97fdab75b0491b87d0eb69cc9801ee79b00e96ec",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v003\\exp009_20260924_branches_development\\manifest.json": "a66cf06411f89b07dc27bbdf4286a71e09ad46b66eb84235b8c1bf9ee3a2bfa0",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp002_20260924_baseline\\metrics\\summary.csv": "5bb618fa937df4ce94676cd7466976226ea7bf2c39154355743d12e382476f55",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v003\\exp009_20260924_branches_development\\metrics\\summary.csv": "2deb70e6ebe236cd5c229c7564d0223cb721c8ceeab8858d43313abbc28c8455",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp011_20260924_baseline_holdout\\manifest.json": "3d56e4bccb35a10d332ea8fc365cf6ee34e54c09a64e5c82a969163d5ce912d3",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v003\\exp010_20260924_branches_holdout\\manifest.json": "f6a3f12b04f9fbfedc4d308465e50a716de3e6145ef0229d3803077aa8cb3f85",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp011_20260924_baseline_holdout\\metrics\\summary.csv": "ae6299893037e3783e80f7b8003b2c04eb477cdc47efe83c3c38a611fc507822",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v003\\exp010_20260924_branches_holdout\\metrics\\summary.csv": "5271dac0b356d3db604aeb971b5fc58db2050837d5908d09385d2d53f235f2c7"
+  },
+  "source_sha256": "fc37489103784dcc813709aa1b6ed8d5208db16bacfedd3f3d3bd09f0c77962b",
+  "protected_inputs_unchanged": true,
+  "output_hashes": {
+    "REPORT.md": "6bc2ecbb974d712e700cd0c40eb93656db578881eab9153e3fb440d3e0764c71",
+    "comparison.csv": "3048a1f27e4b0198726429354e7634424f53f253724472782c5f43a8eed122a0"
+  },
+  "invocation": [
+    "C:\\Users\\siu\\scoop\\apps\\python311\\current\\python.exe",
+    "-B",
+    "A\u9898/solution/experiments/summarize_v003.py"
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "case": "case_024",
+    "split": "holdout",
+    "reason": "Unseen performance; connected width12; intermediate size between case051 and016"
+  },
+  {
+    "case": "case_069",
+    "split": "holdout",
+    "reason": "Unseen performance; connected width144; small wider-frontier graph"
+  }
+]

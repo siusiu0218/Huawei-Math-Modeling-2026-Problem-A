@@ -19,6 +19,8 @@ sys.path.insert(0, str(SOURCE / 'src'))
 from graph_analysis import A_ROOT, analyze_graph, select_cases
 from baseline import VERSION, make_plan
 import component_scheduler
+import branch_scheduler
+import fork_preserving_scheduler
 from evaluation_validation import read_evaluation_config
 from multicore_cut_evaluate_problem_1 import read_scene_a_config
 from singlecore_evaluate import build_singlecore_plan
@@ -277,7 +279,7 @@ def main():
     parser.add_argument('--workers', type=int, default=2)
     parser.add_argument('--cases', nargs='+', help='Optional subset of the frozen selected cases')
     parser.add_argument('--cores', nargs='+', type=int, default=[1, 2, 3, 4, 5])
-    parser.add_argument('--algorithm', choices=('baseline', 'components'), default='baseline')
+    parser.add_argument('--algorithm', choices=('baseline', 'components', 'branches', 'forks'), default='baseline')
     parser.add_argument('--single-reference', help='Frozen summary CSV containing original single-core references')
     args = parser.parse_args()
     if not args.experiment or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789_-' for c in args.experiment):
@@ -290,6 +292,10 @@ def main():
         parser.error('benchmark requires --selection')
     if args.algorithm == 'components':
         VERSION, make_plan = component_scheduler.VERSION, component_scheduler.make_plan
+    elif args.algorithm == 'branches':
+        VERSION, make_plan = branch_scheduler.VERSION, branch_scheduler.make_plan
+    elif args.algorithm == 'forks':
+        VERSION, make_plan = fork_preserving_scheduler.VERSION, fork_preserving_scheduler.make_plan
     exp, manifest = prepare(args)
     start = time.perf_counter()
     try:

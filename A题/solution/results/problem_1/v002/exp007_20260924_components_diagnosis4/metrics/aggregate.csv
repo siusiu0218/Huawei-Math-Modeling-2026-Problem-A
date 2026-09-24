@@ -1,0 +1,13 @@
+﻿problem,algorithm_version,experiment,split,cores,expected,scored,mean_speedup,faster_than_single,status
+1,v002,exp007_20260924_components_diagnosis4,all,2,2,2,1.4970310397832272,1,complete
+1,v002,exp007_20260924_components_diagnosis4,all,3,2,2,1.990877856972709,1,complete
+1,v002,exp007_20260924_components_diagnosis4,all,4,2,2,2.471957758721638,1,complete
+1,v002,exp007_20260924_components_diagnosis4,all,5,2,2,2.961212601914892,1,complete
+1,v002,exp007_20260924_components_diagnosis4,tune,2,0,0,,0,not_in_scope
+1,v002,exp007_20260924_components_diagnosis4,tune,3,0,0,,0,not_in_scope
+1,v002,exp007_20260924_components_diagnosis4,tune,4,0,0,,0,not_in_scope
+1,v002,exp007_20260924_components_diagnosis4,tune,5,0,0,,0,not_in_scope
+1,v002,exp007_20260924_components_diagnosis4,holdout,2,2,2,1.4970310397832272,1,complete
+1,v002,exp007_20260924_components_diagnosis4,holdout,3,2,2,1.990877856972709,1,complete
+1,v002,exp007_20260924_components_diagnosis4,holdout,4,2,2,2.471957758721638,1,complete
+1,v002,exp007_20260924_components_diagnosis4,holdout,5,2,2,2.961212601914892,1,complete

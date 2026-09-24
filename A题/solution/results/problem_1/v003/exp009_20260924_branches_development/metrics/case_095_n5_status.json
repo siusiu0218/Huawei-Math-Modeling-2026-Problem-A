@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v003",
+  "experiment": "exp009_20260924_branches_development",
+  "case": "case_095",
+  "split": "holdout",
+  "cores": 5,
+  "method": "branches",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.11186590000033902,
+  "evaluation_seconds": 1.2045937000002596,
+  "subgraphs": 20,
+  "used_cores": 5,
+  "makespan": 423315,
+  "speedup": "",
+  "added_copy_bytes": 0,
+  "partition_added_copy_bytes": 0,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 11355036,
+  "task_busy_fraction": 0.9942099854718117,
+  "error": ""
+}

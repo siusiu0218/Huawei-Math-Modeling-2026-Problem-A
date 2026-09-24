@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v003",
+  "experiment": "exp010_20260924_branches_holdout",
+  "case": "case_051",
+  "split": "holdout",
+  "cores": 4,
+  "method": "branches",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.01804949999859673,
+  "evaluation_seconds": 0.27915570000004664,
+  "subgraphs": 21,
+  "used_cores": 3,
+  "makespan": 610310,
+  "speedup": "",
+  "added_copy_bytes": 11731100,
+  "partition_added_copy_bytes": 11731100,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 12124318,
+  "task_busy_fraction": 0.25714145270436334,
+  "error": ""
+}

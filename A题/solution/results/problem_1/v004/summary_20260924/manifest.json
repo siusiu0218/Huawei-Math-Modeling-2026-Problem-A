@@ -1,0 +1,64 @@
+{
+  "status": "completed",
+  "input_hashes": {
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\experiments\\v004_selection.json": "dca1a23736deb17b960aa49e3f0f5c56771ad82d7142881a4fcc30d6f1067b3d",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\manifest.json": "93fe2f6edb7b81ea5f9760f7e054405cdff11c8df5b96b6989a12488cee9de4d",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\metrics\\summary.csv": "d59ac1005d289870f903c7bea5a3803c88eb7f6ab9f1046bc65d1061d4f05062",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp013_20260924_forks_holdout\\manifest.json": "db665b6cb9d288be71c9434c4622410b21e8e9dac1da242f6c18e05db6855bbc",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp013_20260924_forks_holdout\\metrics\\summary.csv": "4a0cfe35aea20457b1d2f2fd4da7d35ce6f003ea37cf508ff045a5a4ef85ce31",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp002_20260924_baseline\\manifest.json": "7a80e20f07c9c2802d709c4f97fdab75b0491b87d0eb69cc9801ee79b00e96ec",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp002_20260924_baseline\\metrics\\summary.csv": "5bb618fa937df4ce94676cd7466976226ea7bf2c39154355743d12e382476f55",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp014_20260924_baseline_holdout\\manifest.json": "f874ef29dcf1134ce5b592874b5f94ae7646038a82c296fd7c049b5daffbb80d",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v001\\exp014_20260924_baseline_holdout\\metrics\\summary.csv": "94101ec2e2501b532f92d5a813fc7e8c7eb7c57a5e6314719f0b716659b67625",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp015_20260924_forks_retry\\manifest.json": "4d9eda6968201621a87985e9bcf00e372e21a5ee84d7cef9a738279415aed4bf",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp015_20260924_forks_retry\\metrics\\summary.csv": "c70072e3a72bbdc4d91d672bfe4709c6133c4f882cff01220b4c7251920e0ab1",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\plans\\case_016_n2.json": "0dc4a61eac43b1fa731cb7959e145fcea89eceaecd75b5ba5b5f14f7dae2e675",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp015_20260924_forks_retry\\plans\\case_016_n2.json": "0dc4a61eac43b1fa731cb7959e145fcea89eceaecd75b5ba5b5f14f7dae2e675",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\plans\\case_016_n3.json": "4d2c0f044930f5823262ab70042c149477e6bc63d5d60552baeae15769e8a539",
+    "D:\\workspace\\HuaWei\\A\u9898\\solution\\results\\problem_1\\v004\\exp015_20260924_forks_retry\\plans\\case_016_n3.json": "4d2c0f044930f5823262ab70042c149477e6bc63d5d60552baeae15769e8a539"
+  },
+  "source_sha256": "b591b566be618fe0711f5188fce68e7b19422f3f92692b8f76e981364394e7ce",
+  "counts": {
+    "development": {
+      "planned": 8,
+      "valid": 8,
+      "wins": 8,
+      "losses": 0,
+      "first_timeouts": 2
+    },
+    "holdout": {
+      "planned": 8,
+      "valid": 8,
+      "wins": 4,
+      "losses": 4,
+      "first_timeouts": 0
+    }
+  },
+  "structure": {
+    "original": {
+      "tasks": 17995,
+      "longest_compute_path": 655140,
+      "longest_task_chain": 2440
+    },
+    "v003": {
+      "tasks": 20,
+      "longest_compute_path": 7714975,
+      "longest_task_chain": 20
+    },
+    "v004": {
+      "tasks": 7015,
+      "longest_compute_path": 655140,
+      "longest_task_chain": 1525
+    }
+  },
+  "protected_inputs_unchanged": true,
+  "output_hashes": {
+    "REPORT.md": "d1d4041175f8ce783f55c06720968831faeba938fbe29882ee43c80db9bcb8ec",
+    "comparison.csv": "ebe6a19bcb14b7975d9600ee344692bcfa8369272c4938609b3e237f692d2686"
+  },
+  "invocation": [
+    "C:\\Users\\siu\\scoop\\apps\\python311\\current\\python.exe",
+    "-B",
+    "A\u9898/solution/experiments/summarize_v004.py"
+  ]
+}

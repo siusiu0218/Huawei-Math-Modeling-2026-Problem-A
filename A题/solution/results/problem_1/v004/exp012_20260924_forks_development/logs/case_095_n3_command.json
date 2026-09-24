@@ -1,0 +1,15 @@
+[
+  "C:\\Users\\siu\\scoop\\apps\\python311\\current\\python.exe",
+  "-B",
+  "D:\\workspace\\HuaWei\\A题\\code\\multicore_cut_evaluate_problem_1.py",
+  "D:\\workspace\\HuaWei\\A题\\data\\case_095.json",
+  "D:\\workspace\\HuaWei\\A题\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\plans\\case_095_n3.json",
+  "--config",
+  "D:\\workspace\\HuaWei\\A题\\data\\config.txt",
+  "-o",
+  "D:\\workspace\\HuaWei\\A题\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\metrics\\case_095_n3_result.json",
+  "--trace-output",
+  "D:\\workspace\\HuaWei\\A题\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\logs\\case_095_n3_trace.json",
+  "--log-output",
+  "D:\\workspace\\HuaWei\\A题\\solution\\results\\problem_1\\v004\\exp012_20260924_forks_development\\logs\\case_095_n3_evaluation.log"
+]

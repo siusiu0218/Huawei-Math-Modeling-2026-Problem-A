@@ -1,0 +1,12 @@
+[
+  {
+    "case": "case_051",
+    "split": "holdout",
+    "reason": "Previously unevaluated connected graph; width12 like development case016; smallest such graph"
+  },
+  {
+    "case": "case_002",
+    "split": "holdout",
+    "reason": "Previously unevaluated connected graph; width199; small graph with much wider frontier"
+  }
+]
