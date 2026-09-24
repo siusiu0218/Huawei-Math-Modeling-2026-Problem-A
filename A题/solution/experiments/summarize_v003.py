@@ -6,6 +6,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+from result_paths import result_path
 
 
 def read(path):
@@ -22,7 +23,7 @@ def table(path):
 
 
 def main():
-    out = ROOT / 'results/problem_1/v003/summary_20260924'
+    out = result_path('problem_1/v003/summary_20260924')
     out.mkdir(exist_ok=False)
     freeze_path = ROOT / 'experiments/v003_selection.json'
     freeze = read(freeze_path)
@@ -32,7 +33,7 @@ def main():
         ('holdout', 'v001/exp011_20260924_baseline_holdout', 'v003/exp010_20260924_branches_holdout')]
     rows = []
     for split, old_name, new_name in comparisons:
-        old, new = [ROOT / 'results/problem_1' / name for name in (old_name, new_name)]
+        old, new = [result_path(Path('problem_1') / name) for name in (old_name, new_name)]
         om, nm = [read(p / 'manifest.json') for p in (old, new)]
         assert all(m['protected_inputs_unchanged'] for m in (om, nm))
         assert om['protected_hashes_before'] == nm['protected_hashes_before']

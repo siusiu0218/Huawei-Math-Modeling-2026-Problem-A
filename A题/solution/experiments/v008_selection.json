@@ -1,0 +1,59 @@
+{
+  "utc": "2026-09-24T11:43:19.175160+00:00",
+  "algorithm": "v008",
+  "development_cases": [
+    {
+      "case": "case_016",
+      "split": "development",
+      "reason": "Previously observed; targeted iterative development, not holdout"
+    },
+    {
+      "case": "case_069",
+      "split": "development",
+      "reason": "Previously observed; targeted iterative development, not holdout"
+    }
+  ],
+  "blocks_per_core": 4,
+  "max_region_tasks": 128,
+  "max_passes": 3,
+  "bandwidth": 60,
+  "waits": {
+    "same": 100,
+    "cross": 1000
+  },
+  "evaluation_timeout_seconds": 180,
+  "workers": 1,
+  "candidate_count_per_configuration": 1,
+  "comparison_algorithms": [
+    "v004",
+    "v001"
+  ],
+  "rule": "Start with v004; safe OR-edge contractions with directional compute-loss bounds and exact current tensor-boundary traffic savings; then bounded closed fork/join regions. Screen with minimum wait along dependencies and saved_bytes/60; cap compute work at total_work/(cores*4). Final schedule uses same/cross waits via max constraints. Spill and contention are evaluated only by original evaluator.",
+  "development_selection_sha256": "82795dcbd678203778fa454995fec8ac9e04e8e899838e2be7f002e151b77433",
+  "source_hashes": {
+    "src\\baseline.py": "907247c9f87659fff03ff49e73a91d8606227377939083d244e3468129535055",
+    "src\\branch_scheduler.py": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+    "src\\component_scheduler.py": "a66a19b600acaa2d81a7609e881a3e8c8a4f74a3748afe99ab46a3938822ff46",
+    "src\\cost_aware_scheduler.py": "edddd79b3d7310f089db5ef3f6dd4f4afedfaa272835333d16294575168d0ac2",
+    "src\\cost_balanced_scheduler.py": "b9c9c7afc2f3b780ba10e100a3121ae07f0e66289cfc5d7522088be9bc684514",
+    "src\\cost_boundary_scheduler.py": "ad7597d6c6714afc6f1ef9dfc0a6f88b3849d105925768ea7aa0f0d6618a49f6",
+    "src\\fork_preserving_scheduler.py": "525cfe56b6846a16108c60f664e1adb6b790736fe7e827899217032d50c16d81",
+    "src\\graph_analysis.py": "62a06fca9dbe23ae5b32fe890a5547e3580c5c4910934a5bbe7ba039d8bfca97",
+    "src\\region_scheduler.py": "65465fdeb9308e3689f6c9cfed32670f33cc1f037d1df12a278672ec1e8bb8bf",
+    "tests\\test_baseline_boundaries.py": "3b11dbb911b3e9a25a6ea8484f454971c77f8f22ecb6fc064bdff7ecc303e4a3",
+    "tests\\test_branches.py": "223cb40d4b9f4e77a632134ee83959694020c77d65eb2d3eb0c64e61ff6fdc7c",
+    "tests\\test_components.py": "90ad115f264c976dfee5067577012e0be1effa861fc7b2c3dba31c58b77b1366",
+    "tests\\test_cost_aware.py": "ece48054397abab6fb486cf643ef1f5289fb4e545fae229b5a13db0223a1785a",
+    "tests\\test_forks.py": "882862aaad77fcd105fea718ac8655094b0accfd9ac7e001142efb0b295e712a",
+    "tests\\test_partition_diagnosis.py": "f40d5c3948a6f583bfd241f72b4c8c6cfd6a5108d35120260de78703081ba0c1",
+    "tests\\test_problem1.py": "2f3c57549bc7ffaadb7909578b3936146b6d9eacb9de488dbd9fe39a3dc21b03",
+    "tests\\test_recovery.py": "2f2bd7d939f595c6d3590ffe93196db349312d4ad2de38843fe97974d439affa",
+    "tests\\test_regions.py": "813d852d6cb2fb3785ca8735f16394a717a49ec83a73dbee3a77ac87c85f4dd4"
+  },
+  "runner_sha256": "08d60829be01166f32405841546e5d9127d8fe05ecd29f30ad68e4a367eddd77",
+  "tests": {
+    "command": "python -B -m unittest discover -s A题/solution/tests -v",
+    "passed": 26
+  },
+  "holdout": "Only considered after development comparisons; code and parameters remain frozen."
+}

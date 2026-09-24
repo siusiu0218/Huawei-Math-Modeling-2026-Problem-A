@@ -1,0 +1,134 @@
+{
+  "utc": "2026-09-24T11:50:25.284818+00:00",
+  "version": "v008",
+  "rule": "smallest/largest unseen single-component graphs with <=8000 compute ops; size ceiling bounds runtime; not a random or representative sample",
+  "excluded_seen_cases": [
+    "case_001",
+    "case_002",
+    "case_014",
+    "case_016",
+    "case_024",
+    "case_034",
+    "case_039",
+    "case_046",
+    "case_048",
+    "case_051",
+    "case_061",
+    "case_069",
+    "case_078",
+    "case_093",
+    "case_095"
+  ],
+  "eligible_candidates": [
+    {
+      "case": "case_071",
+      "compute_ops": 741,
+      "max_level_width": 100,
+      "work_to_critical_ratio": 10.22106179286336,
+      "graph_sha256": "437cc74cae9e0fc0cb89b05403c62062ceff8d5bc2224c8834c519e69524e897"
+    },
+    {
+      "case": "case_064",
+      "compute_ops": 906,
+      "max_level_width": 32,
+      "work_to_critical_ratio": 6.534013605442177,
+      "graph_sha256": "871f65b73fc1da6a48501998fbfde6684fc78e5dd022ddc68085d1384d2e2280"
+    },
+    {
+      "case": "case_005",
+      "compute_ops": 4113,
+      "max_level_width": 196,
+      "work_to_critical_ratio": 18.10443864229765,
+      "graph_sha256": "c2b378c882a3039e3d66bac6cbcba39317107339b6f38d5bce1b09379839799f"
+    },
+    {
+      "case": "case_082",
+      "compute_ops": 4113,
+      "max_level_width": 196,
+      "work_to_critical_ratio": 16.962918266593526,
+      "graph_sha256": "f230fbc200ad75797f3024f84431d1d26f7747d6a284378ee83eabde77b7e70c"
+    },
+    {
+      "case": "case_086",
+      "compute_ops": 5274,
+      "max_level_width": 256,
+      "work_to_critical_ratio": 22.808529155787642,
+      "graph_sha256": "ef91fda2692fd0add63db3c7f677e4e03c8d115d97db3cb959cffc62fff2434a"
+    },
+    {
+      "case": "case_063",
+      "compute_ops": 7360,
+      "max_level_width": 817,
+      "work_to_critical_ratio": 370.3307086614173,
+      "graph_sha256": "511c05c1ec9c19bb3cc108e173a46e7952b92fca9b1ac21728c43713056d429d"
+    },
+    {
+      "case": "case_075",
+      "compute_ops": 7410,
+      "max_level_width": 105,
+      "work_to_critical_ratio": 9.611519473395502,
+      "graph_sha256": "5c24beddea6d09e1df3c8f8843d3593b90affb117ba38450fa9bea8a8db3351c"
+    }
+  ],
+  "selected": [
+    {
+      "case": "case_071",
+      "compute_ops": 741,
+      "max_level_width": 100,
+      "work_to_critical_ratio": 10.22106179286336,
+      "graph_sha256": "437cc74cae9e0fc0cb89b05403c62062ceff8d5bc2224c8834c519e69524e897"
+    },
+    {
+      "case": "case_075",
+      "compute_ops": 7410,
+      "max_level_width": 105,
+      "work_to_critical_ratio": 9.611519473395502,
+      "graph_sha256": "5c24beddea6d09e1df3c8f8843d3593b90affb117ba38450fa9bea8a8db3351c"
+    }
+  ],
+  "source_hashes": {
+    "src\\baseline.py": "907247c9f87659fff03ff49e73a91d8606227377939083d244e3468129535055",
+    "src\\branch_scheduler.py": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+    "src\\component_scheduler.py": "a66a19b600acaa2d81a7609e881a3e8c8a4f74a3748afe99ab46a3938822ff46",
+    "src\\cost_aware_scheduler.py": "edddd79b3d7310f089db5ef3f6dd4f4afedfaa272835333d16294575168d0ac2",
+    "src\\cost_balanced_scheduler.py": "b9c9c7afc2f3b780ba10e100a3121ae07f0e66289cfc5d7522088be9bc684514",
+    "src\\cost_boundary_scheduler.py": "ad7597d6c6714afc6f1ef9dfc0a6f88b3849d105925768ea7aa0f0d6618a49f6",
+    "src\\fork_preserving_scheduler.py": "525cfe56b6846a16108c60f664e1adb6b790736fe7e827899217032d50c16d81",
+    "src\\graph_analysis.py": "62a06fca9dbe23ae5b32fe890a5547e3580c5c4910934a5bbe7ba039d8bfca97",
+    "src\\region_scheduler.py": "65465fdeb9308e3689f6c9cfed32670f33cc1f037d1df12a278672ec1e8bb8bf",
+    "tests\\test_baseline_boundaries.py": "3b11dbb911b3e9a25a6ea8484f454971c77f8f22ecb6fc064bdff7ecc303e4a3",
+    "tests\\test_branches.py": "223cb40d4b9f4e77a632134ee83959694020c77d65eb2d3eb0c64e61ff6fdc7c",
+    "tests\\test_components.py": "90ad115f264c976dfee5067577012e0be1effa861fc7b2c3dba31c58b77b1366",
+    "tests\\test_cost_aware.py": "ece48054397abab6fb486cf643ef1f5289fb4e545fae229b5a13db0223a1785a",
+    "tests\\test_forks.py": "882862aaad77fcd105fea718ac8655094b0accfd9ac7e001142efb0b295e712a",
+    "tests\\test_partition_diagnosis.py": "f40d5c3948a6f583bfd241f72b4c8c6cfd6a5108d35120260de78703081ba0c1",
+    "tests\\test_problem1.py": "2f3c57549bc7ffaadb7909578b3936146b6d9eacb9de488dbd9fe39a3dc21b03",
+    "tests\\test_recovery.py": "2f2bd7d939f595c6d3590ffe93196db349312d4ad2de38843fe97974d439affa",
+    "tests\\test_regions.py": "813d852d6cb2fb3785ca8735f16394a717a49ec83a73dbee3a77ac87c85f4dd4"
+  },
+  "original_freeze_sha256": "d7fc45352f43cf0fb742b1fd60e7de46f61152cf25b45ac83295faa533f66831",
+  "development_comparison_sha256": "e2a9a5db951b092fac9dea4773c8017c62fe93ad88b48d513a50703a201f12a8",
+  "development_counts": {
+    "v004": {
+      "faster": 8,
+      "slower": 0
+    },
+    "v001": {
+      "faster": 6,
+      "slower": 2
+    }
+  },
+  "settings": {
+    "blocks_per_core": 4,
+    "timeout": 180,
+    "workers": 1,
+    "cores": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "candidate_count_per_configuration": 1
+  },
+  "note": "Do not change algorithm or parameters after holdout results."
+}

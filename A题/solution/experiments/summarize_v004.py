@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / 'src'))
 from graph_analysis import Graph
 from branch_scheduler import contract as contract_v3
 from fork_preserving_scheduler import contract as contract_v4
+from result_paths import result_path
 
 
 def read(path):
@@ -43,7 +44,7 @@ def path_stats(groups, preds, succs, graph):
 
 
 def main():
-    target = ROOT / 'results/problem_1/v004/summary_20260924'
+    target = result_path('problem_1/v004/summary_20260924')
     if target.exists():
         raise FileExistsError(target)
     freeze_path = ROOT / 'experiments/v004_selection.json'
@@ -56,7 +57,7 @@ def main():
              'retry': 'v004/exp015_20260924_forks_retry'}
     tables, manifests = {}, {}
     for label, name in specs.items():
-        folder = ROOT / 'results/problem_1' / name
+        folder = result_path(Path('problem_1') / name)
         mp, tp = folder / 'manifest.json', folder / 'metrics/summary.csv'
         m = read(mp)
         assert m['status'] in ('completed', 'completed_with_failures') and m['protected_inputs_unchanged']
@@ -88,10 +89,10 @@ def main():
             if retry is not None:
                 assert first['status'] != 'ok', 'do not replace a successful result'
                 for tag in (split, 'retry'):
-                    plan = ROOT / 'results/problem_1' / specs[tag] / 'plans' / f'{key[0]}_n{key[1]}.json'
+                    plan = result_path(Path('problem_1') / specs[tag] / 'plans' / f'{key[0]}_n{key[1]}.json')
                     evidence[str(plan)] = sha(plan)
-                a = ROOT / 'results/problem_1' / specs[split] / 'plans' / f'{key[0]}_n{key[1]}.json'
-                b = ROOT / 'results/problem_1' / specs['retry'] / 'plans' / a.name
+                a = result_path(Path('problem_1') / specs[split] / 'plans' / f'{key[0]}_n{key[1]}.json')
+                b = result_path(Path('problem_1') / specs['retry'] / 'plans' / a.name)
                 assert read(a) == read(b), 'retry changed the plan'
                 if retry['status']=='ok': selected = retry
             valid = selected['status']==original['status']=='ok'

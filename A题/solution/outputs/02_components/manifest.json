@@ -1,0 +1,9 @@
+{
+  "step": "02_components",
+  "title": "多连通分量与退步诊断",
+  "original_result_files": 547,
+  "raw_archive_sha256": "1659719a68e16956a8e75c50d214d0e5860b894ad81ce49cb7f080f6a5b9d5d2",
+  "raw_archive_bytes": 464011655,
+  "source_results_root": "D:\\workspace\\HuaWei\\A题\\solution\\results",
+  "main_report_source": "scratch\\partition_regression_20260924_final\\REPORT.md"
+}

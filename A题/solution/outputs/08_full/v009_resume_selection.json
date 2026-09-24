@@ -1,0 +1,89 @@
+{
+  "version": "v009",
+  "utc": "2026-09-24T14:55:56.865135+00:00",
+  "experiment": "exp050_20260924_resume",
+  "full_freeze": "experiments\\v009_full_selection.json",
+  "full_freeze_sha256": "f6ccb350068a7655bd7654ab17c5134f9237c5ad1711a764df00827d146fae1e",
+  "driver_sha256": "75d7ce7ac5ba212214edb41f0b5de1c2a19ae39d0775b4093dd100dd1acff547",
+  "partial_experiment": "results\\problem_1\\v009\\exp039_20260924_full_multicore_10",
+  "preexisting_hashes": {
+    "results\\problem_1\\v009\\PAUSE_20260924.json": "b85c835caf3b43dab22ecb60239a4c30d77c6693a90f86bec85ebf3e47685532",
+    "results\\problem_1\\v009\\exp039_20260924_full_multicore_10\\manifest.json": "f93d12e1d5a0325fa04d458cefc8e60c30c41c6d476abbdefd8a0b5a77e05f61",
+    "results\\problem_1\\v009\\exp039_20260924_full_multicore_10\\manifest_before_pause.json": "34a7dd7c5e906e9452ba97add8b0a78405b89a760b1cf20caee9a2e82dbf9a8e",
+    "results\\problem_1\\v009\\exp039_20260924_full_multicore_10\\candidates\\case_087_n5\\v001\\status.json": "236bb749539378817095b341367a04c19bf999098343301841fa2645df8d11bd",
+    "results\\problem_1\\v009\\exp039_20260924_full_multicore_10\\candidates\\case_087_n5\\v008\\plan.json": "c2a0e82f51514faf13ac29fea042adcd91825c0d6c1d5f80c9fadfb843fba90a",
+    "results\\problem_1\\v009\\pause_processes_20260924.json": "39155917bfee6c2f16f1347db6f1092ef61d9e68731e3b16cd1a8c8f9eaa7664"
+  },
+  "remaining_configurations": [
+    {
+      "case": "case_087",
+      "cores": 5
+    },
+    {
+      "case": "case_072",
+      "cores": 2
+    },
+    {
+      "case": "case_072",
+      "cores": 3
+    },
+    {
+      "case": "case_072",
+      "cores": 4
+    },
+    {
+      "case": "case_072",
+      "cores": 5
+    },
+    {
+      "case": "case_091",
+      "cores": 2
+    },
+    {
+      "case": "case_091",
+      "cores": 3
+    },
+    {
+      "case": "case_091",
+      "cores": 4
+    },
+    {
+      "case": "case_091",
+      "cores": 5
+    },
+    {
+      "case": "case_076",
+      "cores": 2
+    },
+    {
+      "case": "case_076",
+      "cores": 3
+    },
+    {
+      "case": "case_076",
+      "cores": 4
+    },
+    {
+      "case": "case_076",
+      "cores": 5
+    },
+    {
+      "case": "case_014",
+      "cores": 2
+    },
+    {
+      "case": "case_014",
+      "cores": 3
+    },
+    {
+      "case": "case_014",
+      "cores": 4
+    },
+    {
+      "case": "case_014",
+      "cores": 5
+    }
+  ],
+  "progress_path": "results/problem_1/v009/resume_progress_20260924.json",
+  "rule": "Reuse successful v001 and already-generated v008 plan for case_087 n5; repeat only its interrupted evaluation in fresh folder; preserve unknown original timing as null. Remaining 16 configurations follow unchanged frozen v009. All original 100 single-reference batches follow unchanged 1800s budget. No parameter tuning."
+}

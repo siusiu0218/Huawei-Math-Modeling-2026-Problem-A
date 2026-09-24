@@ -1,0 +1,4 @@
+[
+  {"case":"case_046","split":"development","reason":"Previously unmeasured; small low-width connected graph selected from static features"},
+  {"case":"case_048","split":"development","reason":"Previously unmeasured; moderate graph with low work-to-critical ratio, structurally distinct from case_046"}
+]

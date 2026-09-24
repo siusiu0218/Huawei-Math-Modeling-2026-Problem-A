@@ -1,0 +1,12 @@
+[
+  {
+    "case": "case_016",
+    "split": "development",
+    "reason": "Previously observed; targeted iterative development, not holdout"
+  },
+  {
+    "case": "case_069",
+    "split": "development",
+    "reason": "Previously observed; targeted iterative development, not holdout"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-24T11:14:13Z",
+  "algorithm": "v005",
+  "blocks_per_core": 4,
+  "candidate_count_per_configuration": 1,
+  "timeout_seconds": 60,
+  "workers": 1,
+  "development_cases": ["case_046", "case_048"],
+  "rule": "Contract only a current one-to-one edge when direct producer-consumer tensor bytes / 60 bytes per cycle plus expected avoided task wait exceeds min(endpoint compute cycles), and merged compute weight stays below total_work/(cores*blocks_per_core). Expected wait uses uniform same/cross-core placement probabilities from 100/1000 cycle waits.",
+  "holdout": "none; development cases selected from static features before v005 performance runs"
+}
+

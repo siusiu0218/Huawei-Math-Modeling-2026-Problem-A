@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-24T11:02:23.245666+00:00",
+  "algorithm": "v004",
+  "blocks_per_core": 4,
+  "candidate_count_per_configuration": 1,
+  "timeout": 60,
+  "development_cases": [
+    "case_016",
+    "case_095"
+  ],
+  "holdout_cases": [
+    {
+      "case": "case_024",
+      "split": "holdout",
+      "reason": "Unseen performance; connected width12; intermediate size between case051 and016"
+    },
+    {
+      "case": "case_069",
+      "split": "holdout",
+      "reason": "Unseen performance; connected width144; small wider-frontier graph"
+    }
+  ],
+  "note": "Strict chain-only contraction to preserve forks and joins; no tuning. Chosen structural cases do not represent all100. Keep code unchanged after holdout.",
+  "source_hashes": {
+    "baseline.py": "916801aae3e5653d948c96875eec6e9580861c6d5ef074639c8c138f0f55e287",
+    "branch_scheduler.py": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+    "component_scheduler.py": "ef2300fccb2eba9400f9993427a65d9343fc6874adcde7bf7eaf6e1fdfd65510",
+    "fork_preserving_scheduler.py": "525cfe56b6846a16108c60f664e1adb6b790736fe7e827899217032d50c16d81",
+    "graph_analysis.py": "07f90f7f3b72104f904efbe1a1524466e41967eeda50bc98a090f36cc3b90da9"
+  }
+}

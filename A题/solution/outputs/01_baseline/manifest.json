@@ -1,0 +1,9 @@
+{
+  "step": "01_baseline",
+  "title": "基线与选图",
+  "original_result_files": 359,
+  "raw_archive_sha256": "887e879fbf10bba84a3171e976604ccd465ed511e6d0913f8c2b9da93c4c8c2a",
+  "raw_archive_bytes": 300238560,
+  "source_results_root": "D:\\workspace\\HuaWei\\A题\\solution\\results",
+  "main_report_source": "problem_1\\v001\\exp002_20260924_baseline\\REPORT.md"
+}

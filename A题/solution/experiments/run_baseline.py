@@ -21,10 +21,15 @@ from baseline import VERSION, make_plan
 import component_scheduler
 import branch_scheduler
 import fork_preserving_scheduler
+import cost_aware_scheduler
+import cost_balanced_scheduler
+import cost_boundary_scheduler
+import region_scheduler
 from evaluation_validation import read_evaluation_config
 from multicore_cut_evaluate_problem_1 import read_scene_a_config
 from singlecore_evaluate import build_singlecore_plan
 from contest_io import _read_json
+from result_paths import experiment_path
 
 SOLUTION = A_ROOT / 'solution'
 
@@ -64,7 +69,7 @@ def register(exp, mode, status):
 
 
 def prepare(args):
-    exp = SOLUTION / 'results/problem_1' / VERSION / args.experiment
+    exp = experiment_path(VERSION, args.experiment)
     exp.mkdir(parents=True, exist_ok=False)
     for name in ('source', 'plans', 'metrics', 'logs', 'figures'):
         (exp / name).mkdir()
@@ -143,10 +148,18 @@ def evaluate_one(exp, item, cores, args, waits):
     try:
         data = _read_json(str(graph_path))
         start = time.perf_counter()
-        plan = build_singlecore_plan(data) if cores == 1 else make_plan(
-            data, cores, args.blocks_per_core,
-            waits['task_same_core_wait_cycles'], waits['task_cross_core_wait_cycles'])
+        partition_stats = None
+        if cores != 1 and args.algorithm == 'regions':
+            plan, partition_stats = region_scheduler.make_plan_with_stats(
+                data, cores, args.blocks_per_core,
+                waits['task_same_core_wait_cycles'], waits['task_cross_core_wait_cycles'])
+        else:
+            plan = build_singlecore_plan(data) if cores == 1 else make_plan(
+                data, cores, args.blocks_per_core,
+                waits['task_same_core_wait_cycles'], waits['task_cross_core_wait_cycles'])
         row['plan_seconds'] = time.perf_counter() - start
+        if partition_stats is not None:
+            write_json(exp / 'metrics' / f'{key}_partition.json', partition_stats)
         row['subgraphs'] = len(set(plan['node_to_subgraph'].values()))
         row['used_cores'] = sum(bool(order) for order in plan['core_schedules'])
         plan_path = exp / 'plans' / f'{key}.json'
@@ -279,7 +292,7 @@ def main():
     parser.add_argument('--workers', type=int, default=2)
     parser.add_argument('--cases', nargs='+', help='Optional subset of the frozen selected cases')
     parser.add_argument('--cores', nargs='+', type=int, default=[1, 2, 3, 4, 5])
-    parser.add_argument('--algorithm', choices=('baseline', 'components', 'branches', 'forks'), default='baseline')
+    parser.add_argument('--algorithm', choices=('baseline', 'components', 'branches', 'forks', 'cost-aware', 'cost-balanced', 'cost-boundary', 'regions'), default='baseline')
     parser.add_argument('--single-reference', help='Frozen summary CSV containing original single-core references')
     args = parser.parse_args()
     if not args.experiment or any(c not in 'abcdefghijklmnopqrstuvwxyz0123456789_-' for c in args.experiment):
@@ -296,6 +309,14 @@ def main():
         VERSION, make_plan = branch_scheduler.VERSION, branch_scheduler.make_plan
     elif args.algorithm == 'forks':
         VERSION, make_plan = fork_preserving_scheduler.VERSION, fork_preserving_scheduler.make_plan
+    elif args.algorithm == 'cost-aware':
+        VERSION, make_plan = cost_aware_scheduler.VERSION, cost_aware_scheduler.make_plan
+    elif args.algorithm == 'cost-balanced':
+        VERSION, make_plan = cost_balanced_scheduler.VERSION, cost_balanced_scheduler.make_plan
+    elif args.algorithm == 'cost-boundary':
+        VERSION, make_plan = cost_boundary_scheduler.VERSION, cost_boundary_scheduler.make_plan
+    elif args.algorithm == 'regions':
+        VERSION, make_plan = region_scheduler.VERSION, region_scheduler.make_plan
     exp, manifest = prepare(args)
     start = time.perf_counter()
     try:

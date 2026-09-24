@@ -1,0 +1,84 @@
+{
+  "utc": "2026-09-24T16:34:59.785227+00:00",
+  "status": "complete",
+  "report_manifest_sha256": "49affc5cf5fdd07753d603b10715f91e6aecf7e12cf1f8bf5be5a95e17ebc859",
+  "coverage": {
+    "graphs": 100,
+    "multicore": 400,
+    "single": 100,
+    "candidates": 800
+  },
+  "output_hashes_verified": true,
+  "batch_manifest_hashes_verified": true,
+  "means_recomputed_from_csv": true,
+  "png_visually_reviewed": true,
+  "visual_review": "Axes, labels, legend and batch identifiers readable; no clipping or overlap; editable SVG/PDF also exported.",
+  "slower_than_single_configurations": [
+    {
+      "case": "case_071",
+      "cores": 2,
+      "speedup": 0.9437793075925371
+    },
+    {
+      "case": "case_071",
+      "cores": 3,
+      "speedup": 0.9832649030715659
+    },
+    {
+      "case": "case_064",
+      "cores": 2,
+      "speedup": 0.9771007973829483
+    },
+    {
+      "case": "case_064",
+      "cores": 3,
+      "speedup": 0.9596385542168675
+    },
+    {
+      "case": "case_069",
+      "cores": 2,
+      "speedup": 0.9495468277945619
+    },
+    {
+      "case": "case_069",
+      "cores": 3,
+      "speedup": 0.9471860167256837
+    },
+    {
+      "case": "case_069",
+      "cores": 4,
+      "speedup": 0.9428528573571321
+    },
+    {
+      "case": "case_044",
+      "cores": 2,
+      "speedup": 0.9878697145928101
+    },
+    {
+      "case": "case_044",
+      "cores": 3,
+      "speedup": 0.8698446856814507
+    },
+    {
+      "case": "case_044",
+      "cores": 4,
+      "speedup": 0.8790656365820472
+    },
+    {
+      "case": "case_044",
+      "cores": 5,
+      "speedup": 0.8773822917732093
+    },
+    {
+      "case": "case_005",
+      "cores": 3,
+      "speedup": 0.9880648527998512
+    },
+    {
+      "case": "case_086",
+      "cores": 3,
+      "speedup": 0.9941310809222347
+    }
+  ],
+  "next_step": "Write the mathematical model and result interpretation; explain remaining configurations slower than single core. Q2/Q3 not started."
+}

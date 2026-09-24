@@ -1,0 +1,9 @@
+{
+  "step": "08_full",
+  "title": "第一问全量评估",
+  "original_result_files": 10827,
+  "raw_archive_sha256": "1d4fcf3015cf3c7dcf881b2d31956013d3774d532679c4adac7701390ec8801e",
+  "raw_archive_bytes": 7061210852,
+  "source_results_root": "D:\\workspace\\HuaWei\\A题\\solution\\results",
+  "main_report_source": "problem_1\\v009\\full_summary_20260924\\REPORT.md"
+}

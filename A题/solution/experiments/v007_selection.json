@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-24T11:21:00Z",
+  "algorithm": "v007",
+  "development_case": "case_016",
+  "plan_generation_only": true,
+  "core_counts": [2,3,4,5],
+  "rule": "Same as v006, with a precomputed operation-pair to direct tensor-byte index to avoid rescanning all tensors per contraction candidate.",
+  "performance_evaluation": "not run; generated 10675 tasks at each tested core count, so the candidate was not advanced to evaluator comparison"
+}

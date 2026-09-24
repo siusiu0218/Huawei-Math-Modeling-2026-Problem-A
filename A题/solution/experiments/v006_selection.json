@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-24T11:14:13Z",
+  "algorithm": "v006",
+  "blocks_per_core": 4,
+  "candidate_count_per_configuration": 1,
+  "timeout_seconds": 60,
+  "workers": 1,
+  "development_cases": ["case_046", "case_048"],
+  "rule": "Strictly chain-only contraction. Maximum merged compute cycles = total compute cycles / core count. Contract only if direct producer-consumer tensor bytes / 60 bytes per cycle plus expected avoided task wait exceeds min(endpoint compute cycles); expected wait = (same-core wait + cross-core wait*(cores-1))/cores using 100/1000 cycle settings.",
+  "holdout": "none; case_046 and case_048 have already been used in v005 development and are retained only as an iterative development set"
+}

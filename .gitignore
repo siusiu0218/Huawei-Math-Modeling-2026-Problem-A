@@ -14,3 +14,10 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+
+# Local full run records and ZIP archives are too large for the Git remote.
+/A题/solution/outputs/*/raw/
+/A题/solution/outputs/**/*.zip
+/A题/solution/outputs/*.zip
+/A题/solution/results/
+/A题/solution/outputs/90_*

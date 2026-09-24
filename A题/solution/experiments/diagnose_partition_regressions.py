@@ -12,6 +12,7 @@ SOLUTION = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(SOLUTION / 'src'))
 from graph_analysis import A_ROOT, Graph, analyze_graph
 from component_scheduler import independent_components
+from result_paths import result_path
 
 RUNS = {
     ('baseline', 4): 'v001/exp002_20260924_baseline',
@@ -72,7 +73,7 @@ def main():
     records, evidence, plans, protected, structures = [], {}, {}, None, {}
     reference_config = None
     for (algorithm, multiplier), name in RUNS.items():
-        run = A_ROOT / 'solution/results/problem_1' / name
+        run = result_path(Path('problem_1') / name)
         manifest_path = run / 'manifest.json'
         manifest = read(manifest_path)
         # A historical run may include unrelated failed single-core references.

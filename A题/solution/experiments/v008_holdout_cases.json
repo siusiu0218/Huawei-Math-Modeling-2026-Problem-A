@@ -1,0 +1,12 @@
+[
+  {
+    "case": "case_071",
+    "split": "holdout",
+    "reason": "Unseen performance; smallest single-component graph with <=8000 non-COPY ops among unseen cases"
+  },
+  {
+    "case": "case_075",
+    "split": "holdout",
+    "reason": "Unseen performance; largest single-component graph with <=8000 non-COPY ops among unseen cases"
+  }
+]
