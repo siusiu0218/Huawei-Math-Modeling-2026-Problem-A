@@ -1,0 +1,2 @@
+data movement: scheduled_copy_bytes=14989656, physical_ddr_bytes=14989656
+OK: singlecore makespan=2,296,143 cycles; result=D:\workspace\HuaWei\A题\solution\results\problem_1\v001\exp002_20260924_baseline\metrics\case_078_n1_result.json; trace=D:\workspace\HuaWei\A题\solution\results\problem_1\v001\exp002_20260924_baseline\logs\case_078_n1_trace.json; log=D:\workspace\HuaWei\A题\solution\results\problem_1\v001\exp002_20260924_baseline\logs\case_078_n1_evaluation.log

@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v001",
+  "experiment": "exp002_20260924_baseline",
+  "case": "case_034",
+  "split": "tune",
+  "cores": 3,
+  "method": "topological_chunks",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.07565470000008645,
+  "evaluation_seconds": 0.8914078000007066,
+  "subgraphs": 12,
+  "used_cores": 1,
+  "makespan": 844221,
+  "speedup": "",
+  "added_copy_bytes": 3358612,
+  "partition_added_copy_bytes": 3358612,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 5638998,
+  "task_busy_fraction": 0.33289900788221727,
+  "error": ""
+}

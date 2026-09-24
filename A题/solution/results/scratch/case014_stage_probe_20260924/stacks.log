@@ -1,0 +1,11 @@
+[stage] step1_schedule start
+[stage] step1_schedule end seconds=0.196391
+[stage] step2_spill_insertion start
+[stage] step2_spill_insertion end seconds=0.905520
+[stage] _build_extended_graph start
+[stage] _build_extended_graph end seconds=0.001327
+[stage] prepare_step3_execution start
+Timeout (0:00:08)!
+Thread 0x00001b48 (most recent call first):
+  File "D:\workspace\HuaWei\A\u9898\solution\results\scratch\case014_stage_probe_20260924\code\schedule_step3.py", line ??? in <genexpr>
+  File 

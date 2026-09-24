@@ -1,0 +1,122 @@
+[
+  {
+    "split": "all",
+    "cores": 1,
+    "expected": 8,
+    "scored": 7,
+    "mean_speedup": null,
+    "faster_than_single": 0
+  },
+  {
+    "split": "all",
+    "cores": 2,
+    "expected": 8,
+    "scored": 7,
+    "mean_speedup": null,
+    "faster_than_single": 4
+  },
+  {
+    "split": "all",
+    "cores": 3,
+    "expected": 8,
+    "scored": 7,
+    "mean_speedup": null,
+    "faster_than_single": 3
+  },
+  {
+    "split": "all",
+    "cores": 4,
+    "expected": 8,
+    "scored": 7,
+    "mean_speedup": null,
+    "faster_than_single": 3
+  },
+  {
+    "split": "all",
+    "cores": 5,
+    "expected": 8,
+    "scored": 7,
+    "mean_speedup": null,
+    "faster_than_single": 3
+  },
+  {
+    "split": "tune",
+    "cores": 1,
+    "expected": 4,
+    "scored": 3,
+    "mean_speedup": null,
+    "faster_than_single": 0
+  },
+  {
+    "split": "tune",
+    "cores": 2,
+    "expected": 4,
+    "scored": 3,
+    "mean_speedup": null,
+    "faster_than_single": 1
+  },
+  {
+    "split": "tune",
+    "cores": 3,
+    "expected": 4,
+    "scored": 3,
+    "mean_speedup": null,
+    "faster_than_single": 0
+  },
+  {
+    "split": "tune",
+    "cores": 4,
+    "expected": 4,
+    "scored": 3,
+    "mean_speedup": null,
+    "faster_than_single": 0
+  },
+  {
+    "split": "tune",
+    "cores": 5,
+    "expected": 4,
+    "scored": 3,
+    "mean_speedup": null,
+    "faster_than_single": 0
+  },
+  {
+    "split": "holdout",
+    "cores": 1,
+    "expected": 4,
+    "scored": 4,
+    "mean_speedup": 1.0,
+    "faster_than_single": 0
+  },
+  {
+    "split": "holdout",
+    "cores": 2,
+    "expected": 4,
+    "scored": 4,
+    "mean_speedup": 1.5313145701364448,
+    "faster_than_single": 3
+  },
+  {
+    "split": "holdout",
+    "cores": 3,
+    "expected": 4,
+    "scored": 4,
+    "mean_speedup": 1.276717219153122,
+    "faster_than_single": 3
+  },
+  {
+    "split": "holdout",
+    "cores": 4,
+    "expected": 4,
+    "scored": 4,
+    "mean_speedup": 1.7611439571291507,
+    "faster_than_single": 3
+  },
+  {
+    "split": "holdout",
+    "cores": 5,
+    "expected": 4,
+    "scored": 4,
+    "mean_speedup": 1.7571015773229428,
+    "faster_than_single": 3
+  }
+]

@@ -1,0 +1,16 @@
+# This repository tracks the A problem only.
+/*
+!/A题/
+!/.gitignore
+
+# Keep the A problem input data locally.
+/A题/data/
+
+# Local Python artifacts inside A题.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/

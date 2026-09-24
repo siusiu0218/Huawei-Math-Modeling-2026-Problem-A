@@ -1,0 +1,50 @@
+[
+  {
+    "case": "case_093",
+    "split": "tune",
+    "size_quartile": 1,
+    "reason": "size anchor"
+  },
+  {
+    "case": "case_078",
+    "split": "holdout",
+    "size_quartile": 1,
+    "reason": "largest normalized structural distance from anchor"
+  },
+  {
+    "case": "case_061",
+    "split": "tune",
+    "size_quartile": 2,
+    "reason": "size anchor"
+  },
+  {
+    "case": "case_095",
+    "split": "holdout",
+    "size_quartile": 2,
+    "reason": "largest normalized structural distance from anchor"
+  },
+  {
+    "case": "case_034",
+    "split": "tune",
+    "size_quartile": 3,
+    "reason": "size anchor"
+  },
+  {
+    "case": "case_039",
+    "split": "holdout",
+    "size_quartile": 3,
+    "reason": "largest normalized structural distance from anchor"
+  },
+  {
+    "case": "case_014",
+    "split": "tune",
+    "size_quartile": 4,
+    "reason": "size anchor"
+  },
+  {
+    "case": "case_016",
+    "split": "holdout",
+    "size_quartile": 4,
+    "reason": "largest normalized structural distance from anchor"
+  }
+]

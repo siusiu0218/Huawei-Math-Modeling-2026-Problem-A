@@ -1,0 +1,4 @@
+﻿problem,algorithm_version,experiment,split,cores,expected,scored,mean_speedup,faster_than_single,status
+1,v001,exp003_20260924_single_retry,all,1,2,1,,0,incomplete
+1,v001,exp003_20260924_single_retry,tune,1,1,0,,0,incomplete
+1,v001,exp003_20260924_single_retry,holdout,1,1,1,1.0,0,complete

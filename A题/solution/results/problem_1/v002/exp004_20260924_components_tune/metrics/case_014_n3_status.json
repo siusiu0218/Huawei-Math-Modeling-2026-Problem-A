@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v002",
+  "experiment": "exp004_20260924_components_tune",
+  "case": "case_014",
+  "split": "tune",
+  "cores": 3,
+  "method": "components",
+  "status": "timeout",
+  "candidate_count": 1,
+  "plan_seconds": 1.5574793999999201,
+  "evaluation_seconds": 60.077068399999916,
+  "subgraphs": 12,
+  "used_cores": 3,
+  "makespan": "",
+  "speedup": "",
+  "added_copy_bytes": "",
+  "partition_added_copy_bytes": "",
+  "spill_added_copy_bytes": "",
+  "scheduled_copy_bytes": "",
+  "task_busy_fraction": "",
+  "error": "evaluator exceeded 60.0 seconds"
+}

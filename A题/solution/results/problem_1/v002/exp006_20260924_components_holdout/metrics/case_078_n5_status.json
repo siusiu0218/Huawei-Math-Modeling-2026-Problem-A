@@ -1,0 +1,23 @@
+{
+  "problem": 1,
+  "algorithm_version": "v002",
+  "experiment": "exp006_20260924_components_holdout",
+  "case": "case_078",
+  "split": "holdout",
+  "cores": 5,
+  "method": "components",
+  "status": "ok",
+  "candidate_count": 1,
+  "plan_seconds": 0.022334699999646546,
+  "evaluation_seconds": 0.514811699999882,
+  "subgraphs": 8,
+  "used_cores": 5,
+  "makespan": 620100,
+  "speedup": "",
+  "added_copy_bytes": 15039360,
+  "partition_added_copy_bytes": 15039360,
+  "spill_added_copy_bytes": 0,
+  "scheduled_copy_bytes": 17384448,
+  "task_busy_fraction": 0.812808256732785,
+  "error": ""
+}
