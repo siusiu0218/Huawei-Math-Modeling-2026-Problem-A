@@ -42,6 +42,10 @@ def result_path(relative: str | Path) -> Path:
             stage = "01_baseline"
         else:
             stage = "09_future"
+    elif parts[0] == "problem_3" and len(parts) >= 3:
+        stage = "10_problem3"
+    elif parts[0] == "problem_2" and len(parts) >= 3:
+        stage = "09_problem2"
     elif parts[0] == "problem_1" and len(parts) >= 3:
         version, group = parts[1:3]
         if group.startswith("exp") and group[3:6].isdigit():

@@ -1,0 +1,72 @@
+{
+  "problem": 2,
+  "version": "v009",
+  "coverage": 400,
+  "unresolved_failures": 0,
+  "generation_timeouts": 5,
+  "user_paused_evaluations": 2,
+  "cost_is_lower_bound": true,
+  "incomplete_attempts": 7,
+  "total_attempts": 407,
+  "means": [
+    {
+      "cores": 2,
+      "count": 100,
+      "v007": 1.9094517241213296,
+      "v009": 2.003771266828196,
+      "faster": 43,
+      "equal": 46,
+      "slower": 11
+    },
+    {
+      "cores": 3,
+      "count": 100,
+      "v007": 2.6276851949581466,
+      "v009": 2.7449411383235196,
+      "faster": 34,
+      "equal": 47,
+      "slower": 19
+    },
+    {
+      "cores": 4,
+      "count": 100,
+      "v007": 3.259737561400308,
+      "v009": 3.421511602565993,
+      "faster": 32,
+      "equal": 58,
+      "slower": 10
+    },
+    {
+      "cores": 5,
+      "count": 100,
+      "v007": 3.7533869543186538,
+      "v009": 3.9774019373118605,
+      "faster": 37,
+      "equal": 51,
+      "slower": 12
+    }
+  ],
+  "selections": {
+    "paired8": 90,
+    "regions": 88,
+    "split": 49,
+    "paired2": 123,
+    "paired4": 50
+  },
+  "local_preparations": 1264,
+  "local_preparations_scope": "Final 400 successful configurations only; incomplete generation preparation counts are unknown.",
+  "local_candidate_failures": 0,
+  "generation_seconds": 2713.482976199997,
+  "evaluation_seconds": 816.8287435000044,
+  "originals_hashes_verified": true,
+  "frozen_and_archived_source_verified": true,
+  "baseline_denominator_hashes_verified": true,
+  "zip_and_outputs_verified": true,
+  "tests_passed": 60,
+  "max_parallel_workers": 2,
+  "max_candidates_per_config": 4,
+  "generation_timeout_initial": 60,
+  "generation_timeout_recovery": 300,
+  "evaluation_timeout": 180,
+  "posthoc_two_method_five_core_mean_not_official": 4.006184913452011
+}

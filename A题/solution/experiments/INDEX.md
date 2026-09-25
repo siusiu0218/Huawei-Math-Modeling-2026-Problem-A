@@ -1,5 +1,14 @@
 # 实验目录
 
+- 2026-09-25 | 问题 3 流程制定 | 尚无正式实验编号 | 阶段 0～6、同方案无 L2/有 Cache 对照及交付门槛已写明；当前待规则核验，未启动基线或全量 | [工作流程](problem3_PLAN.md)
+
+- 2026-09-25 | 问题 2 全量完成 | exp066–095 | v007 400 + v002 400 + 单核 100，900/900 成功，均值与哈希核对通过；相对 v002 251 快 85 平 64 慢 | [正式结果](../outputs/09_problem2/full_summary_20260925/REPORT.md)
+
+- 2026-09-25 | 问题 2 优化与新图检验 | exp061–065 | 80 次评估均成功；v005/v006 无收益，v007 开发和检验各 8 快 8 平 0 慢 | [报告](../outputs/09_problem2/优化与新图检验.md)
+
+- 2026-09-25 | 问题 2 设计 v1 | exp057_20260925_static_selection | 完成 100 图静态特征与 4 开发/4 新检验划分；不读取性能成绩 | [选择记录](../outputs/09_problem2/raw/problem_2/design_v001/exp057_20260925_static_selection/selection.json)
+- 2026-09-25 | 问题 2 开发基线汇总 | exp058–060 | 32 多核 + 4 单核全部成功，哈希核对通过；区域方法 16 快 0 平 0 慢 | [报告](../outputs/09_problem2/开发集基线.md)
+
 ## 全量完成（2026-09-25）
 
 exp030–038完整360项 + exp039暂停前23项 + exp050恢复17项，共400项多核配置；exp040–049共100项单核参考；800个候选结果均成功。全量均值（2/3/4/5核）：1.7684/2.4128/2.9518/3.4136。较v001为360快40平0慢，双候选成本单独报告。
@@ -139,3 +148,240 @@ exp028：case_069 × 2/4核开发流程；exp029：case_064/063 × 2～5核新�
 - 2026-09-24T15:44:07.205852+00:00 | `v001` | [exp048_20260924_full_single_09](../outputs/08_full/raw/problem_1/v001/exp048_20260924_full_single_09/manifest.json) | full_single_reference | completed
 - 2026-09-24T15:44:07.520084+00:00 | `v001` | [exp049_20260924_full_single_10](../outputs/08_full/raw/problem_1/v001/exp049_20260924_full_single_10/manifest.json) | full_single_reference | running
 - 2026-09-24T16:32:43.028748+00:00 | `v001` | [exp049_20260924_full_single_10](../outputs/08_full/raw/problem_1/v001/exp049_20260924_full_single_10/manifest.json) | full_single_reference | completed
+# 第二问原型
+
+- 2026-09-25 | 问题 2 `v001` | `exp051_20260925_scene_b_baseline` | 2 张图 × 2～5 核，8/8 成功 | [记录](../outputs/09_problem2/raw/problem_2/v001/exp051_20260925_scene_b_baseline/manifest.json)
+- 2026-09-25 | 问题 2 `v002` | `exp052_20260925_scene_b_regions` | 同配置对照，8/8 成功 | [记录](../outputs/09_problem2/raw/problem_2/v002/exp052_20260925_scene_b_regions/manifest.json)
+
+
+- 问题 2 `v003` | `exp053_20260925_runner_smoke` | running | [记录](../outputs/09_problem2/raw/problem_2/v003/exp053_20260925_runner_smoke/manifest.json)
+
+- 问题 2 `v003` | `exp053_20260925_runner_smoke` | completed | [记录](../outputs/09_problem2/raw/problem_2/v003/exp053_20260925_runner_smoke/manifest.json)
+
+- 问题 2 `single_v001` | `exp054_20260925_single_smoke` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp054_20260925_single_smoke/manifest.json)
+
+- 问题 2 `single_v001` | `exp054_20260925_single_smoke` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp054_20260925_single_smoke/manifest.json)
+
+- 问题 2 `v004` | `exp055_20260925_regions_a_control` | running | [记录](../outputs/09_problem2/raw/problem_2/v004/exp055_20260925_regions_a_control/manifest.json)
+
+- 问题 2 `v004` | `exp055_20260925_regions_a_control` | completed | [记录](../outputs/09_problem2/raw/problem_2/v004/exp055_20260925_regions_a_control/manifest.json)
+
+- 问题 2 `v002` | `exp056_20260925_regions_b_archive` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp056_20260925_regions_b_archive/manifest.json)
+
+- 问题 2 `v002` | `exp056_20260925_regions_b_archive` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp056_20260925_regions_b_archive/manifest.json)
+
+- 问题 2 `v003` | `exp058_20260925_development_baseline` | running | [记录](../outputs/09_problem2/raw/problem_2/v003/exp058_20260925_development_baseline/manifest.json)
+
+- 问题 2 `v003` | `exp058_20260925_development_baseline` | completed | [记录](../outputs/09_problem2/raw/problem_2/v003/exp058_20260925_development_baseline/manifest.json)
+
+- 问题 2 `v002` | `exp059_20260925_development_regions` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp059_20260925_development_regions/manifest.json)
+
+- 问题 2 `v002` | `exp059_20260925_development_regions` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp059_20260925_development_regions/manifest.json)
+
+- 问题 2 `single_v001` | `exp060_20260925_development_single` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp060_20260925_development_single/manifest.json)
+
+- 问题 2 `single_v001` | `exp060_20260925_development_single` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp060_20260925_development_single/manifest.json)
+
+- 问题 2 `v005` | `exp061_20260925_component_order_development` | running | [记录](../outputs/09_problem2/raw/problem_2/v005/exp061_20260925_component_order_development/manifest.json)
+
+- 问题 2 `v005` | `exp061_20260925_component_order_development` | completed | [记录](../outputs/09_problem2/raw/problem_2/v005/exp061_20260925_component_order_development/manifest.json)
+
+- 问题 2 `v006` | `exp062_20260925_operation_order_development` | running | [记录](../outputs/09_problem2/raw/problem_2/v006/exp062_20260925_operation_order_development/manifest.json)
+
+- 问题 2 `v006` | `exp062_20260925_operation_order_development` | completed | [记录](../outputs/09_problem2/raw/problem_2/v006/exp062_20260925_operation_order_development/manifest.json)
+
+- 问题 2 `v007` | `exp063_20260925_paired_order_development` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp063_20260925_paired_order_development/manifest.json)
+
+- 问题 2 `v007` | `exp063_20260925_paired_order_development` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp063_20260925_paired_order_development/manifest.json)
+
+- 问题 2 `v002` | `exp064_20260925_check_regions` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp064_20260925_check_regions/manifest.json)
+
+- 问题 2 `v002` | `exp064_20260925_check_regions` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp064_20260925_check_regions/manifest.json)
+
+- 问题 2 `v007` | `exp065_20260925_check_paired` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp065_20260925_check_paired/manifest.json)
+
+- 问题 2 `v007` | `exp065_20260925_check_paired` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp065_20260925_check_paired/manifest.json)
+
+- 问题 2 `v007` | `exp066_20260925_full_paired_order_01` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp066_20260925_full_paired_order_01/manifest.json)
+
+- 问题 2 `v007` | `exp066_20260925_full_paired_order_01` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp066_20260925_full_paired_order_01/manifest.json)
+
+- 问题 2 `v007` | `exp067_20260925_full_paired_order_02` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp067_20260925_full_paired_order_02/manifest.json)
+
+- 问题 2 `v007` | `exp067_20260925_full_paired_order_02` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp067_20260925_full_paired_order_02/manifest.json)
+
+- 问题 2 `v007` | `exp068_20260925_full_paired_order_03` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp068_20260925_full_paired_order_03/manifest.json)
+
+- 问题 2 `v007` | `exp068_20260925_full_paired_order_03` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp068_20260925_full_paired_order_03/manifest.json)
+
+- 问题 2 `v007` | `exp069_20260925_full_paired_order_04` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp069_20260925_full_paired_order_04/manifest.json)
+
+- 问题 2 `v007` | `exp069_20260925_full_paired_order_04` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp069_20260925_full_paired_order_04/manifest.json)
+
+- 问题 2 `v007` | `exp070_20260925_full_paired_order_05` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp070_20260925_full_paired_order_05/manifest.json)
+
+- 问题 2 `v007` | `exp070_20260925_full_paired_order_05` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp070_20260925_full_paired_order_05/manifest.json)
+
+- 问题 2 `v007` | `exp071_20260925_full_paired_order_06` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp071_20260925_full_paired_order_06/manifest.json)
+
+- 问题 2 `v007` | `exp071_20260925_full_paired_order_06` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp071_20260925_full_paired_order_06/manifest.json)
+
+- 问题 2 `v007` | `exp072_20260925_full_paired_order_07` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp072_20260925_full_paired_order_07/manifest.json)
+
+- 问题 2 `v007` | `exp072_20260925_full_paired_order_07` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp072_20260925_full_paired_order_07/manifest.json)
+
+- 问题 2 `v007` | `exp073_20260925_full_paired_order_08` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp073_20260925_full_paired_order_08/manifest.json)
+
+- 问题 2 `v007` | `exp073_20260925_full_paired_order_08` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp073_20260925_full_paired_order_08/manifest.json)
+
+- 问题 2 `v007` | `exp074_20260925_full_paired_order_09` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp074_20260925_full_paired_order_09/manifest.json)
+
+- 问题 2 `v007` | `exp074_20260925_full_paired_order_09` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp074_20260925_full_paired_order_09/manifest.json)
+
+- 问题 2 `v007` | `exp075_20260925_full_paired_order_10` | running | [记录](../outputs/09_problem2/raw/problem_2/v007/exp075_20260925_full_paired_order_10/manifest.json)
+
+- 问题 2 `v007` | `exp075_20260925_full_paired_order_10` | completed | [记录](../outputs/09_problem2/raw/problem_2/v007/exp075_20260925_full_paired_order_10/manifest.json)
+
+- 问题 2 `v002` | `exp076_20260925_full_regions_b_01` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp076_20260925_full_regions_b_01/manifest.json)
+
+- 问题 2 `v002` | `exp076_20260925_full_regions_b_01` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp076_20260925_full_regions_b_01/manifest.json)
+
+- 问题 2 `v002` | `exp077_20260925_full_regions_b_02` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp077_20260925_full_regions_b_02/manifest.json)
+
+- 问题 2 `v002` | `exp077_20260925_full_regions_b_02` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp077_20260925_full_regions_b_02/manifest.json)
+
+- 问题 2 `v002` | `exp078_20260925_full_regions_b_03` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp078_20260925_full_regions_b_03/manifest.json)
+
+- 问题 2 `v002` | `exp078_20260925_full_regions_b_03` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp078_20260925_full_regions_b_03/manifest.json)
+
+- 问题 2 `v002` | `exp079_20260925_full_regions_b_04` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp079_20260925_full_regions_b_04/manifest.json)
+
+- 问题 2 `v002` | `exp079_20260925_full_regions_b_04` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp079_20260925_full_regions_b_04/manifest.json)
+
+- 问题 2 `v002` | `exp080_20260925_full_regions_b_05` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp080_20260925_full_regions_b_05/manifest.json)
+
+- 问题 2 `v002` | `exp080_20260925_full_regions_b_05` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp080_20260925_full_regions_b_05/manifest.json)
+
+- 问题 2 `v002` | `exp081_20260925_full_regions_b_06` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp081_20260925_full_regions_b_06/manifest.json)
+
+- 问题 2 `v002` | `exp081_20260925_full_regions_b_06` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp081_20260925_full_regions_b_06/manifest.json)
+
+- 问题 2 `v002` | `exp082_20260925_full_regions_b_07` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp082_20260925_full_regions_b_07/manifest.json)
+
+- 问题 2 `v002` | `exp082_20260925_full_regions_b_07` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp082_20260925_full_regions_b_07/manifest.json)
+
+- 问题 2 `v002` | `exp083_20260925_full_regions_b_08` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp083_20260925_full_regions_b_08/manifest.json)
+
+- 问题 2 `v002` | `exp083_20260925_full_regions_b_08` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp083_20260925_full_regions_b_08/manifest.json)
+
+- 问题 2 `v002` | `exp084_20260925_full_regions_b_09` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp084_20260925_full_regions_b_09/manifest.json)
+
+- 问题 2 `v002` | `exp084_20260925_full_regions_b_09` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp084_20260925_full_regions_b_09/manifest.json)
+
+- 问题 2 `v002` | `exp085_20260925_full_regions_b_10` | running | [记录](../outputs/09_problem2/raw/problem_2/v002/exp085_20260925_full_regions_b_10/manifest.json)
+
+- 问题 2 `v002` | `exp085_20260925_full_regions_b_10` | completed | [记录](../outputs/09_problem2/raw/problem_2/v002/exp085_20260925_full_regions_b_10/manifest.json)
+
+- 问题 2 `single_v001` | `exp086_20260925_full_single_01` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp086_20260925_full_single_01/manifest.json)
+
+- 问题 2 `single_v001` | `exp086_20260925_full_single_01` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp086_20260925_full_single_01/manifest.json)
+
+- 问题 2 `single_v001` | `exp087_20260925_full_single_02` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp087_20260925_full_single_02/manifest.json)
+
+- 问题 2 `single_v001` | `exp087_20260925_full_single_02` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp087_20260925_full_single_02/manifest.json)
+
+- 问题 2 `single_v001` | `exp088_20260925_full_single_03` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp088_20260925_full_single_03/manifest.json)
+
+- 问题 2 `single_v001` | `exp088_20260925_full_single_03` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp088_20260925_full_single_03/manifest.json)
+
+- 问题 2 `single_v001` | `exp089_20260925_full_single_04` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp089_20260925_full_single_04/manifest.json)
+
+- 问题 2 `single_v001` | `exp089_20260925_full_single_04` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp089_20260925_full_single_04/manifest.json)
+
+- 问题 2 `single_v001` | `exp090_20260925_full_single_05` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp090_20260925_full_single_05/manifest.json)
+
+- 问题 2 `single_v001` | `exp090_20260925_full_single_05` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp090_20260925_full_single_05/manifest.json)
+
+- 问题 2 `single_v001` | `exp091_20260925_full_single_06` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp091_20260925_full_single_06/manifest.json)
+
+- 问题 2 `single_v001` | `exp091_20260925_full_single_06` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp091_20260925_full_single_06/manifest.json)
+
+- 问题 2 `single_v001` | `exp092_20260925_full_single_07` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp092_20260925_full_single_07/manifest.json)
+
+- 问题 2 `single_v001` | `exp092_20260925_full_single_07` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp092_20260925_full_single_07/manifest.json)
+
+- 问题 2 `single_v001` | `exp093_20260925_full_single_08` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp093_20260925_full_single_08/manifest.json)
+
+- 问题 2 `single_v001` | `exp093_20260925_full_single_08` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp093_20260925_full_single_08/manifest.json)
+
+- 问题 2 `single_v001` | `exp094_20260925_full_single_09` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp094_20260925_full_single_09/manifest.json)
+
+- 问题 2 `single_v001` | `exp094_20260925_full_single_09` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp094_20260925_full_single_09/manifest.json)
+
+- 问题 2 `single_v001` | `exp095_20260925_full_single_10` | running | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp095_20260925_full_single_10/manifest.json)
+
+- 问题 2 `single_v001` | `exp095_20260925_full_single_10` | completed | [记录](../outputs/09_problem2/raw/problem_2/single_v001/exp095_20260925_full_single_10/manifest.json)
+
+- 问题 2 `v008` | `exp096_20260925_split_development` | running | [记录](../outputs/09_problem2/raw/problem_2/v008/exp096_20260925_split_development/manifest.json)
+
+- 问题 2 `v008` | `exp096_20260925_split_development` | interrupted | [记录](../outputs/09_problem2/raw/problem_2/v008/exp096_20260925_split_development/manifest.json)
+
+- 问题 2 `v008` | `exp097_20260925_split_controls` | running | [记录](../outputs/09_problem2/raw/problem_2/v008/exp097_20260925_split_controls/manifest.json)
+
+- 问题 2 `v008` | `exp097_20260925_split_controls` | completed | [记录](../outputs/09_problem2/raw/problem_2/v008/exp097_20260925_split_controls/manifest.json)
+
+- 问题 2 `v008` | `exp098_20260925_split_check` | running | [记录](../outputs/09_problem2/raw/problem_2/v008/exp098_20260925_split_check/manifest.json)
+
+- 问题 2 `v008` | `exp098_20260925_split_check` | completed | [记录](../outputs/09_problem2/raw/problem_2/v008/exp098_20260925_split_check/manifest.json)
+
+- 问题 2 `v008` | `exp099_20260925_split_full5` | running | [记录](../outputs/09_problem2/raw/problem_2/v008/exp099_20260925_split_full5/manifest.json)
+
+- 问题 2 `v008` | `exp099_20260925_split_full5` | completed | [记录](../outputs/09_problem2/raw/problem_2/v008/exp099_20260925_split_full5/manifest.json)
+
+- 问题 2 v008 本轮汇总：exp096/097 开发 6 项、exp098 检查 20 项、exp099 五核全量 100 项成功；exp096 清单写入中断记录保留。五核均值 3.9145607827；[报告](../outputs/09_problem2/v008_summary_20260925/REPORT.md)。
+
+- 问题 2 `v009` | `exp100_20260925_adaptive_dev` | running | [记录](../outputs/09_problem2/raw/problem_2/v009/exp100_20260925_adaptive_dev/manifest.json)
+
+- 问题 2 `v009` | `exp100_20260925_adaptive_dev` | completed | [记录](../outputs/09_problem2/raw/problem_2/v009/exp100_20260925_adaptive_dev/manifest.json)
+
+- 问题 2 `v009` | `exp101_20260925_adaptive_check` | running | [记录](../outputs/09_problem2/raw/problem_2/v009/exp101_20260925_adaptive_check/manifest.json)
+
+- 问题 2 `v009` | `exp101_20260925_adaptive_check` | completed | [记录](../outputs/09_problem2/raw/problem_2/v009/exp101_20260925_adaptive_check/manifest.json)
+
+- 问题 2 `v009` | `exp102_20260925_adaptive_full_a` | running | [记录](../outputs/09_problem2/raw/problem_2/v009/exp102_20260925_adaptive_full_a/manifest.json)
+
+- 问题 2 `v009` | `exp103_20260925_adaptive_full_b` | running | [记录](../outputs/09_problem2/raw/problem_2/v009/exp103_20260925_adaptive_full_b/manifest.json)
+
+- 问题 2 v009 | exp102/103 | paused_by_user 2026-09-25 | 成功 100/400，3 项生成超时、2 项评估人工中断、295 项未开始；[续跑说明](../outputs/09_problem2/raw/problem_2/v009/PAUSE_20260925.md)。
+
+- 问题 2 v009 | exp104_20260925_adaptive_resume | running | [清单](../outputs/09_problem2/raw/problem_2/v009/exp104_20260925_adaptive_resume/manifest.json)
+
+- 问题 2 v009 | exp104_20260925_adaptive_resume | partial | [清单](../outputs/09_problem2/raw/problem_2/v009/exp104_20260925_adaptive_resume/manifest.json)
+
+- 问题 2 v009 | exp105_20260925_adaptive_timeouts | running | [清单](../outputs/09_problem2/raw/problem_2/v009/exp105_20260925_adaptive_timeouts/manifest.json)
+
+- 问题 2 v009 | exp105_20260925_adaptive_timeouts | completed | [清单](../outputs/09_problem2/raw/problem_2/v009/exp105_20260925_adaptive_timeouts/manifest.json)
+
+- 问题 2 v009 全量完成 | exp102/103 保留 100 项、exp104/105 接续完成 | 400 唯一配置成功，5 次生成超时和 2 次人工暂停保留；五核均值 3.9774019373；[最终报告](../outputs/09_problem2/v009_summary_20260925/REPORT.md)。
+
+- 问题 2 v010 | exp106_20260925_portfolio_dev | running | [清单](../outputs/09_problem2/raw/problem_2/v010/exp106_20260925_portfolio_dev/manifest.json)
+
+- 问题 2 v010 | exp106_20260925_portfolio_dev | completed | [清单](../outputs/09_problem2/raw/problem_2/v010/exp106_20260925_portfolio_dev/manifest.json)
+
+- 问题 2 v010 | exp107_20260925_portfolio_full | running | [清单](../outputs/09_problem2/raw/problem_2/v010/exp107_20260925_portfolio_full/manifest.json)
+
+- 问题 2 v010 | exp107_20260925_portfolio_full | completed | [清单](../outputs/09_problem2/raw/problem_2/v010/exp107_20260925_portfolio_full/manifest.json)
+
+- 问题 2 探索性机制检验 | idle_cores_probe_20260925 | completed | 三图、五核配置保留三个空闲核；不计为新算法全量成绩。
+
+- 问题 2 v010 | exp107_20260925_portfolio_full | 完整核对通过：400/400，五核均值 4.006185，613 次完整评估、187 次去重 | [报告](../outputs/09_problem2/v010_summary_20260925/REPORT.md)
+
+- 问题 2 v011 | exp108_20260926_active_dev | running | outputs\09_problem2\raw\problem_2\v011\exp108_20260926_active_dev
+
+- 问题 2 v011 | exp108_20260926_active_dev | completed | outputs\09_problem2\raw\problem_2\v011\exp108_20260926_active_dev
+
+- 问题 2 v011 | exp109_20260926_active_full | running | outputs\09_problem2\raw\problem_2\v011\exp109_20260926_active_full
+
+- 问题 2 v011 | exp109_20260926_active_full | completed | outputs\09_problem2\raw\problem_2\v011\exp109_20260926_active_full
+
+- 问题 2 v011 | exp109_20260926_active_full | 完整核对通过：400/400，五核均值4.040692；新增1327次评估，复用成本单列 | [报告](../outputs/09_problem2/v011_summary_20260926/REPORT.md)

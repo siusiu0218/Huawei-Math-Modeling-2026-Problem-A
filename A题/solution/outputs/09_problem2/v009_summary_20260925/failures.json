@@ -1,0 +1,97 @@
+[
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp102_20260925_adaptive_full_a",
+    "case": "case_014",
+    "cores": 2,
+    "status": "generate_timeout",
+    "generate": {
+      "status": "timeout",
+      "returncode": null,
+      "seconds": 60.07531530000051
+    }
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp102_20260925_adaptive_full_a",
+    "case": "case_014",
+    "cores": 3,
+    "status": "generate_timeout",
+    "generate": {
+      "status": "timeout",
+      "returncode": null,
+      "seconds": 60.07626410000012
+    }
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp102_20260925_adaptive_full_a",
+    "case": "case_014",
+    "cores": 4,
+    "status": "generate_timeout",
+    "generate": {
+      "status": "timeout",
+      "returncode": null,
+      "seconds": 60.08329950000007
+    }
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp102_20260925_adaptive_full_a",
+    "case": "case_014",
+    "cores": 5,
+    "status": "paused_by_user",
+    "generate": {
+      "status": "success",
+      "returncode": 0,
+      "seconds": 57.17677680000088
+    },
+    "paused_stage": "evaluate",
+    "interrupted_stage_seconds": null
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp103_20260925_adaptive_full_b",
+    "case": "case_063",
+    "cores": 2,
+    "status": "paused_by_user",
+    "generate": {
+      "status": "success",
+      "returncode": 0,
+      "seconds": 0.48941650000051595
+    },
+    "paused_stage": "evaluate",
+    "interrupted_stage_seconds": null
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp104_20260925_adaptive_resume",
+    "case": "case_076",
+    "cores": 2,
+    "status": "generate_timeout",
+    "generate": {
+      "status": "timeout",
+      "returncode": null,
+      "seconds": 60.055233799999996
+    }
+  },
+  {
+    "problem": 2,
+    "algorithm_version": "v009",
+    "experiment": "exp104_20260925_adaptive_resume",
+    "case": "case_091",
+    "cores": 2,
+    "status": "generate_timeout",
+    "generate": {
+      "status": "timeout",
+      "returncode": null,
+      "seconds": 60.06931540000005
+    }
+  }
+]

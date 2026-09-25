@@ -1,0 +1,70 @@
+{
+  "version": "v011",
+  "configurations": 400,
+  "candidate_records": 2400,
+  "unique_generation_records": 900,
+  "new_generations": 100,
+  "cached_generations": 800,
+  "new_full_evaluations": 1327,
+  "cached_evaluation_records": 613,
+  "deduplicated_evaluation_records": 460,
+  "new_generation_seconds": 12.885022599994045,
+  "new_evaluation_seconds": 2548.515014200002,
+  "run_wall_seconds": 1341.638523,
+  "shared_v010_prerequisite": {
+    "path": "A\u9898\\solution\\outputs\\09_problem2\\raw\\problem_2\\v010\\exp107_20260925_portfolio_full",
+    "manifest_sha256": "eee6f662f48480a542b681124f484eaca40686a77e184abc5c3689286281ceee",
+    "generation_seconds": 3773.7952505999965,
+    "evaluation_seconds": 1406.6613116000094,
+    "scope": "entire archived v010 batch; separately report shared prerequisite cost"
+  },
+  "means": [
+    {
+      "cores": 2,
+      "count": 100,
+      "v010": 2.0058769714570666,
+      "v011": 2.0066319165651576,
+      "improved": 1,
+      "equal": 99,
+      "worse": 0
+    },
+    {
+      "cores": 3,
+      "count": 100,
+      "v010": 2.7631400969891606,
+      "v011": 2.772156198592069,
+      "improved": 7,
+      "equal": 93,
+      "worse": 0
+    },
+    {
+      "cores": 4,
+      "count": 100,
+      "v010": 3.4362322786608495,
+      "v011": 3.453949638471964,
+      "improved": 12,
+      "equal": 88,
+      "worse": 0
+    },
+    {
+      "cores": 5,
+      "count": 100,
+      "v010": 4.006184913452011,
+      "v011": 4.04069220731125,
+      "improved": 14,
+      "equal": 86,
+      "worse": 0
+    }
+  ],
+  "tests_passed": 69,
+  "failures": 0,
+  "degraded": 0,
+  "active_budget_counts_five": {
+    "5": 86,
+    "4": 8,
+    "2": 3,
+    "3": 3
+  },
+  "hashes_candidates_final_selection_and_zip_verified": true,
+  "cold_start_runtime_measured": false
+}

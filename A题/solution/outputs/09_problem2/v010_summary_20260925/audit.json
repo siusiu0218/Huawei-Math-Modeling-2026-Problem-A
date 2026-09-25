@@ -1,0 +1,59 @@
+{
+  "version": "v010",
+  "problem": 2,
+  "configurations": 400,
+  "candidates_generated": 800,
+  "full_evaluations": 613,
+  "deduplicated_evaluations": 187,
+  "failures": 0,
+  "degraded": 0,
+  "generation_seconds": 3773.7952505999965,
+  "evaluation_seconds": 1406.6613116000094,
+  "elapsed_wall_seconds": 2613.375799,
+  "choices": {
+    "v007": 254,
+    "v009": 146
+  },
+  "means": [
+    {
+      "cores": 2,
+      "count": 100,
+      "v007": 1.9094517241213296,
+      "v009": 2.003771266828196,
+      "v010": 2.0058769714570666,
+      "faster_than_v009": 11,
+      "equal_to_v009": 89
+    },
+    {
+      "cores": 3,
+      "count": 100,
+      "v007": 2.6276851949581466,
+      "v009": 2.7449411383235196,
+      "v010": 2.7631400969891606,
+      "faster_than_v009": 19,
+      "equal_to_v009": 81
+    },
+    {
+      "cores": 4,
+      "count": 100,
+      "v007": 3.259737561400308,
+      "v009": 3.421511602565993,
+      "v010": 3.4362322786608495,
+      "faster_than_v009": 10,
+      "equal_to_v009": 90
+    },
+    {
+      "cores": 5,
+      "count": 100,
+      "v007": 3.7533869543186538,
+      "v009": 3.9774019373118605,
+      "v010": 4.006184913452011,
+      "faster_than_v009": 12,
+      "equal_to_v009": 88
+    }
+  ],
+  "tests_passed": 65,
+  "fresh_scores_equal_archived_scores": true,
+  "source_input_config_and_artifact_hashes_verified": true,
+  "zip_verified": true
+}

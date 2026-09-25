@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "experiments": [
+    "exp104_20260925_adaptive_resume",
+    "exp105_20260925_adaptive_timeouts"
+  ],
+  "paused_successes_preserved": 100,
+  "resume_configurations": 300,
+  "generation_timeout_initial": 60,
+  "generation_timeout_recovery": 300,
+  "evaluation_timeout": 180,
+  "interrupted_evaluation_seconds": null,
+  "cost_is_lower_bound": true
+}

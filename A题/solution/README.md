@@ -1,5 +1,61 @@
 # A 题第一问实验
 
+## 第二问入口
+
+**v011 全量已完成：400/400 项成功，五核均值 4.040692。** 见 [正式报告](outputs/09_problem2/v011_summary_20260926/REPORT.md)与[400 个方案](outputs/09_problem2/v011_summary_20260926/v011_plans.zip)。69 项测试和完整审计通过；本轮新增 1327 次完整评估，复用的 v010 前置成本另列。所有本轮进程已结束。新入口 `experiments/run_problem2_active_cores.py --experiment 新编号 --cases 用例列表 --cores 2 3 4 5 --freeze A题/solution/experiments/problem2_v011_selection.json`。可选 `--generation-cache A题/solution/outputs/09_problem2/raw/problem_2/v010/exp107_20260925_portfolio_full` 复用经哈希核对的旧生成与同核数结果，所有新方案重新评估。省略缓存参数可冷启动；当前选择增量验证，成本须包含已披露的前置成本。已有实验目录不可覆盖，脚本没有自动续跑功能；中断后先读 CONTEXT 和清单，另建恢复批次。
+
+
+### 历史 v010
+
+**v010 全量已完成。** 100 图 × 2～5 核共 400 项全部成功，五核均值 **4.006185**。见 [正式报告](outputs/09_problem2/v010_summary_20260925/REPORT.md)与[400 个方案](outputs/09_problem2/v010_summary_20260925/v010_plans.zip)。固定双候选真实评估择优，共生成 800 候选、执行 613 次完整评估，额外成本已披露，65 项测试通过。全量及后续三图探索进程均已结束。
+
+复现使用新的实验编号，入口 `experiments/run_problem2_portfolio.py`，`--cases` 指定用例，`--cores 2 3 4 5`，`--freeze A题/solution/experiments/problem2_v010_selection.json`。全量结果由 `experiments/summarize_problem2_portfolio.py` 核对；该汇总器目前固定指向 exp107，不可误用为新批次汇总。旧实验目录禁止覆盖。
+
+当时的自动选择活跃核数方向现已由 v011 完成；[三图机制验证](outputs/09_problem2/raw/scratch/idle_cores_probe_20260925/REPORT.md)保留为探索记录。详细状态以 [CONTEXT.md](CONTEXT.md)为准。
+
+### 以下为历史 v009 及更早版本记录
+
+**v009 全量已完成。** 当前完整交付见 [v009 报告](outputs/09_problem2/v009_summary_20260925/REPORT.md)，全部 100 图 × 2～5 核成功结果已核对；五核均值 3.9774。旧暂停/恢复批次已结束，不要直接重跑。复现需新实验编号，并披露最多四个候选的核内准备成本、60 秒初始生成预算及 300 秒超时补测预算。完整尝试和失败均有记录。
+
+下面保留各阶段入口说明，当前完成状态以上述报告为准。
+
+
+本轮按暂停记录恢复，使用 `experiments/resume_problem2_adaptive.py`：核对旧结果后，exp104 复用两个已生成方案并补跑 295 项未启动配置；exp105 顺序处理生成超时。旧暂停清单保留。恢复入口同样拒绝覆盖已存在的新批次，后续如再次暂停必须先读最新 CONTEXT.md。汇总使用 `experiments/summarize_problem2_adaptive.py`，包含所有失败与人工中断的成本边界。
+
+
+最新优化候选：`--algorithm adaptive`（问题 2 v009），最多四个核内评分候选、一次最终全局评估，生成预算须显式设为 60 秒。设计见 [v009 设计](experiments/problem2_v009_DESIGN.md)，全量运行入口为 `experiments/run_problem2_adaptive_full.py`，两个工作进程分别覆盖 50 图 × 2～5 核，已有目录拒绝覆盖。完成后使用 `experiments/summarize_problem2_adaptive.py` 审计并汇总；当前是否完成以 CONTEXT.md 为准。
+
+
+新增优化候选为 `--algorithm split_components`（问题 2 v008）：按计算权重识别过大的连通块，允许拆分后重新分核；未触发的图保持 v007。设计及固定预算见 [v008 设计](experiments/problem2_v008_DESIGN.md)。复现时使用独立实验编号，例如：
+
+```powershell
+python -B A题/solution/experiments/run_problem2.py --algorithm split_components --experiment expNEW_split --cases case_056 --cores 2 3 4 5
+```
+
+新版完整覆盖范围以 [v008 五核报告](outputs/09_problem2/v008_summary_20260925/REPORT.md)为准；下面的 v007 仍为原 2～5 核完整交付。运行器对 Windows 临时文件锁只重试清单原子写入，不自动重跑生成或评估。
+
+仅对一个输入生成第二问 v007 方案（`--plan` 使用新文件名，父目录须已存在）：
+
+```powershell
+python -B A题/solution/experiments/run_problem2.py --worker generate --algorithm paired_order --input A题/data/case_001.json --config A题/data/config.txt --n 4 --plan A题/solution/outputs/09_problem2/example_case001_n4.json
+```
+
+正式成绩应另用 `A题/code/multicore_cut_evaluate_problem_2.py` 与同一配置评估，或使用下述完整实验入口自动保存记录。
+
+全量分批入口：`python -B A题/solution/experiments/run_problem2_full.py`；每批 10 图，依次运行 v007、v002、单核，共 900 个评估配置，生成/评估预算保持 30/180 秒。已启动的目录不能重复创建；`--resume` 只跳过已经完整结束的批次，发现部分目录会拒绝并要求另立恢复实验。全量结束后用 `python -B A题/solution/experiments/summarize_problem2_full.py` 核对并导出逐图表、曲线和方案 ZIP。
+
+当前固定方法为 `--algorithm paired_order`（问题 2 v007），900 次全量评估已全部成功并核对，见[正式全量结果](outputs/09_problem2/full_summary_20260925/REPORT.md)。`component_order`（v005）和 `operation_order`（v006）为无收益的历史探索，仅用于复现。v007 保持每配置一个候选；全量既有目录不能直接重跑覆盖。
+
+固定用例与预算见[第二问实验方案](experiments/problem2_PLAN.md)，当前开发基线见[结果报告](outputs/09_problem2/开发集基线.md)。静态用例选择脚本为 `experiments/prepare_problem2_selection.py`；开发报告脚本为 `experiments/summarize_problem2_development.py`，两者均拒绝覆盖已存在产物。
+
+第二问工作流程与当前步骤见 [CONTEXT.md](CONTEXT.md)，已完成的规则与运行基础见[阶段报告](outputs/09_problem2/规则验证与对照.md)。新实验使用独立名称：
+
+```powershell
+python -B A题/solution/experiments/run_problem2.py --experiment expNEW_scene_b --algorithm baseline_b --cases case_093 case_078 --cores 2 3 4 5
+```
+
+算法选项为 `baseline_a`、`baseline_b`、`regions_a`、`regions_b`、`single`；后缀指分配时的等待近似，全部由问题 2 评估器评估。单核使用 `--algorithm single --cores 1`。默认生成预算 30 秒、评估预算 180 秒，可通过 `--generation-timeout`、`--evaluation-timeout` 显式设置；不覆盖旧实验、不自动重试。早期 `run_problem2_baseline.py` 和 `run_problem2_regions.py` 仅作为原型复现入口保留。
+
 自编代码与结果均在本目录；`../code`、`../data`、`../docs` 只读。仅需 Python 标准库，当前验证环境为 Python 3.11。
 
 按解题顺序浏览代码、报告和汇总表，请从 [outputs/README.md](outputs/README.md) 进入。每步的 `raw/` 保存完整原始运行记录，`原始运行记录.zip` 是对应备份。实验脚本通过 `experiments/result_paths.py` 读写这些按步骤分类的目录。

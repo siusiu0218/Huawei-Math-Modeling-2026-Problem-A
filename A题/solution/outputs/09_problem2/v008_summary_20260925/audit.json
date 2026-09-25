@@ -1,0 +1,25 @@
+{
+  "problem": 2,
+  "version": "v008",
+  "count": 100,
+  "cores": 5,
+  "means": {
+    "v007": 3.7533869543186538,
+    "v008": 3.9145607827446245
+  },
+  "outcomes": {
+    "faster": 18,
+    "equal": 80,
+    "slower": 2
+  },
+  "output_hashes_verified": true,
+  "frozen_source_verified": true,
+  "input_config_comparison_verified": true,
+  "protected_unchanged": true,
+  "generation_seconds": 49.552280300005805,
+  "evaluation_seconds": 188.3400388999944,
+  "tests_passed": 54,
+  "candidates_per_configuration": 1,
+  "additional_development_evaluations": 26,
+  "limitation": "Five-core full coverage only; lower-core new-version coverage is 5 graphs x 3 core counts. All old graph scores have been seen."
+}

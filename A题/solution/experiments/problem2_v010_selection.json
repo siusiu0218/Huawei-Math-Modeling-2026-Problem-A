@@ -1,0 +1,34 @@
+{
+  "version": "v010",
+  "candidates": [
+    "v007",
+    "v009"
+  ],
+  "generation_budgets": {
+    "v007": 30,
+    "v009": 300
+  },
+  "evaluation_budget": 180,
+  "max_workers": 2,
+  "tie_break": "v007",
+  "source_hashes": {
+    "src\\baseline.py": "907247c9f87659fff03ff49e73a91d8606227377939083d244e3468129535055",
+    "src\\branch_scheduler.py": "0ce46e933a5c51189c5f7a2ee7e9f0495d6cd7c0cfd8d0e58416da579dd50fb0",
+    "src\\component_scheduler.py": "a66a19b600acaa2d81a7609e881a3e8c8a4f74a3748afe99ab46a3938822ff46",
+    "src\\cost_aware_scheduler.py": "edddd79b3d7310f089db5ef3f6dd4f4afedfaa272835333d16294575168d0ac2",
+    "src\\cost_balanced_scheduler.py": "b9c9c7afc2f3b780ba10e100a3121ae07f0e66289cfc5d7522088be9bc684514",
+    "src\\cost_boundary_scheduler.py": "ad7597d6c6714afc6f1ef9dfc0a6f88b3849d105925768ea7aa0f0d6618a49f6",
+    "src\\fork_preserving_scheduler.py": "525cfe56b6846a16108c60f664e1adb6b790736fe7e827899217032d50c16d81",
+    "src\\graph_analysis.py": "62a06fca9dbe23ae5b32fe890a5547e3580c5c4910934a5bbe7ba039d8bfca97",
+    "src\\portfolio_scheduler.py": "93fb568aeb44ff5ec4d75e2b465fdaf7806ba5620fabbba3f236c912d0cc22d3",
+    "src\\region_scheduler.py": "65465fdeb9308e3689f6c9cfed32670f33cc1f037d1df12a278672ec1e8bb8bf",
+    "src\\scene_b_adaptive.py": "b4b8b70c6fce82ab7f558d224b2caa65980c56dce0bb73e7ad0cedc304afa663",
+    "src\\scene_b_component_order.py": "a46d268f8c8cd10757bed91149b0f616766f606d86706c33a57e376579819899",
+    "src\\scene_b_operation_order.py": "030d384b062fd1bf9388e1dd5a016c16c7db4cdea89cf996dda89959bdfa3e12",
+    "src\\scene_b_paired_order.py": "f9927185393fd1c2152474c965b772939251d27e242fd140d034aae2a577557f",
+    "src\\scene_b_portfolio.py": "100fde66a2f2c1cf9b31bec9d4aafba620407a3d8ec11138f9c20f9a897f3f41",
+    "src\\scene_b_split_components.py": "e2110db70c1565068f64763c0a92648c24a6be3cbe6e3145ded9de03b6dfe6b3",
+    "experiments\\run_problem2.py": "eec79b3ca7bf0918d83531cb9ad27c124b2bd4e15c70ef78a2b7d01c347e8fab",
+    "experiments\\run_problem2_portfolio.py": "825049da966d154ab8ecddac340c13a10c754cee7b3c56b40af7b8fe747c65dd"
+  }
+}

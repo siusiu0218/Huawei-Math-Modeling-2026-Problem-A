@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "attempts": 900,
+  "success": 900,
+  "failures": 0,
+  "comparisons": {
+    "faster": 251,
+    "equal": 85,
+    "slower": 64,
+    "unavailable": 0
+  },
+  "source_manifests": [
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp066_20260925_full_paired_order_01\\manifest.json",
+      "sha256": "9391fc0c19694df87a14fb84a7ec43de7a14e1db711621cc408815de80b1d422"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp067_20260925_full_paired_order_02\\manifest.json",
+      "sha256": "0698b1a394596050ff2ed27e6419541cc6f8b7f68fea9b39eddeca4cf884e4ad"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp068_20260925_full_paired_order_03\\manifest.json",
+      "sha256": "3586462b54d74e2d188edfde2bc76a3d380d55f436fb301bb6c8890d68fbf308"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp069_20260925_full_paired_order_04\\manifest.json",
+      "sha256": "7b92b9da80e0cbd0cfe3675e0ba20486927d9e4c703822e603c16308e1dccee7"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp070_20260925_full_paired_order_05\\manifest.json",
+      "sha256": "b7439c2b46b2326fedf9c61304e12796f372a2e488ff94fe8d0a825a67babea5"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp071_20260925_full_paired_order_06\\manifest.json",
+      "sha256": "57cf0a42e87681d98c6d0baa242da48e7ccc6d34f72085ccf9e2bd8cd04f923f"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp072_20260925_full_paired_order_07\\manifest.json",
+      "sha256": "78a0dc46af5dd0dba3e034252e8ab9e6fc9fa603bf3f206bc329642fc21f058f"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp073_20260925_full_paired_order_08\\manifest.json",
+      "sha256": "3c84d6d14af775fe43ab0b1c595c1c38dd0ae12b6f723e9644e7c2e676311f09"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp074_20260925_full_paired_order_09\\manifest.json",
+      "sha256": "0d6a1c203513919b78ac1a00be6d41e266cc5678fb0adaa34a080f59bd686390"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v007\\exp075_20260925_full_paired_order_10\\manifest.json",
+      "sha256": "f6ef80dd30007d6ef004cfa7fa5e2dbd211c4dabcbaec6bc2c943318d0ba6f97"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp076_20260925_full_regions_b_01\\manifest.json",
+      "sha256": "1993f3f8619dff9af164c85d0e273beae5aa01f3d5f9422fc011aaf01df7573b"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp077_20260925_full_regions_b_02\\manifest.json",
+      "sha256": "76ee5cb6178070d953345305f98ffe90a7a7beff472ef152e4417a8de2b58efa"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp078_20260925_full_regions_b_03\\manifest.json",
+      "sha256": "d3045fc5d952a58a9e3acaaee8bb1fa9faa6383a8e7a9d21a6f9ff2f3e8da1c5"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp079_20260925_full_regions_b_04\\manifest.json",
+      "sha256": "79c1cd0260f825113fa4608c10d7ad586028d404b3aba250acb9d25d5e2b2d36"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp080_20260925_full_regions_b_05\\manifest.json",
+      "sha256": "2fb2625bd53a73d33d461c791bbda9e2255a72d7db1ba6fd6b03236ef0f63eab"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp081_20260925_full_regions_b_06\\manifest.json",
+      "sha256": "8a55000fed6b59ee774c0d3245bee6a0d01875c96cbf86014a3ec74add2a9d68"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp082_20260925_full_regions_b_07\\manifest.json",
+      "sha256": "120f0b0fddb725ff5136147ea2670a10e05284dd2a20edf717f22f98cbfdefa2"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp083_20260925_full_regions_b_08\\manifest.json",
+      "sha256": "953357b5ed54745ad1abff5e1a77fd7c6172412707fbdd04125c02d1212491c3"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp084_20260925_full_regions_b_09\\manifest.json",
+      "sha256": "2aba8043da4eec57ee0d7c4e8d531497cb9bc7629219c743094ad0663e39f048"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\v002\\exp085_20260925_full_regions_b_10\\manifest.json",
+      "sha256": "556387983e234c8c07a41925c6b5174bbc755ca9dc779d5294c619e7fd05cd8d"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp086_20260925_full_single_01\\manifest.json",
+      "sha256": "10dc5cd894c78e8079b97132130a0d1be8e41b7e84411e6d94265ba556e4cb58"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp087_20260925_full_single_02\\manifest.json",
+      "sha256": "75b4cf2d5eb147e7599a16f5d95a8cd98a2d0938ead9aa58e73c1adced92d236"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp088_20260925_full_single_03\\manifest.json",
+      "sha256": "4d4453a45e64b9350341ff5655b26c320fc46a2f7f3a412abdc328a5b703238b"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp089_20260925_full_single_04\\manifest.json",
+      "sha256": "caf061863bdac2838fc0624a26d1c7507ab6622947846098a81102c3afff0f96"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp090_20260925_full_single_05\\manifest.json",
+      "sha256": "6ecd60fd62ba15f7d2f346d2df3d6158347b0ffbcd772ade819a3e51b3855025"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp091_20260925_full_single_06\\manifest.json",
+      "sha256": "1c59ff2bb17344a8d7b1beb820fa0500032828c1916a3f2b874f8d41a0ea9bae"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp092_20260925_full_single_07\\manifest.json",
+      "sha256": "678452232af2c17c6fbc2348cc857d91aa1dc77ebd77fc21f43d2d5388c183d9"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp093_20260925_full_single_08\\manifest.json",
+      "sha256": "cbc0254775cc53080a6ed43c19046daf34a09345d8acdbe24a555f3f2006d931"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp094_20260925_full_single_09\\manifest.json",
+      "sha256": "6cb2200bce31ca01656ab0f8b6602801f9a1ad7d0ca32cd455bcc1955a61e35e"
+    },
+    {
+      "path": "outputs\\09_problem2\\raw\\problem_2\\single_v001\\exp095_20260925_full_single_10\\manifest.json",
+      "sha256": "51d54795f676bb492266ad06d2dca67ee2c2652ded47fc5686374f59bccd9615"
+    }
+  ],
+  "official_single_reference_matches": 100,
+  "historical_single_reference_sha256": "d3203707d8d9447cd854ac51f7a3d212d31116e39f0f5ac9184bdd20fdac5ce2",
+  "files": {
+    "all_results.csv": "bef050ff3af42976a476028a8bf0389bc3c9a390baf597287180e44f49656c2a",
+    "comparison.csv": "1872da91681b11dfa63db2df7b858669caa8db47af062d1a1ab9325dfea009c5",
+    "mean_speedup.csv": "8ee15f79a0c51f97c1d9f574056f37da2f7c6985d013d9fbb534db531f0a1498",
+    "mean_speedup.pdf": "b29bd3332462434350a37a76b8cdc6acbf98b25deab12d64e8c335d7f03e40e2",
+    "mean_speedup.png": "86f12f45f409a540bbd5cfc79ebbf213c0063fd1af0731153d75f986d5d30a97",
+    "mean_speedup.svg": "014c4f3b16c2e7dc41d1d6cf8174ff52282a234910bbd6fc9229f56151ad8b26",
+    "REPORT.md": "406d87b9de6e5ce73a3b43ff5c3700a311c15273e423cec862815c3896c072f2",
+    "slower_than_single.csv": "0dc893227dfe490898dc2ad03f4743b3b6a42524d6568a0debe590d8825e7a88",
+    "summarize_problem2_full.py": "983c3a1bac2b619bf4ded2e55cb6dca8cd3dc59bb75475e3336ed6870d68b5ab",
+    "v007_plans.zip": "c4cba92fd0969869b20e060e2fecb177b91224fa29ef0f55eb6b3f40f5f87d14"
+  }
+}
