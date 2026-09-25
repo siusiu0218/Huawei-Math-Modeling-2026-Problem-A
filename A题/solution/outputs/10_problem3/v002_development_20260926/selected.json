@@ -1,0 +1,212 @@
+[
+  {
+    "case": "case_051",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_051_n1.json",
+    "sha256": "41d8ed6224a1253cadbdfb978428f22336d2d1dca509642fc4f095cec50fd1e9"
+  },
+  {
+    "case": "case_051",
+    "cores": 2,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_051_n2.json",
+    "sha256": "1461cd8b2b33da6f755ea9923999c51f967b62259988be913f46fa9c6c20ac62"
+  },
+  {
+    "case": "case_051",
+    "cores": 3,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_051_n3.json",
+    "sha256": "0214f29b6277c869ec9d03554e7ac39eb54039166de2766658462c4cdfadf104"
+  },
+  {
+    "case": "case_051",
+    "cores": 4,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_051_n4.json",
+    "sha256": "e0380fd222e07ef3a18c3ffd0c99a85a05510c8e2ff4e247bc44e38f9ce41397"
+  },
+  {
+    "case": "case_051",
+    "cores": 5,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_051_n5.json",
+    "sha256": "ea5ccd085bfd82fd82cc8b547f5c8074da9138fe4fd8e6ba8a238f6d1f196f2b"
+  },
+  {
+    "case": "case_002",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_002_n1.json",
+    "sha256": "3521d627379dba189351a9a7402c795b57c17a0ef2c9126a39112ac916eb25db"
+  },
+  {
+    "case": "case_002",
+    "cores": 2,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_002_n2.json",
+    "sha256": "443fe3fe392f80304a3fa9b8136a7131a1f9867614108f28f93b0a64f44b8a66"
+  },
+  {
+    "case": "case_002",
+    "cores": 3,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_002_n3.json",
+    "sha256": "926a1264a2dff0e472fc65a850443ce0cf4d47ca48bf5fc5ac6d919622e5655e"
+  },
+  {
+    "case": "case_002",
+    "cores": 4,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_002_n4.json",
+    "sha256": "334837fa2bfe274ed3cd972d508b831f78f0c5f3b416624193b1d3f95e48d382"
+  },
+  {
+    "case": "case_002",
+    "cores": 5,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_002_n5.json",
+    "sha256": "f3455736d84d71d53411b39434a27f62673ff7225f89636325e76f8ef56b6550"
+  },
+  {
+    "case": "case_062",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_062_n1.json",
+    "sha256": "8331bcb51525c7fd7dfd98e5480c2814b48bad7054b8f14e406a74058b68956c"
+  },
+  {
+    "case": "case_062",
+    "cores": 2,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_062_n2.json",
+    "sha256": "09d41e8ccdc85a950c21dcf9cd63886ac26462e69d2ede28782d769319ed4b48"
+  },
+  {
+    "case": "case_062",
+    "cores": 3,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_062_n3.json",
+    "sha256": "caf5142c20dee6f2c1e6468e08d2feed06eadae0b6a6fa4d19d915642f8e49ae"
+  },
+  {
+    "case": "case_062",
+    "cores": 4,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_062_n4.json",
+    "sha256": "77fe2aa4d0cadb4b7927694bc86c4f2db8f25f6071d755f70119b1d453354810"
+  },
+  {
+    "case": "case_062",
+    "cores": 5,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_062_n5.json",
+    "sha256": "f223572f62297bc5495b3217a8459786b8091e37dce80559e117e32de1cb9037"
+  },
+  {
+    "case": "case_078",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_078_n1.json",
+    "sha256": "6dd0402ef5a9120c760f20ff81ce90c6317b6bf567b9aa3b5d6af0d7c4a4a622"
+  },
+  {
+    "case": "case_078",
+    "cores": 2,
+    "candidate": "cache_affinity",
+    "path": "selected_plans\\case_078_n2.json",
+    "sha256": "36239d89fa09b779c22bda40cd84d9747eb284333a1f68d8ab8a7ed3dea5349b"
+  },
+  {
+    "case": "case_078",
+    "cores": 3,
+    "candidate": "cache_affinity",
+    "path": "selected_plans\\case_078_n3.json",
+    "sha256": "98f0f2abc640d0e75296c06d3a8d55d66b20b2adfc675378f8cc12972f0f3cab"
+  },
+  {
+    "case": "case_078",
+    "cores": 4,
+    "candidate": "cache_affinity",
+    "path": "selected_plans\\case_078_n4.json",
+    "sha256": "04f97cb4117a95920bd4e60bbd21183ff1c395d95e1e38b3974f9dff558869f5"
+  },
+  {
+    "case": "case_078",
+    "cores": 5,
+    "candidate": "cache_affinity",
+    "path": "selected_plans\\case_078_n5.json",
+    "sha256": "71c181538e0f5dbf9a4d4041c23bd0f5b22c80bb0741df59a3b6ce3879388328"
+  },
+  {
+    "case": "case_039",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_039_n1.json",
+    "sha256": "516a6a5e41919154713ff07b3012da95750cdbf0b7a20a6fe4e7b20b033fcf62"
+  },
+  {
+    "case": "case_039",
+    "cores": 2,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_039_n2.json",
+    "sha256": "a82a6d2df36abf48a91866735786d9047fff0f7381cbd621b2dcfbc1ba15df26"
+  },
+  {
+    "case": "case_039",
+    "cores": 3,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_039_n3.json",
+    "sha256": "1090d51c9ee002216b1b6c3a30370dcea1e0c812d93bd91af662c09dddd321d9"
+  },
+  {
+    "case": "case_039",
+    "cores": 4,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_039_n4.json",
+    "sha256": "ea56476edf3ed17a6eda00d11cf5a46891715e70f831d49f24eb3f5f9cb376cd"
+  },
+  {
+    "case": "case_039",
+    "cores": 5,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_039_n5.json",
+    "sha256": "68217641921facd2ce350b8e0fc70b26d0b24a8c3bbb32645cdbc7988d59f5c3"
+  },
+  {
+    "case": "case_072",
+    "cores": 1,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_072_n1.json",
+    "sha256": "3930cf082148aa033069f6b6abb1f60a3bec5715b4d7d31505160dfffe9efb8b"
+  },
+  {
+    "case": "case_072",
+    "cores": 2,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_072_n2.json",
+    "sha256": "89fafc2c68789b2e90fa56fef0c42a798d49a0cf5918348de313276785dc5deb"
+  },
+  {
+    "case": "case_072",
+    "cores": 3,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_072_n3.json",
+    "sha256": "bf24a05237368b885241bd0e2fdd07939e590bce301a2a94e4eacc80703d8892"
+  },
+  {
+    "case": "case_072",
+    "cores": 4,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_072_n4.json",
+    "sha256": "0102ae33e2defd84e411b011ab227455039062d97f612c0ba98bf9d8be303ad7"
+  },
+  {
+    "case": "case_072",
+    "cores": 5,
+    "candidate": "baseline",
+    "path": "selected_plans\\case_072_n5.json",
+    "sha256": "3e31494066aee683e662a5deddbb4dbef2c4559eec97391693a43f4d79f77ba9"
+  }
+]

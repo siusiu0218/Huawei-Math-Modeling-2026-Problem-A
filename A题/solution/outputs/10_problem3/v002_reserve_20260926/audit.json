@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "configurations": 30,
+  "raw_candidate_counts": {
+    "cache_affinity": {
+      "faster": 0,
+      "same": 7,
+      "slower": 23,
+      "failed": 0
+    },
+    "critical_path": {
+      "faster": 1,
+      "same": 15,
+      "slower": 14,
+      "failed": 0
+    }
+  },
+  "source_archive_and_result_hashes_checked": true,
+  "fixed_placement_checked": true,
+  "Cache_only_selection_checked": true,
+  "means_fraction_recomputed": true,
+  "selected_plan_hashes": {
+    "selected_plans\\case_064_n1.json": "adce7c40503c647341a28a97680cfd1affeb326d4a7fc45a64d3b03b73d9fe2f",
+    "selected_plans\\case_064_n2.json": "14040e44a9ccc9d90c05a03d1be10473dd02cd10a00a3dbf5eb6106b48940b6e",
+    "selected_plans\\case_064_n3.json": "b7a7c303e6f857a0fad0a269cfb03ba172cae82ba8314ba3568410fa0767f1b4",
+    "selected_plans\\case_064_n4.json": "d2d6b57d09edde875c09fccfbc3abef05d69c89004a0cc671befb2e196595904",
+    "selected_plans\\case_064_n5.json": "e0dc5522924921659fb2e70e831a71e4aa019dc21d45393fe8137d949625edce",
+    "selected_plans\\case_024_n1.json": "1bf9f567818559f01fe03994ef6e8a6da9eb17ff07db78b963330d7c2b24b9b7",
+    "selected_plans\\case_024_n2.json": "daead9b90691e49256fc899004150f06cc472f17e5b72d7178d0b1e05ce9b2f3",
+    "selected_plans\\case_024_n3.json": "352c3aa567d4f8dfa1b942605d7399c5d97efc2664ad0268f273f20603cec9e2",
+    "selected_plans\\case_024_n4.json": "c7f7203a471655516d711c3e26bac12d8c8da11a1715e632589b4f03313da5ec",
+    "selected_plans\\case_024_n5.json": "85ce0165f9a509d51f6da9c4986bccb73a10b0011d1942c74d92fb35ad586123",
+    "selected_plans\\case_016_n1.json": "f34b374f2efb95febfd72c61422e123c8651a27e43ee99b5beb7e74b7e40c1c7",
+    "selected_plans\\case_016_n2.json": "0dc4a61eac43b1fa731cb7959e145fcea89eceaecd75b5ba5b5f14f7dae2e675",
+    "selected_plans\\case_016_n3.json": "4d2c0f044930f5823262ab70042c149477e6bc63d5d60552baeae15769e8a539",
+    "selected_plans\\case_016_n4.json": "52ea87dbb54b5fd82dc3f03122a3e52faa5a153934004b1d845b39944475dea7",
+    "selected_plans\\case_016_n5.json": "6bedd9a9db972018c5bb0f6e1efe1f758404c0bbd45427fcb3477e7cf622e4bd",
+    "selected_plans\\case_010_n1.json": "07e4dcfb1e8fe25591b9607bc4d30a3f6dcf4a11c3a2b7e9ed99936f292075ea",
+    "selected_plans\\case_010_n2.json": "29162e51e458eb7a5773d9ebd0dfa044ffa34eb7153d0d294605efffc289c295",
+    "selected_plans\\case_010_n3.json": "3b39affdf535c1b05d4b3635b16c9651123920bfc13b024c19c2fb3fd36de541",
+    "selected_plans\\case_010_n4.json": "a3e5526833f5358bc46b3225dfbddb29d0826b86587abb92a18d3ed5b771f0f4",
+    "selected_plans\\case_010_n5.json": "b0c6c4f87af66e939cc69160fc80da2b291f8eb9e54056d385332bd0242aec98",
+    "selected_plans\\case_095_n1.json": "0db84fdccac922dd6616721d2b8abe9204b2ed07447798d2b6cfbf45cb3e8cf0",
+    "selected_plans\\case_095_n2.json": "26ba30f2e3a413697f82fd8d6eab081c2a0dbcb1e63b8042f7dfd7e97bf911bc",
+    "selected_plans\\case_095_n3.json": "47fbd5609d76f6d92e8d72d6bd170709c992385ee0e61235a7fc3e535724e77b",
+    "selected_plans\\case_095_n4.json": "f2d88f7dc3b01f010e9def35b09e4a9b558175e215fc2c66367e6b7625b8fc5d",
+    "selected_plans\\case_095_n5.json": "8dfdf3622ebeb9e39e5b5c1dac08bdd365c4a216c9bf336be1204dd992ceb3a0",
+    "selected_plans\\case_066_n1.json": "a1ae9ef1f6367f070222a8d441e72af6b7df52ce33782d5b0034288cc0c8f152",
+    "selected_plans\\case_066_n2.json": "272dc9e01ccd38fb63e9aa167412ea0360d9b8b9a8ae616e7f5120dc0fe22ccc",
+    "selected_plans\\case_066_n3.json": "b48ba532b99453191d197a383dc754c20857297b2865c69b94e68d62a51b63cf",
+    "selected_plans\\case_066_n4.json": "f0775da002ef71d02c027e044b61c528270e5fa673a2284b104fe146f7315c85",
+    "selected_plans\\case_066_n5.json": "57094a5bfe45d225ab1290d72d8f77fbc8c411291324076dd11dc1804ef4bf4a"
+  }
+}

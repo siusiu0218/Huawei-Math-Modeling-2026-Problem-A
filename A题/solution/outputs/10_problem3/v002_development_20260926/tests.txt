@@ -1,0 +1,21 @@
+test_cross_core_wait_and_copy_out_no_fill (test_problem3.CacheRulesTests.test_cross_core_wait_and_copy_out_no_fill) ... ok
+test_delayed_hit_and_byte_weighting (test_problem3.CacheRulesTests.test_delayed_hit_and_byte_weighting) ... ok
+test_fifo_hit_does_not_refresh (test_problem3.CacheRulesTests.test_fifo_hit_does_not_refresh) ... ok
+test_hit_reinsertion_is_observed_implementation_behavior (test_problem3.CacheRulesTests.test_hit_reinsertion_is_observed_implementation_behavior) ... ok
+test_no_access_and_zero_byte_conventions (test_problem3.CacheRulesTests.test_no_access_and_zero_byte_conventions) ... ok
+test_oversized_input_never_cached (test_problem3.CacheRulesTests.test_oversized_input_never_cached) ... ok
+test_simultaneous_first_reads_are_two_misses (test_problem3.CacheRulesTests.test_simultaneous_first_reads_are_two_misses) ... ok
+test_controlled_failure_and_timeout (test_problem3.PairRunnerTests.test_controlled_failure_and_timeout) ... ok
+test_problem3_path (test_problem3.PairRunnerTests.test_problem3_path) ... ok
+test_result_hash_and_invalid_results (test_problem3.PairRunnerTests.test_result_hash_and_invalid_results) ... ok
+test_corrupted_result_is_missing_not_a_success (test_problem3_baseline.DevelopmentBaselineTests.test_corrupted_result_is_missing_not_a_success) ... ok
+test_reinsertion_diagnostic_identifies_hit_completion (test_problem3_baseline.DevelopmentBaselineTests.test_reinsertion_diagnostic_identifies_hit_completion) ... ok
+test_selection_coverage_disjointness_and_no_seen_reserve (test_problem3_baseline.DevelopmentBaselineTests.test_selection_coverage_disjointness_and_no_seen_reserve) ... ok
+test_cross_core_dependencies_and_idle_cores_are_preserved (test_scene_b_cache_order.CacheOrderTests.test_cross_core_dependencies_and_idle_cores_are_preserved) ... ok
+test_locality_can_change_order_without_changing_placement (test_scene_b_cache_order.CacheOrderTests.test_locality_can_change_order_without_changing_placement) ... ok
+test_unknown_mode_rejected (test_scene_b_cache_order.CacheOrderTests.test_unknown_mode_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.198s
+
+OK

@@ -1,0 +1,1684 @@
+{
+  "created_utc": "2026-09-25T17:03:46.560912+00:00",
+  "version": "v001",
+  "rule": "exclude Q3-seen case_001; single/multiple component strata, then size tertiles; maximal shared input dev; farthest normalized sharing and memory-pressure reserve; case id breaks ties only",
+  "limitations": "all graphs were used in Q1/Q2; reserve is only unused for Q3 tuning; structural selection is not random; static bytes are not simulated peaks",
+  "evaluator_policy": "user approved original evaluator with hit-completion reinsertion disclosed; no evaluator modifications",
+  "cases": [
+    {
+      "case": "case_051",
+      "role": "development",
+      "connected": true,
+      "size_tertile": 1
+    },
+    {
+      "case": "case_064",
+      "role": "reserve",
+      "connected": true,
+      "size_tertile": 1
+    },
+    {
+      "case": "case_002",
+      "role": "development",
+      "connected": true,
+      "size_tertile": 2
+    },
+    {
+      "case": "case_024",
+      "role": "reserve",
+      "connected": true,
+      "size_tertile": 2
+    },
+    {
+      "case": "case_062",
+      "role": "development",
+      "connected": true,
+      "size_tertile": 3
+    },
+    {
+      "case": "case_016",
+      "role": "reserve",
+      "connected": true,
+      "size_tertile": 3
+    },
+    {
+      "case": "case_078",
+      "role": "development",
+      "connected": false,
+      "size_tertile": 1
+    },
+    {
+      "case": "case_010",
+      "role": "reserve",
+      "connected": false,
+      "size_tertile": 1
+    },
+    {
+      "case": "case_039",
+      "role": "development",
+      "connected": false,
+      "size_tertile": 2
+    },
+    {
+      "case": "case_095",
+      "role": "reserve",
+      "connected": false,
+      "size_tertile": 2
+    },
+    {
+      "case": "case_072",
+      "role": "development",
+      "connected": false,
+      "size_tertile": 3
+    },
+    {
+      "case": "case_066",
+      "role": "reserve",
+      "connected": false,
+      "size_tertile": 3
+    }
+  ],
+  "features": [
+    {
+      "case": "case_001",
+      "compute_ops": 600,
+      "components": 200,
+      "shared_operand_bytes": 820352,
+      "shared_graph_input_bytes": 820352,
+      "shared_operand_to_l2_ratio": 0.7823486328125,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 9344,
+      "graph_sha256": "a634cd1151c0e918dd3a143eba421b88907f7f0334bfe6a5ca0412342307f09f"
+    },
+    {
+      "case": "case_002",
+      "compute_ops": 1798,
+      "components": 1,
+      "shared_operand_bytes": 916992,
+      "shared_graph_input_bytes": 916992,
+      "shared_operand_to_l2_ratio": 0.87451171875,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 4608,
+      "max_op_L1_bytes": 7680,
+      "graph_sha256": "578fceeb9f66a3c083b9f27d8464cf75c1e7602cbc7290920c02aa1aef7ca352"
+    },
+    {
+      "case": "case_003",
+      "compute_ops": 13455,
+      "components": 10,
+      "shared_operand_bytes": 2764300,
+      "shared_graph_input_bytes": 559238,
+      "shared_operand_to_l2_ratio": 2.636241912841797,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 43008,
+      "graph_sha256": "2c80acfd37edcf811ce76b7e7b1f7194c706bd4d4aa6449e6a19e9eac1028ced"
+    },
+    {
+      "case": "case_004",
+      "compute_ops": 777,
+      "components": 111,
+      "shared_operand_bytes": 1133568,
+      "shared_graph_input_bytes": 451584,
+      "shared_operand_to_l2_ratio": 1.0810546875,
+      "max_tensor_bytes": 36864,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 46080,
+      "graph_sha256": "3e01adde3c4ad143ab3d7faabcf36d849f26b5428e7c8446a7e9f89345a55faa"
+    },
+    {
+      "case": "case_005",
+      "compute_ops": 4113,
+      "components": 1,
+      "shared_operand_bytes": 1230054,
+      "shared_graph_input_bytes": 235878,
+      "shared_operand_to_l2_ratio": 1.1730709075927734,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 9216,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "c2b378c882a3039e3d66bac6cbcba39317107339b6f38d5bce1b09379839799f"
+    },
+    {
+      "case": "case_006",
+      "compute_ops": 678,
+      "components": 27,
+      "shared_operand_bytes": 477734,
+      "shared_graph_input_bytes": 423948,
+      "shared_operand_to_l2_ratio": 0.45560264587402344,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "c68392cd599b63039669ca54360ab21b514c41285151cd69180ee9be99af1a48"
+    },
+    {
+      "case": "case_007",
+      "compute_ops": 3885,
+      "components": 555,
+      "shared_operand_bytes": 2585088,
+      "shared_graph_input_bytes": 880128,
+      "shared_operand_to_l2_ratio": 2.46533203125,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "6e786044ca1fa5d4632f8b7d03e95364da8d88f4fff5e403d3ab8153da84b518"
+    },
+    {
+      "case": "case_008",
+      "compute_ops": 864,
+      "components": 108,
+      "shared_operand_bytes": 3981312,
+      "shared_graph_input_bytes": 0,
+      "shared_operand_to_l2_ratio": 3.796875,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 37056,
+      "max_op_L1_bytes": 30720,
+      "graph_sha256": "c93bb7ab5deec5112aff0cc001fbd76d001d3de5ea7463fba59b1f1ff2ba3e1d"
+    },
+    {
+      "case": "case_009",
+      "compute_ops": 5671,
+      "components": 25,
+      "shared_operand_bytes": 790644,
+      "shared_graph_input_bytes": 292928,
+      "shared_operand_to_l2_ratio": 0.7540168762207031,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 15872,
+      "graph_sha256": "06b73d07c450878db8f6dace8ed08e362b45f5dd6e06fb80b098f165190f222a"
+    },
+    {
+      "case": "case_010",
+      "compute_ops": 667,
+      "components": 36,
+      "shared_operand_bytes": 493314,
+      "shared_graph_input_bytes": 314688,
+      "shared_operand_to_l2_ratio": 0.4704608917236328,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "fd0b07588473d8b2ce05fab4798808cbc7f60cf1638e05608adc3d62061b8775"
+    },
+    {
+      "case": "case_011",
+      "compute_ops": 688,
+      "components": 16,
+      "shared_operand_bytes": 540672,
+      "shared_graph_input_bytes": 540672,
+      "shared_operand_to_l2_ratio": 0.515625,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "2da7df4ccc8a4eb86347f0a567aacac628e7d30ab943cd99996f2c74620d80b9"
+    },
+    {
+      "case": "case_012",
+      "compute_ops": 972,
+      "components": 50,
+      "shared_operand_bytes": 329474,
+      "shared_graph_input_bytes": 314582,
+      "shared_operand_to_l2_ratio": 0.3142108917236328,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 18432,
+      "max_op_L1_bytes": 19008,
+      "graph_sha256": "1a07d3a4c6d1305bec2fbdc4d106fb5c0078ec098cbf09e1b8eaa5134968e079"
+    },
+    {
+      "case": "case_013",
+      "compute_ops": 1968,
+      "components": 246,
+      "shared_operand_bytes": 8192,
+      "shared_graph_input_bytes": 8192,
+      "shared_operand_to_l2_ratio": 0.0078125,
+      "max_tensor_bytes": 2048,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 6144,
+      "graph_sha256": "b95d97cf90bdd0fe64a0fd1ecd5a36a7b091ecadef204ef8c6ae430f6ccfac3c"
+    },
+    {
+      "case": "case_014",
+      "compute_ops": 35705,
+      "components": 1340,
+      "shared_operand_bytes": 10070616,
+      "shared_graph_input_bytes": 9893208,
+      "shared_operand_to_l2_ratio": 9.604087829589844,
+      "max_tensor_bytes": 165888,
+      "max_op_UB_bytes": 130,
+      "max_op_L1_bytes": 166272,
+      "graph_sha256": "e27abb053ac57786e510ba80e60a6ec60a8b0df11b2a818010a1df17c29d94dd"
+    },
+    {
+      "case": "case_015",
+      "compute_ops": 1013,
+      "components": 46,
+      "shared_operand_bytes": 885376,
+      "shared_graph_input_bytes": 733652,
+      "shared_operand_to_l2_ratio": 0.8443603515625,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 48128,
+      "graph_sha256": "d27dfc39289fa442f29f597191ab6b05142ce6ad68b4396056b2adccb9c93253"
+    },
+    {
+      "case": "case_016",
+      "compute_ops": 17995,
+      "components": 1,
+      "shared_operand_bytes": 393824,
+      "shared_graph_input_bytes": 393216,
+      "shared_operand_to_l2_ratio": 0.375579833984375,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 65536,
+      "max_op_L1_bytes": 32768,
+      "graph_sha256": "76537aa7163cf0748adcff2ecbd84fbc9a02a2d129ffcecd2bfebb89685e71ef"
+    },
+    {
+      "case": "case_017",
+      "compute_ops": 1373,
+      "components": 60,
+      "shared_operand_bytes": 617038,
+      "shared_graph_input_bytes": 468506,
+      "shared_operand_to_l2_ratio": 0.5884532928466797,
+      "max_tensor_bytes": 24576,
+      "max_op_UB_bytes": 18432,
+      "max_op_L1_bytes": 36864,
+      "graph_sha256": "282c5840d8e8581fb7827a6d4c996f90384bdfe566ffa665574721568b9dc85c"
+    },
+    {
+      "case": "case_018",
+      "compute_ops": 2727,
+      "components": 126,
+      "shared_operand_bytes": 1676288,
+      "shared_graph_input_bytes": 1350656,
+      "shared_operand_to_l2_ratio": 1.5986328125,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "70cf2a124573fe0ccad84b16d902efe7e28938761db791d2f4321ab2e98f0c0a"
+    },
+    {
+      "case": "case_019",
+      "compute_ops": 647,
+      "components": 31,
+      "shared_operand_bytes": 398880,
+      "shared_graph_input_bytes": 103968,
+      "shared_operand_to_l2_ratio": 0.380401611328125,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 16512,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "199ccf5f40c65b63ef88efcf05a0ccbf6b9368963d7a62cabd240d7b98847429"
+    },
+    {
+      "case": "case_020",
+      "compute_ops": 7008,
+      "components": 288,
+      "shared_operand_bytes": 6684672,
+      "shared_graph_input_bytes": 1179648,
+      "shared_operand_to_l2_ratio": 6.375,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 0,
+      "graph_sha256": "932287c2c204e475df824a3914b7b179226625caf37ae288bac90716ffe16ec4"
+    },
+    {
+      "case": "case_021",
+      "compute_ops": 3920,
+      "components": 80,
+      "shared_operand_bytes": 2355200,
+      "shared_graph_input_bytes": 2355200,
+      "shared_operand_to_l2_ratio": 2.24609375,
+      "max_tensor_bytes": 12288,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 36864,
+      "graph_sha256": "d1b1b8a543eab9b359421f0d67baaee43f2890b2562bf2bfa1dfeb5fa5f87b37"
+    },
+    {
+      "case": "case_022",
+      "compute_ops": 1356,
+      "components": 32,
+      "shared_operand_bytes": 422966,
+      "shared_graph_input_bytes": 184846,
+      "shared_operand_to_l2_ratio": 0.40337181091308594,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 6144,
+      "graph_sha256": "b93af0605cda612b707a91a1e9fc76348b527284a03e779b65cbe55813e331e7"
+    },
+    {
+      "case": "case_023",
+      "compute_ops": 1011,
+      "components": 43,
+      "shared_operand_bytes": 736690,
+      "shared_graph_input_bytes": 249766,
+      "shared_operand_to_l2_ratio": 0.7025623321533203,
+      "max_tensor_bytes": 24576,
+      "max_op_UB_bytes": 16512,
+      "max_op_L1_bytes": 30720,
+      "graph_sha256": "73e1a5d3abe5f7b36fb7a386d586e8ed492f7fae5e7a736c475b629ab6e12739"
+    },
+    {
+      "case": "case_024",
+      "compute_ops": 5959,
+      "components": 1,
+      "shared_operand_bytes": 393416,
+      "shared_graph_input_bytes": 393216,
+      "shared_operand_to_l2_ratio": 0.37519073486328125,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 65536,
+      "max_op_L1_bytes": 32768,
+      "graph_sha256": "f974fbf1a23b4a145b5f8c9c691eb1b247f93d8785d98bb46a9cdd8626399aec"
+    },
+    {
+      "case": "case_025",
+      "compute_ops": 18662,
+      "components": 2666,
+      "shared_operand_bytes": 12312576,
+      "shared_graph_input_bytes": 4122624,
+      "shared_operand_to_l2_ratio": 11.7421875,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "f27ba0f332109eb62541879ddbc9c9d283531c191afdd7299a365134af3e0deb"
+    },
+    {
+      "case": "case_026",
+      "compute_ops": 636,
+      "components": 31,
+      "shared_operand_bytes": 665016,
+      "shared_graph_input_bytes": 396720,
+      "shared_operand_to_l2_ratio": 0.6342086791992188,
+      "max_tensor_bytes": 24576,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 32768,
+      "graph_sha256": "0ed6209c59170dc0da94703702b17402cee14c1a61624e666ed8938637b6765b"
+    },
+    {
+      "case": "case_027",
+      "compute_ops": 1424,
+      "components": 16,
+      "shared_operand_bytes": 1843200,
+      "shared_graph_input_bytes": 1843200,
+      "shared_operand_to_l2_ratio": 1.7578125,
+      "max_tensor_bytes": 12288,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 36864,
+      "graph_sha256": "74ff3486f7a3fd5561250ac336ed57e02a998f4f34d3be742e9f3dceb98d402b"
+    },
+    {
+      "case": "case_028",
+      "compute_ops": 19584,
+      "components": 153,
+      "shared_operand_bytes": 20244096,
+      "shared_graph_input_bytes": 2148480,
+      "shared_operand_to_l2_ratio": 19.3062744140625,
+      "max_tensor_bytes": 165888,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 167424,
+      "graph_sha256": "89fe60e6529c5c02cf6ffd700254e003b1f51ceafc252140ef64add47ad2e212"
+    },
+    {
+      "case": "case_029",
+      "compute_ops": 861,
+      "components": 21,
+      "shared_operand_bytes": 258174,
+      "shared_graph_input_bytes": 258090,
+      "shared_operand_to_l2_ratio": 0.2462139129638672,
+      "max_tensor_bytes": 2048,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 0,
+      "graph_sha256": "997bcbaa3acdff628346af91df1c6ce0127372b10c71890967ec9dd685b7187b"
+    },
+    {
+      "case": "case_030",
+      "compute_ops": 10070,
+      "components": 486,
+      "shared_operand_bytes": 1950720,
+      "shared_graph_input_bytes": 1950720,
+      "shared_operand_to_l2_ratio": 1.8603515625,
+      "max_tensor_bytes": 6144,
+      "max_op_UB_bytes": 130,
+      "max_op_L1_bytes": 18432,
+      "graph_sha256": "ad80a952c48ff4d7c339349167fa9054e515009787692608863240a3546c0f90"
+    },
+    {
+      "case": "case_031",
+      "compute_ops": 6135,
+      "components": 107,
+      "shared_operand_bytes": 2878502,
+      "shared_graph_input_bytes": 2054758,
+      "shared_operand_to_l2_ratio": 2.7451534271240234,
+      "max_tensor_bytes": 13824,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 23040,
+      "graph_sha256": "a8d03d16b7eff2c3c84186b32994279143fd1628937e4e9bdf753f869a333f82"
+    },
+    {
+      "case": "case_032",
+      "compute_ops": 827,
+      "components": 25,
+      "shared_operand_bytes": 177788,
+      "shared_graph_input_bytes": 171608,
+      "shared_operand_to_l2_ratio": 0.16955184936523438,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 9216,
+      "max_op_L1_bytes": 9288,
+      "graph_sha256": "7b325807b10636edbb8ada6fe9086e639ece5d42d4aad151b0fc7cd8f6277385"
+    },
+    {
+      "case": "case_033",
+      "compute_ops": 3465,
+      "components": 95,
+      "shared_operand_bytes": 2477112,
+      "shared_graph_input_bytes": 2299944,
+      "shared_operand_to_l2_ratio": 2.3623580932617188,
+      "max_tensor_bytes": 13824,
+      "max_op_UB_bytes": 27648,
+      "max_op_L1_bytes": 30240,
+      "graph_sha256": "e14316f8ccbe3bf16bcee2bad80efc3a527cdc2488d9e3f616518b6e3aa9657b"
+    },
+    {
+      "case": "case_034",
+      "compute_ops": 3745,
+      "components": 155,
+      "shared_operand_bytes": 1906230,
+      "shared_graph_input_bytes": 1773074,
+      "shared_operand_to_l2_ratio": 1.817922592163086,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 18432,
+      "graph_sha256": "c4128788442a023c2224d582f7114181ca9e9439a5978deaec6a1c52c0d729d6"
+    },
+    {
+      "case": "case_035",
+      "compute_ops": 3857,
+      "components": 16,
+      "shared_operand_bytes": 979822,
+      "shared_graph_input_bytes": 286266,
+      "shared_operand_to_l2_ratio": 0.9344310760498047,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "ab4d5e39b4d3ad430a992d6d87d7510a869b6cb03a5d9a7ba124b039ba4486e2"
+    },
+    {
+      "case": "case_036",
+      "compute_ops": 2400,
+      "components": 800,
+      "shared_operand_bytes": 3277952,
+      "shared_graph_input_bytes": 3277952,
+      "shared_operand_to_l2_ratio": 3.1260986328125,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 9344,
+      "graph_sha256": "3924c8904db3f85eb38d4e4b345e55f689c9d908f329dbb8caf16a3774759d21"
+    },
+    {
+      "case": "case_037",
+      "compute_ops": 780,
+      "components": 20,
+      "shared_operand_bytes": 532480,
+      "shared_graph_input_bytes": 532480,
+      "shared_operand_to_l2_ratio": 0.5078125,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "c5ce3776f9b28b17c7e1d23c9a47395ddfaeecf2533228ab0a5cf444e3f112e3"
+    },
+    {
+      "case": "case_038",
+      "compute_ops": 5907,
+      "components": 130,
+      "shared_operand_bytes": 2996224,
+      "shared_graph_input_bytes": 2752512,
+      "shared_operand_to_l2_ratio": 2.857421875,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 40448,
+      "graph_sha256": "69575019d0670552c74f386508042357a94419ed2f49d18a382a71a8cf39e5ac"
+    },
+    {
+      "case": "case_039",
+      "compute_ops": 5250,
+      "components": 70,
+      "shared_operand_bytes": 4202496,
+      "shared_graph_input_bytes": 4202496,
+      "shared_operand_to_l2_ratio": 4.0078125,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "8e999d9db7fe3b1060baef4bff52304267c4034700290fe0a7520f777cbc78ed"
+    },
+    {
+      "case": "case_040",
+      "compute_ops": 3083,
+      "components": 28,
+      "shared_operand_bytes": 1188396,
+      "shared_graph_input_bytes": 399174,
+      "shared_operand_to_l2_ratio": 1.1333427429199219,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 16896,
+      "graph_sha256": "7d595de282221534f949ab7ffae0ff026d5c7652b9110c18c0031aa78400cc57"
+    },
+    {
+      "case": "case_041",
+      "compute_ops": 16594,
+      "components": 494,
+      "shared_operand_bytes": 4932624,
+      "shared_graph_input_bytes": 4932608,
+      "shared_operand_to_l2_ratio": 4.7041168212890625,
+      "max_tensor_bytes": 6144,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 13312,
+      "graph_sha256": "97d875b7e79ef0257342689d0c348f86ab591d74dfa9a9c28a72f47abb531491"
+    },
+    {
+      "case": "case_042",
+      "compute_ops": 4733,
+      "components": 104,
+      "shared_operand_bytes": 2379560,
+      "shared_graph_input_bytes": 2283296,
+      "shared_operand_to_l2_ratio": 2.2693252563476562,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 24192,
+      "graph_sha256": "c098a559bbb2f888a39d47b81fee2e93ae04365d4ce377982758cd3373ac33c5"
+    },
+    {
+      "case": "case_043",
+      "compute_ops": 9309,
+      "components": 38,
+      "shared_operand_bytes": 3893920,
+      "shared_graph_input_bytes": 1255880,
+      "shared_operand_to_l2_ratio": 3.713531494140625,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "23270b8e711405157c6b29fd36a4a182bdccf090b2beb69f63d9580aa22e780c"
+    },
+    {
+      "case": "case_044",
+      "compute_ops": 1364,
+      "components": 11,
+      "shared_operand_bytes": 1147232,
+      "shared_graph_input_bytes": 930400,
+      "shared_operand_to_l2_ratio": 1.094085693359375,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 73984,
+      "graph_sha256": "9abd4468a4be365e384de47431ac914ee44fd6e7b6221dffc584561f388cd57e"
+    },
+    {
+      "case": "case_045",
+      "compute_ops": 1651,
+      "components": 68,
+      "shared_operand_bytes": 1576960,
+      "shared_graph_input_bytes": 278528,
+      "shared_operand_to_l2_ratio": 1.50390625,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 0,
+      "graph_sha256": "64dff8e23ba176573a054ef2dc00a23a3487484bad65cb719acc4f087d611793"
+    },
+    {
+      "case": "case_046",
+      "compute_ops": 992,
+      "components": 8,
+      "shared_operand_bytes": 1561184,
+      "shared_graph_input_bytes": 930400,
+      "shared_operand_to_l2_ratio": 1.488861083984375,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 74752,
+      "graph_sha256": "1917fbb2bfe1141fd8dc4bdac6119dd44014df9a13eb18faa3e55f25bcc91659"
+    },
+    {
+      "case": "case_047",
+      "compute_ops": 13710,
+      "components": 1,
+      "shared_operand_bytes": 1730310,
+      "shared_graph_input_bytes": 170566,
+      "shared_operand_to_l2_ratio": 1.6501522064208984,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 4096,
+      "max_op_L1_bytes": 6144,
+      "graph_sha256": "7c6328650b8e50e4d15a0ddf1ad0715a40d64d51f3c86c2c3b9c22e4cbb6a83f"
+    },
+    {
+      "case": "case_048",
+      "compute_ops": 1728,
+      "components": 1,
+      "shared_operand_bytes": 756214,
+      "shared_graph_input_bytes": 152134,
+      "shared_operand_to_l2_ratio": 0.7211818695068359,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 8192,
+      "graph_sha256": "9932aaca8ab23d020c5f5102fa3d436dd3cdf3ca8d1ee458d4c235c556c11764"
+    },
+    {
+      "case": "case_049",
+      "compute_ops": 4303,
+      "components": 11,
+      "shared_operand_bytes": 1411116,
+      "shared_graph_input_bytes": 40102,
+      "shared_operand_to_l2_ratio": 1.3457450866699219,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 16512,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "444854fe118a208ddfa10fa0ddd48d7b5e6cfd3780a8049f2145fc1a9b674a08"
+    },
+    {
+      "case": "case_050",
+      "compute_ops": 4555,
+      "components": 23,
+      "shared_operand_bytes": 1064638,
+      "shared_graph_input_bytes": 229806,
+      "shared_operand_to_l2_ratio": 1.0153179168701172,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 5120,
+      "graph_sha256": "3b6b1abd65fbfbb2a40972bdbd643c43107c4b232512741740ff351c366367aa"
+    },
+    {
+      "case": "case_051",
+      "compute_ops": 1416,
+      "components": 1,
+      "shared_operand_bytes": 393262,
+      "shared_graph_input_bytes": 393216,
+      "shared_operand_to_l2_ratio": 0.3750438690185547,
+      "max_tensor_bytes": 32768,
+      "max_op_UB_bytes": 65536,
+      "max_op_L1_bytes": 32768,
+      "graph_sha256": "884e8b12ac1f7a9b569958909680e8c2f6055966a59c9f929ffd5cee48aae43b"
+    },
+    {
+      "case": "case_052",
+      "compute_ops": 1008,
+      "components": 52,
+      "shared_operand_bytes": 497200,
+      "shared_graph_input_bytes": 289296,
+      "shared_operand_to_l2_ratio": 0.4741668701171875,
+      "max_tensor_bytes": 13824,
+      "max_op_UB_bytes": 13824,
+      "max_op_L1_bytes": 23040,
+      "graph_sha256": "6196e8c72258ff26d0ab4dcee50c4f5b39f78142729a2223cfcbd4a9181ab7d0"
+    },
+    {
+      "case": "case_053",
+      "compute_ops": 11670,
+      "components": 39,
+      "shared_operand_bytes": 5006518,
+      "shared_graph_input_bytes": 1897750,
+      "shared_operand_to_l2_ratio": 4.774587631225586,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 18432,
+      "max_op_L1_bytes": 74752,
+      "graph_sha256": "f3593af4c9aa960385c5fdfaf8ad98c396f05746d9e1fe6cc731adeae7019dbc"
+    },
+    {
+      "case": "case_054",
+      "compute_ops": 15751,
+      "components": 24,
+      "shared_operand_bytes": 3471718,
+      "shared_graph_input_bytes": 291398,
+      "shared_operand_to_l2_ratio": 3.3108882904052734,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "4c874b67351e0a6d336af3117c1289099c54993581f90de11e8f49fb33bb9828"
+    },
+    {
+      "case": "case_055",
+      "compute_ops": 1236,
+      "components": 24,
+      "shared_operand_bytes": 453688,
+      "shared_graph_input_bytes": 430606,
+      "shared_operand_to_l2_ratio": 0.43267059326171875,
+      "max_tensor_bytes": 13824,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "1121ee10f030be119d0930fe518d63aedd8cf65167627c7f66f1a7ffffd9d134"
+    },
+    {
+      "case": "case_056",
+      "compute_ops": 7678,
+      "components": 19,
+      "shared_operand_bytes": 2032818,
+      "shared_graph_input_bytes": 122410,
+      "shared_operand_to_l2_ratio": 1.9386463165283203,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 4224,
+      "graph_sha256": "fda213426382a3810afd172eadc10b9221330b906888537cb13b16369be3369d"
+    },
+    {
+      "case": "case_057",
+      "compute_ops": 865,
+      "components": 21,
+      "shared_operand_bytes": 334556,
+      "shared_graph_input_bytes": 323252,
+      "shared_operand_to_l2_ratio": 0.3190574645996094,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 6528,
+      "graph_sha256": "89778038db7db919a13c5885aa555c8ae054a3f43845c73fe346b6123d12a525"
+    },
+    {
+      "case": "case_058",
+      "compute_ops": 16575,
+      "components": 255,
+      "shared_operand_bytes": 6623232,
+      "shared_graph_input_bytes": 6623232,
+      "shared_operand_to_l2_ratio": 6.31640625,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "95027788c05772259091802889106c7104efdecdaaabd002ed11a87f8f2f209d"
+    },
+    {
+      "case": "case_059",
+      "compute_ops": 2752,
+      "components": 64,
+      "shared_operand_bytes": 1081344,
+      "shared_graph_input_bytes": 1081344,
+      "shared_operand_to_l2_ratio": 1.03125,
+      "max_tensor_bytes": 4096,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "50b062952359dc9aa22880856093e8ec7a69c66d358607de49fd5f559ac232e9"
+    },
+    {
+      "case": "case_060",
+      "compute_ops": 5281,
+      "components": 89,
+      "shared_operand_bytes": 2664130,
+      "shared_graph_input_bytes": 2018836,
+      "shared_operand_to_l2_ratio": 2.540712356567383,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "29889cfaea8c831c2620d19191abf871694e61d4850ced26a9710847096c1e96"
+    },
+    {
+      "case": "case_061",
+      "compute_ops": 1115,
+      "components": 40,
+      "shared_operand_bytes": 212022,
+      "shared_graph_input_bytes": 210450,
+      "shared_operand_to_l2_ratio": 0.20219993591308594,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 12288,
+      "graph_sha256": "5da175170152a6beab3dcbda84a0910f72b079091c2ad1fdd489aaf5e31fcaf3"
+    },
+    {
+      "case": "case_062",
+      "compute_ops": 19636,
+      "components": 1,
+      "shared_operand_bytes": 10050048,
+      "shared_graph_input_bytes": 10050048,
+      "shared_operand_to_l2_ratio": 9.58447265625,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 4608,
+      "max_op_L1_bytes": 7680,
+      "graph_sha256": "fa99943eab55b174047687337a4bcd81c3967e052e22eaabf3fb7740914df2b4"
+    },
+    {
+      "case": "case_063",
+      "compute_ops": 7360,
+      "components": 1,
+      "shared_operand_bytes": 3764736,
+      "shared_graph_input_bytes": 3764736,
+      "shared_operand_to_l2_ratio": 3.59033203125,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 4608,
+      "max_op_L1_bytes": 7680,
+      "graph_sha256": "511c05c1ec9c19bb3cc108e173a46e7952b92fca9b1ac21728c43713056d429d"
+    },
+    {
+      "case": "case_064",
+      "compute_ops": 906,
+      "components": 1,
+      "shared_operand_bytes": 105734,
+      "shared_graph_input_bytes": 14118,
+      "shared_operand_to_l2_ratio": 0.10083580017089844,
+      "max_tensor_bytes": 1024,
+      "max_op_UB_bytes": 2048,
+      "max_op_L1_bytes": 2048,
+      "graph_sha256": "871f65b73fc1da6a48501998fbfde6684fc78e5dd022ddc68085d1384d2e2280"
+    },
+    {
+      "case": "case_065",
+      "compute_ops": 704,
+      "components": 42,
+      "shared_operand_bytes": 208052,
+      "shared_graph_input_bytes": 133788,
+      "shared_operand_to_l2_ratio": 0.19841384887695312,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "23342b7c3e75f58cec3d0bdaff89bf8d6f18de4930d35ec2ceade91670f0a400"
+    },
+    {
+      "case": "case_066",
+      "compute_ops": 5962,
+      "components": 28,
+      "shared_operand_bytes": 2131836,
+      "shared_graph_input_bytes": 785196,
+      "shared_operand_to_l2_ratio": 2.0330772399902344,
+      "max_tensor_bytes": 36864,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 49152,
+      "graph_sha256": "30e61f8760d7d595b0fc4ad76262b179c72509a0cb5b2be72333ebd9b926b465"
+    },
+    {
+      "case": "case_067",
+      "compute_ops": 8804,
+      "components": 71,
+      "shared_operand_bytes": 14918016,
+      "shared_graph_input_bytes": 3721600,
+      "shared_operand_to_l2_ratio": 14.2269287109375,
+      "max_tensor_bytes": 294912,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 296960,
+      "graph_sha256": "f49b5087689e18c6bf231843f8f3bbaca238a547ea5309b2492c76d5f170b542"
+    },
+    {
+      "case": "case_068",
+      "compute_ops": 5351,
+      "components": 32,
+      "shared_operand_bytes": 2154506,
+      "shared_graph_input_bytes": 1087714,
+      "shared_operand_to_l2_ratio": 2.054697036743164,
+      "max_tensor_bytes": 36864,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 43008,
+      "graph_sha256": "dfd9a58ef9d26a8a4567026b50af8b4499d87eebb3d98f8208b909b11e963c6d"
+    },
+    {
+      "case": "case_069",
+      "compute_ops": 1032,
+      "components": 1,
+      "shared_operand_bytes": 332006,
+      "shared_graph_input_bytes": 86118,
+      "shared_operand_to_l2_ratio": 0.31662559509277344,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 9216,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "9632392d98cfc04291ba0546accf1f4c3ede8ff71befd3cd0ae67caf27659e52"
+    },
+    {
+      "case": "case_070",
+      "compute_ops": 1191,
+      "components": 38,
+      "shared_operand_bytes": 360472,
+      "shared_graph_input_bytes": 242182,
+      "shared_operand_to_l2_ratio": 0.34377288818359375,
+      "max_tensor_bytes": 24576,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 32768,
+      "graph_sha256": "b645c07133b0d98a63ab192cdfe8b35bdc089ad49eb5a8f1e476196344b97aa0"
+    },
+    {
+      "case": "case_071",
+      "compute_ops": 741,
+      "components": 1,
+      "shared_operand_bytes": 263334,
+      "shared_graph_input_bytes": 83814,
+      "shared_operand_to_l2_ratio": 0.25113487243652344,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 9216,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "437cc74cae9e0fc0cb89b05403c62062ceff8d5bc2224c8834c519e69524e897"
+    },
+    {
+      "case": "case_072",
+      "compute_ops": 29666,
+      "components": 476,
+      "shared_operand_bytes": 12116270,
+      "shared_graph_input_bytes": 11049230,
+      "shared_operand_to_l2_ratio": 11.554975509643555,
+      "max_tensor_bytes": 165888,
+      "max_op_UB_bytes": 4608,
+      "max_op_L1_bytes": 166272,
+      "graph_sha256": "09ecc7be74ccdd06b00843fa6cd0696fb76ed623ca2ea3c9f36590450bc2749f"
+    },
+    {
+      "case": "case_073",
+      "compute_ops": 4836,
+      "components": 39,
+      "shared_operand_bytes": 5259136,
+      "shared_graph_input_bytes": 3721600,
+      "shared_operand_to_l2_ratio": 5.0155029296875,
+      "max_tensor_bytes": 294912,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 295424,
+      "graph_sha256": "aabaff04d990bac77150639be7f410acc46db644d19fd046367dc70725aea7f9"
+    },
+    {
+      "case": "case_074",
+      "compute_ops": 3609,
+      "components": 73,
+      "shared_operand_bytes": 2719786,
+      "shared_graph_input_bytes": 2719756,
+      "shared_operand_to_l2_ratio": 2.593790054321289,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 24576,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "a8a94915cbac32e098d7c54cfc73af8ea2050eb51199b949a92cfe18ae62162e"
+    },
+    {
+      "case": "case_075",
+      "compute_ops": 7410,
+      "components": 1,
+      "shared_operand_bytes": 3913414,
+      "shared_graph_input_bytes": 672902,
+      "shared_operand_to_l2_ratio": 3.7321224212646484,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "5c24beddea6d09e1df3c8f8843d3593b90affb117ba38450fa9bea8a8db3351c"
+    },
+    {
+      "case": "case_076",
+      "compute_ops": 32528,
+      "components": 809,
+      "shared_operand_bytes": 4142080,
+      "shared_graph_input_bytes": 4097024,
+      "shared_operand_to_l2_ratio": 3.9501953125,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 22528,
+      "graph_sha256": "543a082b17fe8de0dbab92b19f27335e4c8d1db389f75251378f1f4704368307"
+    },
+    {
+      "case": "case_077",
+      "compute_ops": 4486,
+      "components": 41,
+      "shared_operand_bytes": 1318172,
+      "shared_graph_input_bytes": 430412,
+      "shared_operand_to_l2_ratio": 1.2571067810058594,
+      "max_tensor_bytes": 20736,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 25344,
+      "graph_sha256": "b14c3c29f9427de1db1d12c6ebf5d15914a99299298d20a908d97285947e67b6"
+    },
+    {
+      "case": "case_078",
+      "compute_ops": 1024,
+      "components": 8,
+      "shared_operand_bytes": 3094656,
+      "shared_graph_input_bytes": 2148480,
+      "shared_operand_to_l2_ratio": 2.9512939453125,
+      "max_tensor_bytes": 165888,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 167424,
+      "graph_sha256": "d30ea13a65ed4d85fd62753d3e300a04c17fdbe592b6ca19c52a3a744e4affdd"
+    },
+    {
+      "case": "case_079",
+      "compute_ops": 18720,
+      "components": 288,
+      "shared_operand_bytes": 5812224,
+      "shared_graph_input_bytes": 5812224,
+      "shared_operand_to_l2_ratio": 5.54296875,
+      "max_tensor_bytes": 12288,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 36864,
+      "graph_sha256": "ee341b011b5ff7f1c975fd6ba8f876217612ecd8d9e4e2127e617cecac1edad5"
+    },
+    {
+      "case": "case_080",
+      "compute_ops": 1098,
+      "components": 18,
+      "shared_operand_bytes": 1904640,
+      "shared_graph_input_bytes": 1904640,
+      "shared_operand_to_l2_ratio": 1.81640625,
+      "max_tensor_bytes": 8192,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "20b2fa1e14bf879ac7c5b0321f69731c8a8102bb65bbd96d7543f54f4974f98c"
+    },
+    {
+      "case": "case_081",
+      "compute_ops": 3485,
+      "components": 85,
+      "shared_operand_bytes": 1044990,
+      "shared_graph_input_bytes": 1044650,
+      "shared_operand_to_l2_ratio": 0.9965801239013672,
+      "max_tensor_bytes": 2048,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 0,
+      "graph_sha256": "7c642799a54f8083f56c74d1e260ec010e3a83c37702770c862d722408c7a41e"
+    },
+    {
+      "case": "case_082",
+      "compute_ops": 4113,
+      "components": 1,
+      "shared_operand_bytes": 1945382,
+      "shared_graph_input_bytes": 222342,
+      "shared_operand_to_l2_ratio": 1.8552608489990234,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "f230fbc200ad75797f3024f84431d1d26f7747d6a284378ee83eabde77b7e70c"
+    },
+    {
+      "case": "case_083",
+      "compute_ops": 3844,
+      "components": 31,
+      "shared_operand_bytes": 3374688,
+      "shared_graph_input_bytes": 930400,
+      "shared_operand_to_l2_ratio": 3.218353271484375,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 74752,
+      "graph_sha256": "26bebaecfa0ed9c4bcf57127779a198c367a5576eb7b40b9c56cc343621c5549"
+    },
+    {
+      "case": "case_084",
+      "compute_ops": 8616,
+      "components": 1077,
+      "shared_operand_bytes": 9925632,
+      "shared_graph_input_bytes": 0,
+      "shared_operand_to_l2_ratio": 9.4658203125,
+      "max_tensor_bytes": 4608,
+      "max_op_UB_bytes": 9312,
+      "max_op_L1_bytes": 10752,
+      "graph_sha256": "1af22ac8dd69090ed25be62ae1bbb18a922ce99a8cffb2be4f89e7a1234794ee"
+    },
+    {
+      "case": "case_085",
+      "compute_ops": 19737,
+      "components": 1,
+      "shared_operand_bytes": 8748710,
+      "shared_graph_input_bytes": 623750,
+      "shared_operand_to_l2_ratio": 8.343420028686523,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 16384,
+      "max_op_L1_bytes": 24576,
+      "graph_sha256": "b63169e9cd0f21dc2da6617e7138472e95937465c703b7e4bf4dbc80125ed4f6"
+    },
+    {
+      "case": "case_086",
+      "compute_ops": 5274,
+      "components": 1,
+      "shared_operand_bytes": 1492518,
+      "shared_graph_input_bytes": 238182,
+      "shared_operand_to_l2_ratio": 1.4233760833740234,
+      "max_tensor_bytes": 9216,
+      "max_op_UB_bytes": 9216,
+      "max_op_L1_bytes": 13824,
+      "graph_sha256": "ef91fda2692fd0add63db3c7f677e4e03c8d115d97db3cb959cffc62fff2434a"
+    },
+    {
+      "case": "case_087",
+      "compute_ops": 27556,
+      "components": 196,
+      "shared_operand_bytes": 9415776,
+      "shared_graph_input_bytes": 4204508,
+      "shared_operand_to_l2_ratio": 8.979583740234375,
+      "max_tensor_bytes": 36864,
+      "max_op_UB_bytes": 18432,
+      "max_op_L1_bytes": 43008,
+      "graph_sha256": "a234839f266f63270c7d42c558eabd68085d415029ce73bfac9d3fc47d58de83"
+    },
+    {
+      "case": "case_088",
+      "compute_ops": 3309,
+      "components": 31,
+      "shared_operand_bytes": 1569606,
+      "shared_graph_input_bytes": 732998,
+      "shared_operand_to_l2_ratio": 1.4968929290771484,
+      "max_tensor_bytes": 36864,
+      "max_op_UB_bytes": 12288,
+      "max_op_L1_bytes": 43008,
+      "graph_sha256": "2ff71575ba33875431f54823fc1f2214e018edcfc9d568edfb7c47b0f264b825"
+    },
+    {
+      "case": "case_089",
+      "compute_ops": 5120,
+      "components": 40,
+      "shared_operand_bytes": 1815680,
+      "shared_graph_input_bytes": 238720,
+      "shared_operand_to_l2_ratio": 1.7315673828125,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 18944,
+      "graph_sha256": "9561e0638071147e99d937b802f61f8a67fe2b96985159c174b47a777fd6ce84"
+    },
+    {
+      "case": "case_090",
+      "compute_ops": 1664,
+      "components": 13,
+      "shared_operand_bytes": 2532864,
+      "shared_graph_input_bytes": 2148480,
+      "shared_operand_to_l2_ratio": 2.41552734375,
+      "max_tensor_bytes": 165888,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 166272,
+      "graph_sha256": "a91d3ad4c40e53d5731b81b3eb72bcf922f5ef06094e860b5c5729619cb2d312"
+    },
+    {
+      "case": "case_091",
+      "compute_ops": 31554,
+      "components": 513,
+      "shared_operand_bytes": 6880776,
+      "shared_graph_input_bytes": 6486528,
+      "shared_operand_to_l2_ratio": 6.562019348144531,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 4096,
+      "max_op_L1_bytes": 74752,
+      "graph_sha256": "6fa7e61f09003382ba36061d74d4be90ed3acbe750a3d46c3b6d1e1fc27579f3"
+    },
+    {
+      "case": "case_092",
+      "compute_ops": 17608,
+      "components": 142,
+      "shared_operand_bytes": 12126816,
+      "shared_graph_input_bytes": 930400,
+      "shared_operand_to_l2_ratio": 11.565032958984375,
+      "max_tensor_bytes": 73728,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 74752,
+      "graph_sha256": "ddb267b7178d1b240f76fb7ed508799fbc7621b45156064b2a229c5c0d90996d"
+    },
+    {
+      "case": "case_093",
+      "compute_ops": 552,
+      "components": 69,
+      "shared_operand_bytes": 8192,
+      "shared_graph_input_bytes": 8192,
+      "shared_operand_to_l2_ratio": 0.0078125,
+      "max_tensor_bytes": 2048,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 6144,
+      "graph_sha256": "3a68ca960cc21b10a94b0524f5c16d2ee4995f2e5a75e667d58099571a7cdc36"
+    },
+    {
+      "case": "case_094",
+      "compute_ops": 647,
+      "components": 40,
+      "shared_operand_bytes": 475424,
+      "shared_graph_input_bytes": 213280,
+      "shared_operand_to_l2_ratio": 0.453399658203125,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 18432,
+      "max_op_L1_bytes": 22272,
+      "graph_sha256": "06e7b0eb1eecb9a98b6691dfe5f8039c6f7b21ab0f3ea8e6a072ade002a68fec"
+    },
+    {
+      "case": "case_095",
+      "compute_ops": 3696,
+      "components": 462,
+      "shared_operand_bytes": 17031168,
+      "shared_graph_input_bytes": 0,
+      "shared_operand_to_l2_ratio": 16.2421875,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 37056,
+      "max_op_L1_bytes": 30720,
+      "graph_sha256": "99875b1d3025c71f87e04818e28c08915928813f495d080ae6436879f6cb540f"
+    },
+    {
+      "case": "case_096",
+      "compute_ops": 1198,
+      "components": 50,
+      "shared_operand_bytes": 343110,
+      "shared_graph_input_bytes": 177472,
+      "shared_operand_to_l2_ratio": 0.32721519470214844,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 8192,
+      "max_op_L1_bytes": 22272,
+      "graph_sha256": "c26df1f4c6e282279a2f86c24d13be04e5c0e8b24b36149899bf7e7a91cf579a"
+    },
+    {
+      "case": "case_097",
+      "compute_ops": 6592,
+      "components": 64,
+      "shared_operand_bytes": 4259840,
+      "shared_graph_input_bytes": 4259840,
+      "shared_operand_to_l2_ratio": 4.0625,
+      "max_tensor_bytes": 12288,
+      "max_op_UB_bytes": 0,
+      "max_op_L1_bytes": 36864,
+      "graph_sha256": "7dc5c8ebf92052dbdd1bf59794a8fcef74e3ab3c59d5f0b4e753bf38a741ffaf"
+    },
+    {
+      "case": "case_098",
+      "compute_ops": 1365,
+      "components": 27,
+      "shared_operand_bytes": 768056,
+      "shared_graph_input_bytes": 438286,
+      "shared_operand_to_l2_ratio": 0.7324752807617188,
+      "max_tensor_bytes": 16384,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 16384,
+      "graph_sha256": "8cc92ed83866234532487abacb106e0298a00cf309ef75fa12e413bfb17d58f8"
+    },
+    {
+      "case": "case_099",
+      "compute_ops": 6296,
+      "components": 202,
+      "shared_operand_bytes": 1969920,
+      "shared_graph_input_bytes": 1933056,
+      "shared_operand_to_l2_ratio": 1.878662109375,
+      "max_tensor_bytes": 24576,
+      "max_op_UB_bytes": 6144,
+      "max_op_L1_bytes": 28672,
+      "graph_sha256": "6a07bc2eba4657ec873f015cb53404696202df8fe912a94340cbdc674cbd7938"
+    },
+    {
+      "case": "case_100",
+      "compute_ops": 1394,
+      "components": 43,
+      "shared_operand_bytes": 684344,
+      "shared_graph_input_bytes": 419088,
+      "shared_operand_to_l2_ratio": 0.6526412963867188,
+      "max_tensor_bytes": 18432,
+      "max_op_UB_bytes": 32768,
+      "max_op_L1_bytes": 29952,
+      "graph_sha256": "bb78167d482a9e1663bb947945def049c2d66392c3897613ce5cb145d3a2eb19"
+    }
+  ],
+  "plans": [
+    {
+      "case": "case_051",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_051_k1_single\\plan.json",
+      "sha256": "41d8ed6224a1253cadbdfb978428f22336d2d1dca509642fc4f095cec50fd1e9"
+    },
+    {
+      "case": "case_051",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_051_n2.json",
+      "sha256": "1461cd8b2b33da6f755ea9923999c51f967b62259988be913f46fa9c6c20ac62"
+    },
+    {
+      "case": "case_051",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_051_n3.json",
+      "sha256": "0214f29b6277c869ec9d03554e7ac39eb54039166de2766658462c4cdfadf104"
+    },
+    {
+      "case": "case_051",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_051_n4.json",
+      "sha256": "e0380fd222e07ef3a18c3ffd0c99a85a05510c8e2ff4e247bc44e38f9ce41397"
+    },
+    {
+      "case": "case_051",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_051_n5.json",
+      "sha256": "ea5ccd085bfd82fd82cc8b547f5c8074da9138fe4fd8e6ba8a238f6d1f196f2b"
+    },
+    {
+      "case": "case_064",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_064_k1_single\\plan.json",
+      "sha256": "adce7c40503c647341a28a97680cfd1affeb326d4a7fc45a64d3b03b73d9fe2f"
+    },
+    {
+      "case": "case_064",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_064_n2.json",
+      "sha256": "14040e44a9ccc9d90c05a03d1be10473dd02cd10a00a3dbf5eb6106b48940b6e"
+    },
+    {
+      "case": "case_064",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_064_n3.json",
+      "sha256": "b7a7c303e6f857a0fad0a269cfb03ba172cae82ba8314ba3568410fa0767f1b4"
+    },
+    {
+      "case": "case_064",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_064_n4.json",
+      "sha256": "d2d6b57d09edde875c09fccfbc3abef05d69c89004a0cc671befb2e196595904"
+    },
+    {
+      "case": "case_064",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_064_n5.json",
+      "sha256": "e0dc5522924921659fb2e70e831a71e4aa019dc21d45393fe8137d949625edce"
+    },
+    {
+      "case": "case_002",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_002_k1_single\\plan.json",
+      "sha256": "3521d627379dba189351a9a7402c795b57c17a0ef2c9126a39112ac916eb25db"
+    },
+    {
+      "case": "case_002",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_002_n2.json",
+      "sha256": "443fe3fe392f80304a3fa9b8136a7131a1f9867614108f28f93b0a64f44b8a66"
+    },
+    {
+      "case": "case_002",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_002_n3.json",
+      "sha256": "926a1264a2dff0e472fc65a850443ce0cf4d47ca48bf5fc5ac6d919622e5655e"
+    },
+    {
+      "case": "case_002",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_002_n4.json",
+      "sha256": "334837fa2bfe274ed3cd972d508b831f78f0c5f3b416624193b1d3f95e48d382"
+    },
+    {
+      "case": "case_002",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_002_n5.json",
+      "sha256": "f3455736d84d71d53411b39434a27f62673ff7225f89636325e76f8ef56b6550"
+    },
+    {
+      "case": "case_024",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_024_k1_single\\plan.json",
+      "sha256": "1bf9f567818559f01fe03994ef6e8a6da9eb17ff07db78b963330d7c2b24b9b7"
+    },
+    {
+      "case": "case_024",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_024_n2.json",
+      "sha256": "daead9b90691e49256fc899004150f06cc472f17e5b72d7178d0b1e05ce9b2f3"
+    },
+    {
+      "case": "case_024",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_024_n3.json",
+      "sha256": "352c3aa567d4f8dfa1b942605d7399c5d97efc2664ad0268f273f20603cec9e2"
+    },
+    {
+      "case": "case_024",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_024_n4.json",
+      "sha256": "c7f7203a471655516d711c3e26bac12d8c8da11a1715e632589b4f03313da5ec"
+    },
+    {
+      "case": "case_024",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_024_n5.json",
+      "sha256": "85ce0165f9a509d51f6da9c4986bccb73a10b0011d1942c74d92fb35ad586123"
+    },
+    {
+      "case": "case_062",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_062_k1_single\\plan.json",
+      "sha256": "8331bcb51525c7fd7dfd98e5480c2814b48bad7054b8f14e406a74058b68956c"
+    },
+    {
+      "case": "case_062",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_062_n2.json",
+      "sha256": "09d41e8ccdc85a950c21dcf9cd63886ac26462e69d2ede28782d769319ed4b48"
+    },
+    {
+      "case": "case_062",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_062_n3.json",
+      "sha256": "caf5142c20dee6f2c1e6468e08d2feed06eadae0b6a6fa4d19d915642f8e49ae"
+    },
+    {
+      "case": "case_062",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_062_n4.json",
+      "sha256": "77fe2aa4d0cadb4b7927694bc86c4f2db8f25f6071d755f70119b1d453354810"
+    },
+    {
+      "case": "case_062",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_062_n5.json",
+      "sha256": "f223572f62297bc5495b3217a8459786b8091e37dce80559e117e32de1cb9037"
+    },
+    {
+      "case": "case_016",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_016_k1_single\\plan.json",
+      "sha256": "f34b374f2efb95febfd72c61422e123c8651a27e43ee99b5beb7e74b7e40c1c7"
+    },
+    {
+      "case": "case_016",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_016_n2.json",
+      "sha256": "0dc4a61eac43b1fa731cb7959e145fcea89eceaecd75b5ba5b5f14f7dae2e675"
+    },
+    {
+      "case": "case_016",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_016_n3.json",
+      "sha256": "4d2c0f044930f5823262ab70042c149477e6bc63d5d60552baeae15769e8a539"
+    },
+    {
+      "case": "case_016",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_016_n4.json",
+      "sha256": "52ea87dbb54b5fd82dc3f03122a3e52faa5a153934004b1d845b39944475dea7"
+    },
+    {
+      "case": "case_016",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_016_n5.json",
+      "sha256": "6bedd9a9db972018c5bb0f6e1efe1f758404c0bbd45427fcb3477e7cf622e4bd"
+    },
+    {
+      "case": "case_078",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_078_k1_single\\plan.json",
+      "sha256": "6dd0402ef5a9120c760f20ff81ce90c6317b6bf567b9aa3b5d6af0d7c4a4a622"
+    },
+    {
+      "case": "case_078",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_078_n2.json",
+      "sha256": "c3800b4ac02f156880346bf6d5f17fedc4b30b11b5b840a418564c8d62674cf9"
+    },
+    {
+      "case": "case_078",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_078_n3.json",
+      "sha256": "793faa586c477454e120434cd72c6dce2af81f2dcde2f6cce11ffa7f5e53bc58"
+    },
+    {
+      "case": "case_078",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_078_n4.json",
+      "sha256": "03a6eefb068f6db3c2e1b420729f48ae22afb4a9896ca599b5c8f63f939d6c85"
+    },
+    {
+      "case": "case_078",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_078_n5.json",
+      "sha256": "61e88f7b829e729c73ee67e4cd257c5da1f4419f3514c63e02d27bdb8f67db2e"
+    },
+    {
+      "case": "case_010",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_010_k1_single\\plan.json",
+      "sha256": "07e4dcfb1e8fe25591b9607bc4d30a3f6dcf4a11c3a2b7e9ed99936f292075ea"
+    },
+    {
+      "case": "case_010",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_010_n2.json",
+      "sha256": "29162e51e458eb7a5773d9ebd0dfa044ffa34eb7153d0d294605efffc289c295"
+    },
+    {
+      "case": "case_010",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_010_n3.json",
+      "sha256": "3b39affdf535c1b05d4b3635b16c9651123920bfc13b024c19c2fb3fd36de541"
+    },
+    {
+      "case": "case_010",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_010_n4.json",
+      "sha256": "a3e5526833f5358bc46b3225dfbddb29d0826b86587abb92a18d3ed5b771f0f4"
+    },
+    {
+      "case": "case_010",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_010_n5.json",
+      "sha256": "b0c6c4f87af66e939cc69160fc80da2b291f8eb9e54056d385332bd0242aec98"
+    },
+    {
+      "case": "case_039",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_039_k1_single\\plan.json",
+      "sha256": "516a6a5e41919154713ff07b3012da95750cdbf0b7a20a6fe4e7b20b033fcf62"
+    },
+    {
+      "case": "case_039",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_039_n2.json",
+      "sha256": "a82a6d2df36abf48a91866735786d9047fff0f7381cbd621b2dcfbc1ba15df26"
+    },
+    {
+      "case": "case_039",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_039_n3.json",
+      "sha256": "1090d51c9ee002216b1b6c3a30370dcea1e0c812d93bd91af662c09dddd321d9"
+    },
+    {
+      "case": "case_039",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_039_n4.json",
+      "sha256": "ea56476edf3ed17a6eda00d11cf5a46891715e70f831d49f24eb3f5f9cb376cd"
+    },
+    {
+      "case": "case_039",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_039_n5.json",
+      "sha256": "68217641921facd2ce350b8e0fc70b26d0b24a8c3bbb32645cdbc7988d59f5c3"
+    },
+    {
+      "case": "case_095",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_095_k1_single\\plan.json",
+      "sha256": "0db84fdccac922dd6616721d2b8abe9204b2ed07447798d2b6cfbf45cb3e8cf0"
+    },
+    {
+      "case": "case_095",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_095_n2.json",
+      "sha256": "26ba30f2e3a413697f82fd8d6eab081c2a0dbcb1e63b8042f7dfd7e97bf911bc"
+    },
+    {
+      "case": "case_095",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_095_n3.json",
+      "sha256": "47fbd5609d76f6d92e8d72d6bd170709c992385ee0e61235a7fc3e535724e77b"
+    },
+    {
+      "case": "case_095",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_095_n4.json",
+      "sha256": "f2d88f7dc3b01f010e9def35b09e4a9b558175e215fc2c66367e6b7625b8fc5d"
+    },
+    {
+      "case": "case_095",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_095_n5.json",
+      "sha256": "8dfdf3622ebeb9e39e5b5c1dac08bdd365c4a216c9bf336be1204dd992ceb3a0"
+    },
+    {
+      "case": "case_072",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_072_k1_single\\plan.json",
+      "sha256": "3930cf082148aa033069f6b6abb1f60a3bec5715b4d7d31505160dfffe9efb8b"
+    },
+    {
+      "case": "case_072",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_072_n2.json",
+      "sha256": "89fafc2c68789b2e90fa56fef0c42a798d49a0cf5918348de313276785dc5deb"
+    },
+    {
+      "case": "case_072",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_072_n3.json",
+      "sha256": "bf24a05237368b885241bd0e2fdd07939e590bce301a2a94e4eacc80703d8892"
+    },
+    {
+      "case": "case_072",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_072_n4.json",
+      "sha256": "0102ae33e2defd84e411b011ab227455039062d97f612c0ba98bf9d8be303ad7"
+    },
+    {
+      "case": "case_072",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_072_n5.json",
+      "sha256": "3e31494066aee683e662a5deddbb4dbef2c4559eec97391693a43f4d79f77ba9"
+    },
+    {
+      "case": "case_066",
+      "cores": 1,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\generated\\case_066_k1_single\\plan.json",
+      "sha256": "a1ae9ef1f6367f070222a8d441e72af6b7df52ce33782d5b0034288cc0c8f152"
+    },
+    {
+      "case": "case_066",
+      "cores": 2,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_066_n2.json",
+      "sha256": "272dc9e01ccd38fb63e9aa167412ea0360d9b8b9a8ae616e7f5120dc0fe22ccc"
+    },
+    {
+      "case": "case_066",
+      "cores": 3,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_066_n3.json",
+      "sha256": "b48ba532b99453191d197a383dc754c20857297b2865c69b94e68d62a51b63cf"
+    },
+    {
+      "case": "case_066",
+      "cores": 4,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_066_n4.json",
+      "sha256": "f0775da002ef71d02c027e044b61c528270e5fa673a2284b104fe146f7315c85"
+    },
+    {
+      "case": "case_066",
+      "cores": 5,
+      "path": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_problem2\\raw\\problem_2\\v011\\exp109_20260926_active_full\\plans\\case_066_n5.json",
+      "sha256": "57094a5bfe45d225ab1290d72d8f77fbc8c411291324076dd11dc1804ef4bf4a"
+    }
+  ],
+  "cores": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "groups": {
+    "A": "archived Q2 v011/single plan, no L2",
+    "B": "same plan, Cache"
+  },
+  "budget": {
+    "candidate_plans_per_configuration": 1,
+    "generation": "reuse archived plans, upstream cost not zero",
+    "evaluation_timeout_seconds": 180,
+    "execution": "sequential",
+    "automatic_retries": 0
+  },
+  "metrics": {
+    "primary": "no_l2_makespan/cache_makespan",
+    "aggregation": "arithmetic mean of per-case ratios by cores",
+    "hit_rate": "hit_bytes/(hit_bytes+miss_bytes); no L2 null"
+  },
+  "config_sha256": "dcd10de54b23f8366428fb24e828812b1da9549e6eae4a3c3f38604fe5ae77b9",
+  "source_hashes": {
+    "D:\\workspace\\HuaWei\\A题\\code\\contest_io.py": "d5936908e4c261c7003b78e783f30bd7d65cb38d6b53a269ea67f0103cac848e",
+    "D:\\workspace\\HuaWei\\A题\\code\\evaluation_validation.py": "103206b8c5c25e37de50cc3193de3989d7c1e01d4a11cc5f509dedd8f9be9a64",
+    "D:\\workspace\\HuaWei\\A题\\code\\multicore_cut_evaluate_problem_1.py": "2095f188a6c24ce3899f156bef21d50dcd87cbd9368488046b1e77e2bf91af3f",
+    "D:\\workspace\\HuaWei\\A题\\code\\multicore_cut_evaluate_problem_2.py": "0b39f84d5ec0a7fba9a4c92a598a9044b97ab79c71393824c1ba130ecfe6c464",
+    "D:\\workspace\\HuaWei\\A题\\code\\multicore_cut_evaluate_problem_3.py": "eab1504dead881f4b67c0f0498cbc2dbbd9039dc3c9d198c6af58773c127eeb0",
+    "D:\\workspace\\HuaWei\\A题\\code\\schedule_step1.py": "d8fe721ff3dbe036e34a20c00cce6430960860000a49eb467e63465f76b84034",
+    "D:\\workspace\\HuaWei\\A题\\code\\schedule_step2.py": "2836baac176f4e0bdd9eec59b8d9ce254e209e5f7a251e23837ab684312fa0c3",
+    "D:\\workspace\\HuaWei\\A题\\code\\schedule_step3.py": "50053db0436f1d166dd75436693ba3af49b5c339576beb6e7299477f6b69fc7a",
+    "D:\\workspace\\HuaWei\\A题\\code\\singlecore_evaluate.py": "446b753ee134ef1fec8e052356bb077a2602fbe95572ccd3dddd7928e894b77a",
+    "D:\\workspace\\HuaWei\\A题\\code\\stub_multicore_cut_and_schedule.py": "0a3a3b79b5173b466fc05fc8d33b72d11d90b4df78995435853d91c632a35892",
+    "D:\\workspace\\HuaWei\\A题\\solution\\experiments\\prepare_problem3_selection.py": "2a52edf9320d4b8cc961c666e81a9c8b98b6fec728402172c2017761c3685c3a",
+    "D:\\workspace\\HuaWei\\A题\\solution\\src\\graph_analysis.py": "62a06fca9dbe23ae5b32fe890a5547e3580c5c4910934a5bbe7ba039d8bfca97",
+    "D:\\workspace\\HuaWei\\A题\\solution\\src\\component_scheduler.py": "a66a19b600acaa2d81a7609e881a3e8c8a4f74a3748afe99ab46a3938822ff46"
+  }
+}

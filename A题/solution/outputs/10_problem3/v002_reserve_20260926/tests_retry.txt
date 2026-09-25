@@ -1,0 +1,6 @@
+test_controlled_failure_and_timeout (test_problem3.PairRunnerTests.test_controlled_failure_and_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.126s
+
+OK

@@ -260,3 +260,31 @@ python -B A题/solution/experiments/summarize_full_suite.py --freeze A题/soluti
 case_087_n5的成功v001按字节复用，v008复用原方案，仅重复被人工中断的评估；
 其余383个完整配置不重跑。原中断耗时无法精确恢复，完整耗时字段保留null，
 已记录成本以recorded_*字段给出，汇总只作下界；暂停时间不计入算法成本。
+
+## 第三问启动（2026-09-26）
+
+规则核验、成对入口及复现命令见 [第三问启动报告](outputs/10_problem3/README.md)。已完成七个诊断图、十项测试及 case_001 二核配对链路检查；正式基线尚未启动。
+
+第三问已完成6图×1～5核共30对开发基线，报告见 [开发基线](outputs/10_problem3/v001_development_20260926/REPORT.md)。批量复现与预算见报告；当前尚无第三问优化或全量结论。
+
+第三问v002固定分核排序开发对照已完成，见 [v002报告](outputs/10_problem3/v002_development_20260926/REPORT.md)。主组30配置4快26平，收益有限且不属于Cache专属收益；预留检验尚未开始。
+
+第三问v002预留检验完成：[报告](outputs/10_problem3/v002_reserve_20260926/REPORT.md)。未复现主方法改善，后续全量保留v001固定方案基线。当前尚未完成第三问100图全量。
+# 第三问 v003：排查后限制交错（2026-09-26）
+
+新入口：`experiments/run_problem3_bounded.py`；算法：`src/scene_b_bounded_order.py`；冻结配置：`experiments/problem3_v003_selection.json`。
+
+固定分核与子图内容，主组比较原方案和逐个完成独立组件的候选；等候选数对照比较原方案和每次交错两个组件的候选。实际Cache Makespan择优，平局保留原方案。跨核连通组件不变。每个方案均评估无L2/Cache，调度收益和Cache收益分列。
+
+从仓库根目录执行（重复运行须使用未占用的新实验编号）：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/run_problem3_bounded.py' --role development --experiment exp116_20260926_bounded_development
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/run_problem3_bounded.py' --role validation --experiment exp117_20260926_bounded_validation
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/report_problem3_bounded.py' 'A题/solution/outputs/10_problem3/raw/problem_3/v003/exp117_20260926_bounded_validation'
+```
+
+开发实验首次调用曾误用已有exp115编号，完成后改为exp116归档；manifest保留实际命令及更名说明。源码/配置/输入变动会触发冻结检查，须另建版本或明确新实验设计，不覆盖本轮记录。
+
+诊断与Windows超时测试限制见`outputs/10_problem3/raw/scratch/timeline_diagnosis_20260926/REPORT.md`。本轮开发+新检验共12图，不代表100图全量完成。
+

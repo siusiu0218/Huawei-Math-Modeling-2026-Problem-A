@@ -1,0 +1,59 @@
+{
+  "by_cores": [
+    {
+      "cores": 1,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 0,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 2,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 1,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 1,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.003797091378369
+    },
+    {
+      "cores": 3,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 0,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 4,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 0,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 5,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 0,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.0
+    }
+  ],
+  "generation_seconds": 17.410934999994424,
+  "new_evaluation_seconds": 111.03651929999978,
+  "new_evaluations": 80,
+  "candidate_failures": [],
+  "scope": "reserve; affinity and control each receive baseline plus one candidate; combined best has more search budget"
+}

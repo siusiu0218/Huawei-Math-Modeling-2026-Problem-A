@@ -1,0 +1,58 @@
+[
+  {
+    "case": "case_072",
+    "cores": 2,
+    "time": 1901599,
+    "event": "insert",
+    "tensor_id": 1000012861,
+    "size_bytes": 8192,
+    "used_bytes": 1048576,
+    "evicted_tensor_ids": [
+      1000000749
+    ],
+    "core_id": 1,
+    "op_id": 1000040934
+  },
+  {
+    "case": "case_072",
+    "cores": 3,
+    "time": 6317367,
+    "event": "insert",
+    "tensor_id": 1000001387,
+    "size_bytes": 8192,
+    "used_bytes": 1048576,
+    "evicted_tensor_ids": [
+      1000001343
+    ],
+    "core_id": 2,
+    "op_id": 1000047174
+  },
+  {
+    "case": "case_072",
+    "cores": 4,
+    "time": 861493,
+    "event": "insert",
+    "tensor_id": 1000012825,
+    "size_bytes": 8192,
+    "used_bytes": 1048576,
+    "evicted_tensor_ids": [
+      1000012871
+    ],
+    "core_id": 0,
+    "op_id": 1000039121
+  },
+  {
+    "case": "case_072",
+    "cores": 5,
+    "time": 1997044,
+    "event": "insert",
+    "tensor_id": 1000012889,
+    "size_bytes": 8192,
+    "used_bytes": 1048576,
+    "evicted_tensor_ids": [
+      1000000487
+    ],
+    "core_id": 2,
+    "op_id": 1000045634
+  }
+]

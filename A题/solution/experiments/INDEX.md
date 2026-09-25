@@ -385,3 +385,40 @@ exp028：case_069 × 2/4核开发流程；exp029：case_064/063 × 2～5核新�
 - 问题 2 v011 | exp109_20260926_active_full | completed | outputs\09_problem2\raw\problem_2\v011\exp109_20260926_active_full
 
 - 问题 2 v011 | exp109_20260926_active_full | 完整核对通过：400/400，五核均值4.040692；新增1327次评估，复用成本单列 | [报告](../outputs/09_problem2/v011_summary_20260926/REPORT.md)
+
+- 问题 3 机制诊断 | rules_v002_20260926 | 七例已归档，重新插入正式配置影响待验证 | [报告](../outputs/10_problem3/README.md)
+- 问题 3 v001 | exp110_20260926_pair_smoke | completed：case_001 二核同方案成对链路检查；非正式开发基线；恢复未增加评估 | [清单](../outputs/10_problem3/raw/problem_3/v001/exp110_20260926_pair_smoke/manifest.json)
+
+- 问题 3 v001 | exp111_20260926_development | running | 6 开发图 × 1～5 核 A/B 固定基线
+
+- 问题 3 v001 | exp111_20260926_development | completed | 30/30 pairs | outputs/10_problem3/raw/problem_3/v001/exp111_20260926_development
+
+- 问题 3 v001 | exp111_20260926_development | completed | 30/30 pairs | outputs/10_problem3/raw/problem_3/v001/exp111_20260926_development
+
+- 问题 3 v001 | exp111_20260926_development | 审计通过：30/30配对、60次评估；恢复未增评估；固定配置4次命中完成后插入 | [报告](../outputs/10_problem3/v001_development_20260926/REPORT.md)
+
+- 问题3 v002 | exp112_20260926_order_development | running | fixed placement ordering
+
+- 问题3 v002 | exp112_20260926_order_development | completed | 30 configurations
+
+- 问题3 v002 | exp112_20260926_order_development | 审计通过：30配置、50次新增评估；直接新排序4快14平12慢，主组4快26平 | [报告](../outputs/10_problem3/v002_development_20260926/REPORT.md)
+
+- 问题 3 v001 | exp113_20260926_reserve_baseline | running | 6 预留图 × 1～5 核 A/B 固定基线
+
+- 问题 3 v001 | exp113_20260926_reserve_baseline | completed | 30/30 pairs | outputs/10_problem3/raw/problem_3/v001/exp113_20260926_reserve_baseline
+
+- 问题3 v002 | exp114_20260926_order_reserve | running | fixed placement ordering
+
+- 问题3 v002 | exp114_20260926_order_reserve | completed | 30 configurations
+
+- 问题3 v001 | exp113_20260926_reserve_baseline | 审计通过：30/30配对、60次评估 | [报告](../outputs/10_problem3/v002_reserve_20260926/baseline_REPORT.md)
+- 问题3 v002 | exp114_20260926_order_reserve | 审计通过：30配置、80次新增评估；主组全选基线，直接候选0快7平23慢 | [报告](../outputs/10_problem3/v002_reserve_20260926/REPORT.md)
+
+- 问题 3 v001 | exp115_20260926_full | running | 100 全量图 × 1～5 核 A/B 固定基线
+
+- 问题3 v003 | exp116_20260926_bounded_development | 30配置运行完成、独立审计中 | 限制独立组件交错；运行时名称曾误用exp115，完成后更正归档编号，原始命令保留于manifest。
+- 问题3 v003 | exp117_20260926_bounded_validation | 待运行 | 预先冻结的新6图×1～5核。
+
+- 问题3 v003 | exp116_20260926_bounded_development | 完成并审计通过 | 30配置、88次评估，主候选8快18平4慢，择优8快22平。
+- 问题3 v003 | exp117_20260926_bounded_validation | 完成并审计通过 | 30配置、86次评估，主候选9快18平3慢，择优9快21平。
+- [第三问v003排查—优化—检验总报告](../outputs/10_problem3/v003_diagnosis_optimization_20260926/REPORT.md)；全100图仍待完成。

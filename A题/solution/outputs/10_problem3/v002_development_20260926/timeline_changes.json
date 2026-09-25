@@ -1,0 +1,50 @@
+[
+  {
+    "case": "case_078",
+    "cores": 2,
+    "old_cache_makespan": 1029560,
+    "new_cache_makespan": 1022234,
+    "common_core_tensor_first_reads": 116,
+    "changed_first_read_times": 96,
+    "old_added_copy_bytes": 2148480,
+    "new_added_copy_bytes": 2148480,
+    "old_hit_rate": 0.0,
+    "new_hit_rate": 0.0
+  },
+  {
+    "case": "case_078",
+    "cores": 3,
+    "old_cache_makespan": 774630,
+    "new_cache_makespan": 767714,
+    "common_core_tensor_first_reads": 170,
+    "changed_first_read_times": 144,
+    "old_added_copy_bytes": 4296960,
+    "new_added_copy_bytes": 4296960,
+    "old_hit_rate": 0.15210374977994248,
+    "new_hit_rate": 0.11784079572795024
+  },
+  {
+    "case": "case_078",
+    "cores": 4,
+    "old_cache_makespan": 524644,
+    "new_cache_makespan": 518112,
+    "common_core_tensor_first_reads": 224,
+    "changed_first_read_times": 192,
+    "old_added_copy_bytes": 6445440,
+    "new_added_copy_bytes": 6445440,
+    "old_hit_rate": 0.0,
+    "new_hit_rate": 0.0
+  },
+  {
+    "case": "case_078",
+    "cores": 5,
+    "old_cache_makespan": 520326,
+    "new_cache_makespan": 513615,
+    "common_core_tensor_first_reads": 278,
+    "changed_first_read_times": 240,
+    "old_added_copy_bytes": 8593920,
+    "new_added_copy_bytes": 8593920,
+    "old_hit_rate": 0.08715153554603096,
+    "new_hit_rate": 0.10526327441465057
+  }
+]

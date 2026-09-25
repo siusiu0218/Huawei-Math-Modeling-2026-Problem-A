@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "development_selection_sha256": "98d8ab03a3c2e02091b28f824d34abe97aa118dc72041ae83dc657e14cc0522a",
+  "reserve_selection_sha256": "dc6ae820efb4193b11b1ee785e43df9525059b73c5ba03256dfa314382331941",
+  "algorithm_and_original_worker_sources_identical": true,
+  "budgets_identical": true,
+  "reserve_cases": [
+    "case_064",
+    "case_024",
+    "case_016",
+    "case_010",
+    "case_095",
+    "case_066"
+  ],
+  "note": "selection role adapter differs; original worker functions and ordering source unchanged"
+}

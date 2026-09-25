@@ -1,5 +1,7 @@
 """Reproducible diagnostic graphs evaluated by untouched official evaluators."""
 import json
+import hashlib
+import shutil
 import sys
 from pathlib import Path
 
@@ -39,6 +41,11 @@ def main():
     args = p.parse_args()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=False)
+    sources = sorted((SOLUTION.parent/'code').glob('*.py')) + [Path(__file__)]
+    hashes = {str(p.resolve()): hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}
+    (out/'source').mkdir()
+    for source in sources:
+        shutil.copy2(source, out/'source'/source.name)
     cases = {
         'simultaneous': ([[1], [1]], {1: 600}, 1048576, 250),
         'delayed_hit': ([[1], [2, 1]], {1: 600, 2: 6000}, 1048576, 250),
@@ -46,6 +53,7 @@ def main():
         'fifo': ([[1, 2], [3, 1, 4]], {1: 600, 2: 1200, 3: 6000, 4: 600}, 1800, 250),
         'zero': ([[1]], {1: 0}, 1048576, 250),
         'empty_access': ([[]], {}, 1048576, 250),
+        'hit_reinsert': ([[1], [2, 1], [3, 4]], {1: 600, 2: 6000, 3: 5940, 4: 120}, 600, 250),
     }
     summary = {}
     for name, (seq, sizes, cap, bw) in cases.items():
@@ -58,7 +66,11 @@ def main():
                          'stats': b['cache_stats'], 'events': b['cache_events'],
                          'movement_equal': a['data_movement_bytes'] == b['data_movement_bytes']}
     (out/'summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
-    print(json.dumps(summary, indent=2))
+    after = {str(p.resolve()): hashlib.sha256(p.read_bytes()).hexdigest() for p in sources}
+    assert hashes == after
+    (out/'manifest.json').write_text(json.dumps({'purpose': 'mechanism diagnostics, not formal scores',
+        'hashes_before': hashes, 'hashes_after': after, 'command': [sys.executable, *sys.argv]}, indent=2), encoding='utf-8')
+    print(json.dumps({k: {a:b for a,b in v.items() if a != 'events'} for k,v in summary.items()}, indent=2))
 
 
 if __name__ == '__main__':

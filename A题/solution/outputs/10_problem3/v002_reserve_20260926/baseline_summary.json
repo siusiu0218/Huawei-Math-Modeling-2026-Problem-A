@@ -1,0 +1,57 @@
+{
+  "rows": 30,
+  "failures": [],
+  "by_cores": [
+    {
+      "cores": 1,
+      "successful_pairs": 6,
+      "mean_speedup": 1.0,
+      "faster": 0,
+      "same": 6,
+      "slower": 0,
+      "mean_case_byte_hit_rate": 0.0,
+      "pooled_byte_hit_rate": 0.0
+    },
+    {
+      "cores": 2,
+      "successful_pairs": 6,
+      "mean_speedup": 1.0002047218695915,
+      "faster": 3,
+      "same": 3,
+      "slower": 0,
+      "mean_case_byte_hit_rate": 0.19760423562704363,
+      "pooled_byte_hit_rate": 0.0904685193709825
+    },
+    {
+      "cores": 3,
+      "successful_pairs": 6,
+      "mean_speedup": 1.0079922624799156,
+      "faster": 3,
+      "same": 3,
+      "slower": 0,
+      "mean_case_byte_hit_rate": 0.08747959468511134,
+      "pooled_byte_hit_rate": 0.0707343249784762
+    },
+    {
+      "cores": 4,
+      "successful_pairs": 6,
+      "mean_speedup": 1.0111223521157064,
+      "faster": 3,
+      "same": 3,
+      "slower": 0,
+      "mean_case_byte_hit_rate": 0.09244621397103281,
+      "pooled_byte_hit_rate": 0.07395077756887768
+    },
+    {
+      "cores": 5,
+      "successful_pairs": 6,
+      "mean_speedup": 1.0176626767108197,
+      "faster": 5,
+      "same": 1,
+      "slower": 0,
+      "mean_case_byte_hit_rate": 0.21110223808041254,
+      "pooled_byte_hit_rate": 0.10539700858293655
+    }
+  ],
+  "evaluation_seconds": 94.74622830000226
+}

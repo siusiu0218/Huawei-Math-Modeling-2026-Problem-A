@@ -1,0 +1,59 @@
+{
+  "by_cores": [
+    {
+      "cores": 1,
+      "count": 6,
+      "affinity_improved": 0,
+      "control_improved": 0,
+      "affinity_beats_control": 0,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 2,
+      "count": 6,
+      "affinity_improved": 1,
+      "control_improved": 0,
+      "affinity_beats_control": 1,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0011944427596813,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 3,
+      "count": 6,
+      "affinity_improved": 1,
+      "control_improved": 0,
+      "affinity_beats_control": 1,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0015014271807818,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 4,
+      "count": 6,
+      "affinity_improved": 1,
+      "control_improved": 0,
+      "affinity_beats_control": 1,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.002101218784098,
+      "control_mean_speedup": 1.0
+    },
+    {
+      "cores": 5,
+      "count": 6,
+      "affinity_improved": 1,
+      "control_improved": 0,
+      "affinity_beats_control": 1,
+      "control_beats_affinity": 0,
+      "affinity_mean_speedup": 1.0021777011964215,
+      "control_mean_speedup": 1.0
+    }
+  ],
+  "generation_seconds": 35.19627309999487,
+  "new_evaluation_seconds": 193.6187958000046,
+  "new_evaluations": 50,
+  "candidate_failures": [],
+  "scope": "development; affinity and control each receive baseline plus one candidate; combined best has more search budget"
+}
