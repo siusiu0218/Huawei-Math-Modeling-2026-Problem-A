@@ -1,0 +1,11 @@
+{
+  "complete_configurations": 500,
+  "paired_conditions": "same selected plan, no_l2 and cache",
+  "plan_zip_hashes_verified": 500,
+  "figure_groups_verified": 5,
+  "figures_visually_checked": 2,
+  "audit": "passed",
+  "new_failures": 0,
+  "new_timeouts": 0,
+  "manifest_sha256": "1f58862bc24d145a3e821690d24ebbbe3ebcd34a85b4cc861ba775c5ad39e0e4"
+}

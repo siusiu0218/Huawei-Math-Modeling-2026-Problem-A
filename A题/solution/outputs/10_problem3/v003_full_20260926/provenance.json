@@ -1,0 +1,32 @@
+{
+  "raw_manifest_sha256": "1f58862bc24d145a3e821690d24ebbbe3ebcd34a85b4cc861ba775c5ad39e0e4",
+  "raw_summary_sha256": "a568b505d01118e81699f76b5542b637d8746d90da2f3b20b697c7c42817b488",
+  "script_sha256": "2ab23aa1b81bf27df07fc9a111fc9765ccc4ca6861b4c3677e4e99088206783b",
+  "matplotlib_version": "3.11.0",
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "files": {
+    "analyze_problem3_headroom.py": "30d93e85700fefbdf37e7cc54162b3fa1fc87e24952c46fdbf33816c611a02ed",
+    "audit_provenance.json": "b53a4014874495b924decd3ead56b26b09094b5b6f7081193a62d8e8652f2d47",
+    "AUDIT_REPORT.md": "17d086da0fb02fbb6ef904b9e9e1fe5de43410ccef5f1310ea97f4dcb0ba9d79",
+    "comparison.csv": "bdcd474c26660abe892d8053f1126211b6a89ef7e7c9a3453668517150980b08",
+    "delivery_checks.json": "271aff80c446eecca3f8ff88e808adb801d80897d7c3956117fcaf7d0bd69e28",
+    "figure_data.csv": "ff00966ab9c87c0290b1c6eb02a8991f93655d8c5ece66d7f1793cfd0b9b9ff4",
+    "METHOD.md": "6d50a1dc888a28ada64d4c5a0505c7e7cc567f03f31daf3a940d37483c02f23c",
+    "PREFLIGHT.md": "f2ae1e1b0c20d65a80dec4350fd6cbcba07c50766bab754ff00bb45d11ad86ee",
+    "publish_problem3_v003_full.py": "2ab23aa1b81bf27df07fc9a111fc9765ccc4ca6861b4c3677e4e99088206783b",
+    "REPORT.md": "f3bf676467b4cacabb8f56b260254ea16e945aaf1a27be7880fe5059b8859dbf",
+    "selected_plans.zip": "d3ac3308582e66aa686d10287006582a33ca165f89ca06fbc1e1199527dd3e63",
+    "summary.json": "a568b505d01118e81699f76b5542b637d8746d90da2f3b20b697c7c42817b488",
+    "figures\\cache_curves.pdf": "e98a4846a6b3a2890ec315ba5c3c579b3b303fed236b1e27353cf5a8d3188b07",
+    "figures\\cache_curves.png": "6ddd838a3c3c76c8abf7931583598512d1e7ff9426e7c70cff04d841525cf467",
+    "figures\\cache_curves.svg": "853663ef70927a11fc4fbb600bb48da3289d3742f18283662b691dc2d8aa0a4a",
+    "figures\\scheduling_results.pdf": "c040834fe96616c5af14b17485995c52f0e89645ed29aed85403e1e740b840b7",
+    "figures\\scheduling_results.png": "a066a92f2ad283caf440b7c5f79fd8ac228d2ba7f5c0c58e7dc66f9024af800f",
+    "figures\\scheduling_results.svg": "2d352c65abffd7a02d6d4b73c870793d69491be4815f5ded3acb7d8ced8f2649",
+    "posthoc\\headroom.csv": "907b5e5ed1b9aaa1dcf527d3fc48e7a4ffcaa536631a6273a340776a9cc360b6",
+    "posthoc\\provenance.json": "153e157ca2654efe373392c5ac4fce2da0043032159c8e2e1fb21ca0055a65e7",
+    "posthoc\\REPORT.md": "73a3d63b29b7c0825153d13f15ea7392fba8b114ae49d35e10fcc64fb413df4b",
+    "posthoc\\summary.json": "57f4270a99e263781cabe0b2bc2fc439a097d8a65b5d86cb67fc0fc6ad4e45bb"
+  },
+  "posthoc_script_sha256": "30d93e85700fefbdf37e7cc54162b3fa1fc87e24952c46fdbf33816c611a02ed"
+}

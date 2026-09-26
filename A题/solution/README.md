@@ -1,5 +1,24 @@
 # A 题第一问实验
 
+## 第三问 v003 全量入口（2026-09-26）
+
+**全量已完成并通过审计：500/500配置，无失败或超时。** 择优后69项改善、431项持平，五核逐图耗时降幅平均0.3940%；直接候选有166项退化，仍需保留基线保护。见[正式报告](outputs/10_problem3/v003_full_20260926/REPORT.md)、[500份方案包](outputs/10_problem3/v003_full_20260926/selected_plans.zip)。图表与附表已核验，下一步整理第三问正文与结果解释。
+
+新入口支持逐操作保存、断点恢复、结果哈希核验、同方案去重、并发锁及超时进程树清理。算法仍为冻结的v003：baseline+width1按Cache Makespan择优。旧冻结入口保留原样。
+
+```powershell
+# 新实验目录必须未占用；exp121为本次正式全量编号。
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/run_problem3_v003_full.py' --experiment exp121_20260926_v003_full
+# 中断后用同一参数与 --resume；成功结果不重新计算，失败/超时不自动重试。
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/run_problem3_v003_full.py' --experiment exp121_20260926_v003_full --resume
+# 完成后独立核验500配置与全部A/B/C/D对照。
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/report_problem3_v003_full.py' 'A题/solution/outputs/10_problem3/raw/problem_3/v003/exp121_20260926_v003_full'
+```
+
+仅基础设施预检查可以指定`--cases`、`--cores`、`--max-actions`、`--no-reuse`，其结果不标为全量。正式运行不修改算法、输入、配置或冻结脚本；变更会触发恢复拒绝。预检查见[记录](outputs/10_problem3/raw/scratch/full_preflight_20260926/REPORT.md)。
+
+图表脚本`experiments/publish_problem3_v003_full.py`使用已有基础Python环境中的Matplotlib；评估仍使用A题虚拟环境。生成的PNG/SVG/PDF、图数据与500份方案包均保存在outputs/10_problem3下。
+
 ## 第二问入口
 
 **v011 全量已完成：400/400 项成功，五核均值 4.040692。** 见 [正式报告](outputs/09_problem2/v011_summary_20260926/REPORT.md)与[400 个方案](outputs/09_problem2/v011_summary_20260926/v011_plans.zip)。69 项测试和完整审计通过；本轮新增 1327 次完整评估，复用的 v010 前置成本另列。所有本轮进程已结束。新入口 `experiments/run_problem2_active_cores.py --experiment 新编号 --cases 用例列表 --cores 2 3 4 5 --freeze A题/solution/experiments/problem2_v011_selection.json`。可选 `--generation-cache A题/solution/outputs/09_problem2/raw/problem_2/v010/exp107_20260925_portfolio_full` 复用经哈希核对的旧生成与同核数结果，所有新方案重新评估。省略缓存参数可冷启动；当前选择增量验证，成本须包含已披露的前置成本。已有实验目录不可覆盖，脚本没有自动续跑功能；中断后先读 CONTEXT 和清单，另建恢复批次。

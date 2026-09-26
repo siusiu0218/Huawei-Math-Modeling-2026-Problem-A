@@ -1,0 +1,14 @@
+{
+  "configurations": 500,
+  "candidate_plan_unchanged": 231,
+  "within_5pct_of_bound": 212,
+  "unchanged_outcomes_within_5pct": 157,
+  "more_than_10pct_bound_gap": 224,
+  "mean_reduction_percent_by_cores": {
+    "1": 0.0,
+    "2": 0.11926489068650549,
+    "3": 0.21885405640580888,
+    "4": 0.27338799686754045,
+    "5": 0.3940133126389004
+  }
+}
