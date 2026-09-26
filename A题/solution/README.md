@@ -1,4 +1,53 @@
-# A 题第一问实验
+# A 题解题实验
+
+## 第三问 v004 正式全量（2026-09-26）
+
+exp129_20260926_v004_full 已按冻结流程完成并审计通过：100图×1～5核共500配置，四候选均完成无L2/Cache配对，失败及超时为0。[正式报告](outputs/10_problem3/v004_full_20260926/REPORT.md)、[逐配置结果](outputs/10_problem3/raw/problem_3/v004/exp129_20260926_v004_full/comparison.csv)、[汇总](outputs/10_problem3/raw/problem_3/v004/exp129_20260926_v004_full/summary.json)及`selected_plans/`中500份入选方案均已保存。
+
+从仓库根目录复核冻结文件和正式结果：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/check_problem3_v004_freeze.py'
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/report_problem3_v004_full.py' 'A题/solution/outputs/10_problem3/raw/problem_3/v004/exp129_20260926_v004_full'
+```
+
+报告脚本会重建入选方案和汇总表；仅需查看结果时直接打开上述报告。原运行命令与中断恢复规则见[冻结方案](outputs/10_problem3/v004_run_protocol_20260926/PROTOCOL.md)。该方案保留了运行前的“尚未启动”历史状态，实际完成状态以本节及exp129 manifest为准。
+
+## 第三问 v004 全量流程冻结时的准备记录
+
+[固定运行方案](outputs/10_problem3/v004_run_protocol_20260926/PROTOCOL.md)包含范围、参数、复用、恢复、失败处理及验收规则。启动/恢复前须先通过只读检查：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/check_problem3_v004_freeze.py'
+```
+
+检查不会启动实验。哈希变化须先核查，不静默更新冻结清单。
+
+## 第三问 v004 全量入口与恢复演练的历史记录
+
+入口`experiments/run_problem3_v004_full.py`已接入固定4候选、原子保存、并发锁、恢复尝试记录与历史结果复用。默认100图×1～5核，显式cases/cores用于演练；算法与参数不变。独立审计`experiments/report_problem3_v004_full.py`必须通过才能称实验完成。
+
+[恢复演练报告与命令](outputs/10_problem3/raw/scratch/v004_full_preflight_20260926/REPORT.md)：4配置恢复/重复运行通过，额外禁用复用重算8份JSON完全一致，10项保护测试通过。此段记录exp129启动前的准备阶段。
+
+## 第三问 v004 后续检验（2026-09-26）
+
+8额外图×2～5核已完成，32配置择优20改善12持平，预设全量进入门槛通过。全部116次新增评估成功。见[检验报告](outputs/10_problem3/raw/problem_3/v004/exp124_20260926_window_transfer/REPORT.md)。从仓库根目录核验现有结果：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' 'A题/solution/experiments/validate_problem3_window_components.py' report
+```
+
+同入口`prepare`按静态结构选图、冻结来源并拒绝覆盖已存在实验；`run`逐操作保存，续跑保留已有成功及失败记录，不自动重试失败。不同时启动多个`run`进程。参数固定为3窗口候选，实验不新增调参。
+
+## 第三问 v004 小样本原型（2026-09-26）
+
+已完成6图五核外部复现及窗口连通分量试验，择优2图改善4图持平；v003仍为正式全量版本。借鉴来源和MIT许可已保留，见[完整报告与复现命令](outputs/10_problem3/raw/problem_3/v004/exp123_20260926_window_pilot/REPORT.md)。独立核验入口：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' 'A题/solution/experiments/report_problem3_window_pilot.py'
+```
+
+命令从仓库根目录运行。生成入口为`experiments/replay_problem3_external.py`和`experiments/try_problem3_window_components.py`，拒绝覆盖已存在的实验目录；历史结果直接运行报告核验入口即可。
 
 ## 第三问 v003 全量入口（2026-09-26）
 

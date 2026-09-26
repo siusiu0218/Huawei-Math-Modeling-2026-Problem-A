@@ -1,5 +1,18 @@
 # 实验目录
 
+- 问题3 v004 | exp129_20260926_v004_full | completed and audited | 100图×1～5核500配置、4候选无L2/Cache配对4000逻辑槽位全部成功；审计passed、失败0；择优205改善295持平。2861次新增评估、1139次外部复用。[正式报告](../outputs/10_problem3/v004_full_20260926/REPORT.md) · [冻结方案](../outputs/10_problem3/v004_run_protocol_20260926/PROTOCOL.md)
+
+- 问题3 v004 | exp125_20260926_v004_preflight | 初步暂停，后续快照更改后保留原目录 | 不续跑、不算完成。
+- 问题3 v004 | exp126_20260926_v004_frozen_preflight | 初版恢复通过，成本统计修正前快照 | 中断复用多计1次，最终验收见exp127。
+- 问题3 v004 | exp127_20260926_v004_final_preflight | completed and audited | 4配置恢复序列2/4/42/0新增操作，16新增评估+16成功复用；非全量。
+- 问题3 v004 | exp128_20260926_v004_fresh_check | completed and audited | 禁用复用1配置8次评估，全部完整JSON与exp127一致；非全量。
+- [v004入口与恢复演练总报告](../outputs/10_problem3/raw/scratch/v004_full_preflight_20260926/REPORT.md)：10项保护测试通过；这是全量启动前的演练记录。
+
+- 问题3 v004 | exp124_20260926_window_transfer | completed and audited | 8额外图×2～5核32配置；择优20改善12持平，96直接候选41快12平43慢；116新增评估无失败/超时。预设全量门槛通过；非独立未见数据。[报告](../outputs/10_problem3/raw/problem_3/v004/exp124_20260926_window_transfer/REPORT.md)
+
+- 问题3 v003对外部固定方案 | exp122_20260926_external_replay | 完成 | 6图五核24次配对评估，12个Cache耗时全部精确复现；固定外部提交及MIT许可已存档。
+- 问题3 v004 | exp123_20260926_window_pilot | 开发试验完成并核验 | 18新候选5快3平10慢；择优2改善4持平；20新增评估，无失败。非全量、非独立检验。[报告](../outputs/10_problem3/raw/problem_3/v004/exp123_20260926_window_pilot/REPORT.md)
+
 - 2026-09-25 | 问题 3 流程制定 | 尚无正式实验编号 | 阶段 0～6、同方案无 L2/有 Cache 对照及交付门槛已写明；当前待规则核验，未启动基线或全量 | [工作流程](problem3_PLAN.md)
 
 - 2026-09-25 | 问题 2 全量完成 | exp066–095 | v007 400 + v002 400 + 单核 100，900/900 成功，均值与哈希核对通过；相对 v002 251 快 85 平 64 慢 | [正式结果](../outputs/09_problem2/full_summary_20260925/REPORT.md)
