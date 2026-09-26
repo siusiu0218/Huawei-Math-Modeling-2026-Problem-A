@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "full_evaluations_started": false,
+  "full_configurations": 400,
+  "full_candidate_slots": 3200,
+  "preflight_slots": 32,
+  "preflight_new_evaluations": 7,
+  "preflight_reused_slots": 25,
+  "checkpoint_new_slots": [
+    3,
+    29,
+    0
+  ],
+  "frozen_unchanged": true,
+  "tests": "2 unittest tests: altered artifact rejected; competing process blocked and lock released",
+  "limits": "checkpoint boundary resume tested; no OS-kill/power-failure injection; algorithm unchanged"
+}

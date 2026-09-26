@@ -1,0 +1,2090 @@
+[
+  {
+    "case": "case_064",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 1072
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 1072
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 1072
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 1072
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 544
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 1536,
+        "UB": 544
+      },
+      "4": {
+        "L1": 1536,
+        "UB": 544
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "4": {
+        "L1": 2304,
+        "UB": 2144
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "3": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "4": {
+        "L1": 2304,
+        "UB": 2144
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_064",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 4096,
+        "UB": 4384
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2562
+      },
+      "3": {
+        "L1": 2304,
+        "UB": 2594
+      },
+      "4": {
+        "L1": 2304,
+        "UB": 2560
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_064",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 4096,
+        "UB": 4384
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2594
+      },
+      "2": {
+        "L1": 1536,
+        "UB": 1058
+      },
+      "3": {
+        "L1": 1024,
+        "UB": 1058
+      },
+      "4": {
+        "L1": 1024,
+        "UB": 272
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_064",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2304,
+        "UB": 2562
+      },
+      "1": {
+        "L1": 2816,
+        "UB": 2146
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2594
+      },
+      "3": {
+        "L1": 4096,
+        "UB": 4384
+      },
+      "4": {
+        "L1": 2304,
+        "UB": 2144
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_064",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 2816,
+        "UB": 2146
+      },
+      "1": {
+        "L1": 2304,
+        "UB": 2144
+      },
+      "2": {
+        "L1": 2304,
+        "UB": 2594
+      },
+      "3": {
+        "L1": 4096,
+        "UB": 4384
+      },
+      "4": {
+        "L1": 1024,
+        "UB": 288
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_069",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 6144
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 10368,
+        "UB": 4704
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 6144
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_069",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 15168,
+        "UB": 10418
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 12384,
+        "UB": 7776
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_069",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 15168,
+        "UB": 10418
+      },
+      "1": {
+        "L1": 4800,
+        "UB": 4658
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_069",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 15168,
+        "UB": 10418
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 8448,
+        "UB": 5808
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 13824,
+        "UB": 9216
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_069",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 15168,
+        "UB": 10418
+      },
+      "1": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "2": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "3": {
+        "L1": 13824,
+        "UB": 9216
+      },
+      "4": {
+        "L1": 4800,
+        "UB": 4224
+      }
+    },
+    "route": "critical_chain_groups"
+  },
+  {
+    "case": "case_044",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "1": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "2": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "3": {
+        "L1": 77952,
+        "UB": 0
+      },
+      "4": {
+        "L1": 77952,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_044",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "2": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_044",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "2": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_044",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "2": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_044",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "2": {
+        "L1": 524192,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_046",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "1": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "2": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "3": {
+        "L1": 90624,
+        "UB": 0
+      },
+      "4": {
+        "L1": 90624,
+        "UB": 0
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_046",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "2": {
+        "L1": 0,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_046",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "2": {
+        "L1": 0,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_046",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "2": {
+        "L1": 0,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_046",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "1": {
+        "L1": 524288,
+        "UB": 0
+      },
+      "2": {
+        "L1": 0,
+        "UB": 0
+      },
+      "3": {
+        "L1": 0,
+        "UB": 0
+      },
+      "4": {
+        "L1": 0,
+        "UB": 0
+      }
+    },
+    "route": "shared_tensor_groups"
+  },
+  {
+    "case": "case_056",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 57352
+      },
+      "1": {
+        "L1": 4224,
+        "UB": 2354
+      },
+      "2": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "3": {
+        "L1": 4224,
+        "UB": 2352
+      },
+      "4": {
+        "L1": 4224,
+        "UB": 2352
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_056",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13312,
+        "UB": 122912
+      },
+      "1": {
+        "L1": 16416,
+        "UB": 122912
+      },
+      "2": {
+        "L1": 16416,
+        "UB": 122912
+      },
+      "3": {
+        "L1": 5120,
+        "UB": 28678
+      },
+      "4": {
+        "L1": 5120,
+        "UB": 28678
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_056",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13312,
+        "UB": 28678
+      },
+      "1": {
+        "L1": 13312,
+        "UB": 16512
+      },
+      "2": {
+        "L1": 5120,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 16416,
+        "UB": 122912
+      },
+      "4": {
+        "L1": 16416,
+        "UB": 122912
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_056",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 13312,
+        "UB": 28678
+      },
+      "1": {
+        "L1": 13312,
+        "UB": 28678
+      },
+      "2": {
+        "L1": 5120,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 5120,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 16416,
+        "UB": 122912
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_056",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 16416,
+        "UB": 122912
+      },
+      "1": {
+        "L1": 5120,
+        "UB": 28678
+      },
+      "2": {
+        "L1": 5120,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 5120,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 5120,
+        "UB": 16512
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_049",
+    "arm": "A",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "A",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "A",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "A",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "B",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 9312
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "B",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 9312
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "B",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 9312
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "B",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 31360,
+        "UB": 44358
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 9312
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16512
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16514
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16512
+      }
+    },
+    "route": "old_partition"
+  },
+  {
+    "case": "case_049",
+    "arm": "C",
+    "setting_index": 0,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16640
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_049",
+    "arm": "C",
+    "setting_index": 1,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16640
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_049",
+    "arm": "C",
+    "setting_index": 2,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 11264,
+        "UB": 124864
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16640
+      }
+    },
+    "route": "global_branch_windows"
+  },
+  {
+    "case": "case_049",
+    "arm": "C",
+    "setting_index": 3,
+    "status": "success",
+    "memory_peak_by_core": {
+      "0": {
+        "L1": 10752,
+        "UB": 16640
+      },
+      "1": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "2": {
+        "L1": 12288,
+        "UB": 16640
+      },
+      "3": {
+        "L1": 12288,
+        "UB": 124864
+      },
+      "4": {
+        "L1": 12288,
+        "UB": 16640
+      }
+    },
+    "route": "global_branch_windows"
+  }
+]

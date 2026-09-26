@@ -1,0 +1,2 @@
+Command: A题/.venv/Scripts/python.exe -B -m unittest discover -s A题/solution/tests -p test_scene_a_critical_local.py
+4 tests passed (2026-09-26).

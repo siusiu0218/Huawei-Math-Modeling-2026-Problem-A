@@ -1,0 +1,4 @@
+﻿arm,slots,successful,new_evaluations,unique_plans_within_arm,generation_seconds,evaluation_seconds,faster,equal,slower,failed
+A,24,24,5,8,5.27954009998939,8.80944289999752,0,16,8,0
+B,24,24,9,11,5.568849899991619,12.087943000005907,3,16,5,0
+C,24,24,18,18,7.182795400007308,17.255270300003758,12,0,12,0

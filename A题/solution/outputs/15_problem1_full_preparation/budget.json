@@ -1,0 +1,10 @@
+{
+  "historical_slots": 184,
+  "historical_process_seconds": 590.3622905000157,
+  "naive_full_hours": 2.8519917415459695,
+  "double_observed_rate_hours": 5.703983483091939,
+  "per_slot_timeout_upper_hours": 186.66666666666666,
+  "historical_unique_reuse_plans": 118,
+  "exclusions": "historical baseline search, preparation, audit; 23 low-score five-core cases are not representative of full suite",
+  "total_timeout_note": "186.67h sums child process timeouts only, not a wall-clock guarantee or recommended budget"
+}

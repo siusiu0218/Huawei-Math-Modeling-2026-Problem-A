@@ -1,0 +1,155 @@
+[
+  {
+    "case": "case_003",
+    "candidate": "C0",
+    "makespan": 207310,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_003\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_003\\C0\\result.json",
+    "plan_sha256": "4fccbdb705b998d1454e5d070d587a35b3ddbf5e15bc19409ddc9394d598d3e3",
+    "result_sha256": "c22ad6cb621409dfc1fafc38fcaf6f0e521113ebefdf651d4d579c45130aef2a"
+  },
+  {
+    "case": "case_005",
+    "candidate": "C0",
+    "makespan": 80733,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_005\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_005\\C0\\result.json",
+    "plan_sha256": "11f6c2a16770f6f6aa1f151788d34bd24e705835c77cad491f8d6b2b91bd124f",
+    "result_sha256": "b4c960c3904e6dfc0664be6b87be1ff4ec392d53b74ce1d7b1bffad18553ad83"
+  },
+  {
+    "case": "case_009",
+    "candidate": "C0",
+    "makespan": 75122,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_009\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_009\\C0\\result.json",
+    "plan_sha256": "dc2a1e49b62baf822c340a814919432ff0377016b74125ad0334d6603f83a3f8",
+    "result_sha256": "d774341e369aeafacc1aca7a94687b904c5ac85c068da512984282bdeefcd1af"
+  },
+  {
+    "case": "case_016",
+    "candidate": "baseline",
+    "makespan": 4026098,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_016_plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_016_result.json",
+    "plan_sha256": "45bfcc649e1cfc7e177fc72b283b69da533be270e45a7f5711be86299f0ea0ce",
+    "result_sha256": "054892b6317eb076d8757d70d3172a9b7cdd8e1dc959f49109cab999ef6cf3b4"
+  },
+  {
+    "case": "case_024",
+    "candidate": "baseline",
+    "makespan": 1333910,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_024_plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_024_result.json",
+    "plan_sha256": "2ea13e5690b717636b25ff664285282fdc1cda26014bf7cf84f2ea04c29e1857",
+    "result_sha256": "1f10cf1faa24229ccd9e7e6bde8357d6044377cd141bf941ed03b54252572bf8"
+  },
+  {
+    "case": "case_035",
+    "candidate": "C1",
+    "makespan": 76782,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_035\\C1\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_035\\C1\\result.json",
+    "plan_sha256": "e53a943ef35ca8f83762fbc8f564746fc51f799354da663f7024e4d8ac2fc8a3",
+    "result_sha256": "d011ad4b77987ad0913a49de46e6706f7741af876bafd603b96940bf60728a43"
+  },
+  {
+    "case": "case_047",
+    "candidate": "C0",
+    "makespan": 207722,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_047\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_047\\C0\\result.json",
+    "plan_sha256": "ba90a2c5575e5a61afb299daa168e540176ed797458819d523b9d9175365d6ac",
+    "result_sha256": "e9fb2409fe6c5e5648b3a42501b53bdd7b25f1e1b668d08ee1b05182c8d02180"
+  },
+  {
+    "case": "case_048",
+    "candidate": "baseline",
+    "makespan": 129377,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_048_plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_048_result.json",
+    "plan_sha256": "ef24c3d0ec48fc0845c80a00cc8d73a2073f4cd0819f0d290b5338839bff7d25",
+    "result_sha256": "d6eefb154b41b2488a659260f17f5291ff0a9298e6d5079ad8e38cb3cd652a17"
+  },
+  {
+    "case": "case_050",
+    "candidate": "C0",
+    "makespan": 67926,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_050\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_050\\C0\\result.json",
+    "plan_sha256": "e888369b6e4fff8575f94cc93140a2457fb8de36cbfd847e59ef3bc709d8b5c4",
+    "result_sha256": "ccc2b5584c96487fc6e5dd3e35702438a6de94e565539807ed119505c89ba2d6"
+  },
+  {
+    "case": "case_051",
+    "candidate": "baseline",
+    "makespan": 317741,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_051_plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\references\\case_051_result.json",
+    "plan_sha256": "0d9b296f2e75616e74e2cf7ddc5e7615d08291dff720dd4ee6047fd74f23f84a",
+    "result_sha256": "adf37e5aabf59d3a4ffd34cce61f9a11bdb8206b18318a0a57954804072fb0be"
+  },
+  {
+    "case": "case_054",
+    "candidate": "C1",
+    "makespan": 230906,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_054\\C1\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_054\\C1\\result.json",
+    "plan_sha256": "e7737dcbc34074b6a6c334b2e25e58e6986675e273838a40b60a1ef4e740043a",
+    "result_sha256": "b8b0018b19e9ac5a392a2a386df51b907d5092bdfc59d1e741b4501b95e4c120"
+  },
+  {
+    "case": "case_066",
+    "candidate": "C1",
+    "makespan": 144789,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_066\\C1\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_066\\C1\\result.json",
+    "plan_sha256": "fc7ab681ed39680c4f3e2aef84d021da1b0dde31927c6bf8cbb3c933f72f80a3",
+    "result_sha256": "0e7ae991e53beb085f108b60963b90dee80415a7d628fab83ced85cfac1b0568"
+  },
+  {
+    "case": "case_068",
+    "candidate": "C3",
+    "makespan": 202910,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_068\\C3\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_068\\C3\\result.json",
+    "plan_sha256": "e02760d6128955d0beec1d2317b2035a5391bd489a357c22999768742d6e98d5",
+    "result_sha256": "ab46512e38a261b1457fe6c163fb05dbb36dbfcc0cff353f4f3c8ff0634b324c"
+  },
+  {
+    "case": "case_071",
+    "candidate": "C0",
+    "makespan": 17378,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_071\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_071\\C0\\result.json",
+    "plan_sha256": "e7fe9aec45dc44168f5f3f2a210af115e29bd4aa889bc9c0ebf0e4dce698d33f",
+    "result_sha256": "5b210ce51150b00060881c177f71c654efdc86f94ebb94fc47ba4acab7c0a2b6"
+  },
+  {
+    "case": "case_086",
+    "candidate": "B1",
+    "makespan": 93569,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_086\\B1\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_086\\B1\\result.json",
+    "plan_sha256": "c4127206a6d9183bd2563c9df320d401e45d34d30e8b40e4ba457b88cffda4ec",
+    "result_sha256": "724e3cae7f9886ccb1ea40ae41e0f618c2f30adf02dba62f93023b913b9f083f"
+  },
+  {
+    "case": "case_088",
+    "candidate": "C3",
+    "makespan": 132420,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_088\\C3\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_088\\C3\\result.json",
+    "plan_sha256": "18a1dc400e4e3a3b231553425e13a6de2713dcf67cd98ff8e2bb88f6298f533c",
+    "result_sha256": "d28001e6cd6fab807856bdb61e6fa0127844db8769aa36dfa2734bd66983a6ef"
+  },
+  {
+    "case": "case_098",
+    "candidate": "C0",
+    "makespan": 89455,
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_098\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp134_20260926_structural_transfer\\runs\\case_098\\C0\\result.json",
+    "plan_sha256": "3983500c53049e05ca75d19485561e288dc1106d31482d2b83a64c3083d52b95",
+    "result_sha256": "d828d0c0439ad21af119c9d94443ad3cc4be0e978bed93d3684af0d4d17ae722"
+  }
+]

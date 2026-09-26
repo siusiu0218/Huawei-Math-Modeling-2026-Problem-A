@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "status_counts": {
+    "success": 3159,
+    "timeout": 24,
+    "generation_timeout": 17
+  },
+  "configurations": 400,
+  "slots": 3200,
+  "coverage": true,
+  "source_hashes": true,
+  "plan_legality": true,
+  "memory": true,
+  "tensor_boundary_difference": true,
+  "selection": true,
+  "reuse_provenance": true,
+  "costs": {
+    "wall_seconds": 14577.897825200002,
+    "generation_seconds": 2495.012769900288,
+    "evaluation_seconds": 11957.529900000049,
+    "reused_slots": 2200,
+    "new_successful_evaluations": 959,
+    "evaluation_attempts": 983
+  }
+}

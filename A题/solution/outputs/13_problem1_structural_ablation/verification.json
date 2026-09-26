@@ -1,0 +1,9 @@
+{
+  "tests": {
+    "command": "A题/.venv/Scripts/python.exe -B -m unittest discover -s A题/solution/tests -p test_scene_a_structural_ablation.py",
+    "passed": 4
+  },
+  "report_source_sha256": "0e740a4561f4152f84c90b8fc2a89e66d8294cf1d47c63ae2482a55eac30cccd",
+  "best_plan_count": 6,
+  "arm_plan_count": 18
+}

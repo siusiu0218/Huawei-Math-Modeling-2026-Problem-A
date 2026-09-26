@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "cases": 17,
+  "logical_slots": 136,
+  "successful_slots": 136,
+  "new_evaluations": 85,
+  "reused_slots": 51,
+  "failed_slots": 0,
+  "algorithm_matches_exp133": true,
+  "frozen_unchanged": true,
+  "B_partition_unchanged": true,
+  "C_partition_constant_across_settings": true,
+  "tensor_boundary_difference_verified": true,
+  "improved_cases": 13,
+  "meaningful_ge_1_percent": 13,
+  "baseline_mean_speedup": 1.49640363445923,
+  "selected_mean_speedup": 1.973355879004006,
+  "mean_case_time_reduction_percent": 19.797234643044852,
+  "C_vs_B_pairs": {
+    "faster": 49,
+    "slower": 19
+  },
+  "routes": [
+    {
+      "route": "critical_chain_groups",
+      "cases": 8,
+      "improved": 4,
+      "meaningful_ge_1_percent": 4,
+      "B_mean_reduction_percent": 2.683913514403019,
+      "C_mean_reduction_percent": 4.064632687906483,
+      "selected_mean_reduction_percent": 4.068829692923702
+    },
+    {
+      "route": "global_branch_windows",
+      "cases": 9,
+      "improved": 9,
+      "meaningful_ge_1_percent": 9,
+      "B_mean_reduction_percent": 0.01668298164135952,
+      "C_mean_reduction_percent": 33.778039043152546,
+      "selected_mean_reduction_percent": 33.778039043152546
+    }
+  ],
+  "costs": [
+    {
+      "arm": "B",
+      "slots": 68,
+      "unique_successful_plans": 32,
+      "new_evaluations": 28,
+      "generation_seconds": 20.50112070000614,
+      "evaluation_seconds": 185.0220916999897,
+      "faster": 10,
+      "equal": 45,
+      "slower": 13,
+      "failed": 0
+    },
+    {
+      "arm": "C",
+      "slots": 68,
+      "unique_successful_plans": 57,
+      "new_evaluations": 57,
+      "generation_seconds": 132.87667480000164,
+      "evaluation_seconds": 209.8675447000096,
+      "faster": 41,
+      "equal": 0,
+      "slower": 27,
+      "failed": 0
+    }
+  ],
+  "wall_seconds": 556.7827903999969
+}

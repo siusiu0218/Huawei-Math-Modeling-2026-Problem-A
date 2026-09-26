@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "diagnosed_cases": 23,
+  "pilot_cases": 6,
+  "baseline_json_reproduced_except_input_plan_basename": 6,
+  "new_evaluations": 37,
+  "new_candidates": 31,
+  "direct_outcomes": {
+    "slower": 19,
+    "faster": 8,
+    "equal": 4
+  },
+  "candidate_counts": {
+    "exp131_20260926_critical_local_pilot": 28,
+    "exp132_20260926_critical_neighbour_merge": 3
+  },
+  "generation_seconds": 0.859555500002898,
+  "evaluation_seconds": 54.70679580000433,
+  "protected_unchanged": true,
+  "local_edit_scope_verified": true,
+  "selected": [
+    {
+      "case": "case_064",
+      "cores": 5,
+      "baseline_makespan": 14304,
+      "makespan": 14304,
+      "candidate": "baseline",
+      "algorithm_version": "v010",
+      "reduction_percent": 0.0,
+      "baseline_speedup": 1.3364093959731544,
+      "speedup": 1.3364093959731544,
+      "baseline_added_copy_bytes": 186038,
+      "added_copy_bytes": 186038
+    },
+    {
+      "case": "case_069",
+      "cores": 5,
+      "baseline_makespan": 23068,
+      "makespan": 22941,
+      "candidate": "move_1",
+      "algorithm_version": "v010",
+      "reduction_percent": 0.5505462112016635,
+      "baseline_speedup": 1.0899947979885556,
+      "speedup": 1.0960289438123882,
+      "baseline_added_copy_bytes": 835258,
+      "added_copy_bytes": 835258
+    },
+    {
+      "case": "case_044",
+      "cores": 5,
+      "baseline_makespan": 175986,
+      "makespan": 165899,
+      "candidate": "neighbour_merge_1",
+      "algorithm_version": "v011",
+      "reduction_percent": 5.731705931153619,
+      "baseline_speedup": 0.8773822917732093,
+      "speedup": 0.9307289374860608,
+      "baseline_added_copy_bytes": 9304000,
+      "added_copy_bytes": 8785952
+    },
+    {
+      "case": "case_046",
+      "cores": 5,
+      "baseline_makespan": 140604,
+      "makespan": 131924,
+      "candidate": "neighbour_merge_1",
+      "algorithm_version": "v011",
+      "reduction_percent": 6.173366333816965,
+      "baseline_speedup": 1.966195840801115,
+      "speedup": 2.095562596646554,
+      "baseline_added_copy_bytes": 6512800,
+      "added_copy_bytes": 6013088
+    },
+    {
+      "case": "case_056",
+      "cores": 5,
+      "baseline_makespan": 265764,
+      "makespan": 255214,
+      "candidate": "split_2",
+      "algorithm_version": "v010",
+      "reduction_percent": 3.9696873918213194,
+      "baseline_speedup": 1.0433504914134344,
+      "speedup": 1.0864803654971906,
+      "baseline_added_copy_bytes": 0,
+      "added_copy_bytes": 50516
+    },
+    {
+      "case": "case_049",
+      "cores": 5,
+      "baseline_makespan": 160260,
+      "makespan": 160260,
+      "candidate": "baseline",
+      "algorithm_version": "v010",
+      "reduction_percent": 0.0,
+      "baseline_speedup": 1.224734805940347,
+      "speedup": 1.224734805940347,
+      "baseline_added_copy_bytes": 0,
+      "added_copy_bytes": 0
+    }
+  ],
+  "boundary": "6 outcome-selected five-core cases; post-hoc refinement; no unseen validation or 100-graph re-evaluation; historical baseline search costs excluded"
+}

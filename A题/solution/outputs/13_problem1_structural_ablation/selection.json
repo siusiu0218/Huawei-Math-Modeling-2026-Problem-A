@@ -1,0 +1,56 @@
+[
+  {
+    "case": "case_064",
+    "makespan": 14237,
+    "source": "B2",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_064\\B2\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_064\\B2\\result.json",
+    "plan_sha256": "1aadcd7733206346adca6671d7f060c05fefda7627f040b70da53a9d32cf1bd8",
+    "result_sha256": "60713363082ce92d127b88f2ebea5b11ebcf4299920a4ad02145fb885ad1515b"
+  },
+  {
+    "case": "case_069",
+    "makespan": 21653,
+    "source": "B0",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_069\\B0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_069\\B0\\result.json",
+    "plan_sha256": "db577144411167789cab057e48db4b938b1bab552e81c2e3b33ebe40d652a47a",
+    "result_sha256": "fc550adebc4c422978993c3c78adbfa7a1b7f42d5e515adad30b2592b1ac4b7c"
+  },
+  {
+    "case": "case_044",
+    "makespan": 123553,
+    "source": "C0",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_044\\C0\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_044\\C0\\result.json",
+    "plan_sha256": "12e86165bf473afd00e5b95d4be0d0c45e941b205c65f7ff091ba1d92791f97f",
+    "result_sha256": "9513d114a12d30562ddff7dc71ad8279e82b58b0269490d83dd548e9701fb0ee"
+  },
+  {
+    "case": "case_046",
+    "makespan": 131924,
+    "source": "previous_best",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\references\\case_046_previous_best_plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\references\\case_046_previous_best_result.json",
+    "plan_sha256": "16b247991d12c8dc64f03ead809897d692ac26d9fc33ba525da4586b9ce917d4",
+    "result_sha256": "1fcca8f1a6648914890cb3cd67389ede34397e715f2930296b4d1727b5160e3d"
+  },
+  {
+    "case": "case_056",
+    "makespan": 148300,
+    "source": "C2",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_056\\C2\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_056\\C2\\result.json",
+    "plan_sha256": "5e0639b733e22fd400938ac5f815cb139ccbffc3539a4641d487c9028bb15deb",
+    "result_sha256": "791198069dd7a8bbc36e4120b139620e765ff0e72c05a3c284162223fdbc07c9"
+  },
+  {
+    "case": "case_049",
+    "makespan": 88113,
+    "source": "C2",
+    "plan_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_049\\C2\\plan.json",
+    "result_source": "D:\\workspace\\HuaWei\\A题\\solution\\outputs\\09_future\\raw\\problem_1\\v012\\exp133_20260926_structural_ablation\\runs\\case_049\\C2\\result.json",
+    "plan_sha256": "bcd5ecc0c8028b2d8aed2fc57ccba79719f65a8293464037c5c75b9950a38396",
+    "result_sha256": "f757c04ce816f54bd73ec5369a10a71f15a1760df9cebbe12ee6e4dcd682314e"
+  }
+]

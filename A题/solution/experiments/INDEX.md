@@ -443,3 +443,19 @@ exp028：case_069 × 2/4核开发流程；exp029：case_064/063 × 2～5核新�
 
 - 问题3 v003 | exp121_20260926_v003_full | completed and audited | 500/500配置；914新增评估，624外部复用，462内部去重；择优69改善431持平，直接候选166退化均披露。
 - [v003正式全量报告](../outputs/10_problem3/v003_full_20260926/REPORT.md)；500份方案包与PNG/SVG/PDF图表已核验。
+
+- 问题1 v010 | exp130_20260926_critical_local_pilot | 准备阶段停止，未评估 | 原归档CRLF与当前LF源码哈希不同；后续确认仅换行差异，旧目录保留。
+- 问题1 v010 | exp131_20260926_critical_local_pilot | 完成并审计通过 | 23图诊断，6图×5核试验，28候选与6基线复算共34评估。
+- 问题1 v011 | exp132_20260926_critical_neighbour_merge | 完成并审计通过 | 原搬运型两图追加3个关键链同核相邻合并候选，未修改v010冻结结果。
+- [第一问关键路径与局部切图试验报告](../outputs/11_problem1_local_pilot/REPORT.md)：合计31候选8快4平19慢；最终6图4改善2持平，最大耗时降幅6.17%。37评估全成功，4项测试通过。仅开发小试验，第一问正式全量仍v009。
+
+- 问题1 v012 | exp133_20260926_structural_ablation | frozen / starting | 六开发图×五核，A/B/C三组各4设置，最多72候选；旧方案与上一轮最优参照，固定原评估器。
+
+- 问题1 v012 | exp133_20260926_structural_ablation | completed and audited | 72槽成功，32新评估40复用；056/049重切分降幅44.20%/45.02%，044为29.79%；046退化保留旧方案。四项测试通过。报告：../outputs/13_problem1_structural_ablation/REPORT.md。
+
+- 问题1 v012 | exp134_20260926_structural_transfer | frozen / starting | 剩余17低分图五核，B/C各四候选，136槽；算法与exp133哈希一致，不调参。
+
+- 问题1 v012 | exp134_20260926_structural_transfer | completed and audited | 17图136槽全成功，85新评估51复用；13图改善4持平，计算集中型9/9改善、平均降幅33.78%。正式100图均值未改。报告：../outputs/14_problem1_structural_transfer/REPORT.md。
+- 问题1 v012 | exp135_20260926_full_preflight | preparation_failed | 旧docs哈希差异导致准备停止，0生成/评估；保留异常记录，执行依赖核验范围修正后另开exp136。
+- 问题1 v012 | exp136_20260926_full_preflight | completed and audited | case_001/056×2/5核32槽全成功，7新评估25复用；3+29槽续跑、重入0新增，两项运行保护测试通过。
+- 问题1 v012 | exp137_20260926_structural_full | completed_with_failures, audited | 100图2～5核400配置，3200槽3159成功、24评估超时17生成超时；2/3/4/5核均值1.814779/2.516367/3.097692/3.583728，五核提升4.98%。墙钟4.049小时，400份入选方案完整。报告：../outputs/16_problem1_structural_full/REPORT.md。

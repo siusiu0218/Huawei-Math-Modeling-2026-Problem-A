@@ -1,5 +1,43 @@
 # A 题解题实验
 
+## 第一问 v012 剩余17图后续检验（2026-09-26）
+
+冻结算法与六图开发阶段字节一致，17张其他低分图、五核、B/C各四设置的136候选槽全部完成。85新增评估、51复用槽；保留基线后13图改善4图持平。计算集中型9图全部有改善候选，平均耗时下降33.78%。[完整结果、负候选及证据边界](outputs/14_problem1_structural_transfer/REPORT.md)。该组均值不是100图正式均值，搬运型合并没有新的覆盖。
+
+复核并重建本轮报告（不重新评估候选）：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/report_problem1_structural_transfer.py'
+```
+
+同级`plans/`保存17份入选方案。原始记录及冻结协议在`outputs/09_future/raw/problem_1/v012/exp134_20260926_structural_transfer/`。新入口`run_problem1_structural_transfer.py --prepare`和`--run`固定本次编号、拒绝覆盖；新实验必须另立编号。算法未改，不重新定义开发/检验集。
+
+## 第一问 v012 三组结构对照（2026-09-26）
+
+六张开发图、五核，72候选槽位全部完成并审计通过；去重后32新增评估。A仅重排，B重新分核重排，C结构重切分后使用相同调度器。056/049重切分最佳耗时降幅44.20%/45.02%，044为29.79%；046的成组合并退化，保留上一轮方案。[完整对照与边界](outputs/13_problem1_structural_ablation/REPORT.md)。此为开发实验，未更新第一问100图正式成绩。
+
+从仓库根目录重建审计报告（不运行候选评估）：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/report_problem1_structural_ablation.py'
+& 'A题/.venv/Scripts/python.exe' -B -m unittest discover -s 'A题/solution/tests' -p 'test_scene_a_structural_ablation.py'
+```
+
+`outputs/13_problem1_structural_ablation/best_plans/`保存六份最终保留方案，`arm_plans/`保存各组直接最好方案。原始记录、冻结方案与源码快照在`outputs/09_future/raw/problem_1/v012/exp133_20260926_structural_ablation/`。入口`run_problem1_structural_ablation.py --prepare`、`--run`固定本次编号且拒绝覆盖，再次实验需新编号。
+
+## 第一问关键路径与局部切图小试验（2026-09-26）
+
+23张五核低于2倍的图已诊断，六张代表图做局部搜索；31个候选、37次新增评估全部完成。4图改善2图持平，最大降幅6.17%。这是开发试验，第一问100图正式结果仍为v009。[报告、全部候选和诊断数据](outputs/11_problem1_local_pilot/REPORT.md)，同级`plans/`保留六份入选方案。
+
+从仓库根目录重新核验并重建本试验的便览报告：
+
+```powershell
+& 'A题/.venv/Scripts/python.exe' -B 'A题/solution/experiments/audit_problem1_critical_pilot.py'
+& 'A题/.venv/Scripts/python.exe' -B -m unittest discover -s 'A题/solution/tests' -p 'test_scene_a_critical_local.py'
+```
+
+新试验入口为`experiments/probe_problem1_critical_local.py --prepare`及`--run`；搬运型补测入口为`experiments/probe_problem1_critical_merge.py`。入口固定了本次实验编号，拒绝覆盖；再次实验须新编号并重新冻结，不直接重跑旧目录。原始记录保存在`outputs/09_future/raw/problem_1/`的v010/exp131、v011/exp132目录。
+
 ## 第三问 v004 正式全量（2026-09-26）
 
 exp129_20260926_v004_full 已按冻结流程完成并审计通过：100图×1～5核共500配置，四候选均完成无L2/Cache配对，失败及超时为0。[正式报告](outputs/10_problem3/v004_full_20260926/REPORT.md)、[逐配置结果](outputs/10_problem3/raw/problem_3/v004/exp129_20260926_v004_full/comparison.csv)、[汇总](outputs/10_problem3/raw/problem_3/v004/exp129_20260926_v004_full/summary.json)及`selected_plans/`中500份入选方案均已保存。
@@ -355,4 +393,24 @@ case_087_n5的成功v001按字节复用，v008复用原方案，仅重复被人�
 开发实验首次调用曾误用已有exp115编号，完成后改为exp116归档；manifest保留实际命令及更名说明。源码/配置/输入变动会触发冻结检查，须另建版本或明确新实验设计，不覆盖本轮记录。
 
 诊断与Windows超时测试限制见`outputs/10_problem3/raw/scratch/timeline_diagnosis_20260926/REPORT.md`。本轮开发+新检验共12图，不代表100图全量完成。
+
+# 第一问 v012 全量准备入口（2026-09-26）
+
+[准备与演练报告](outputs/15_problem1_full_preparation/REPORT.md)：exp136共32槽通过，exp137仅准备好100图×2～5核，未启动。正式成绩仍采用08_full。
+
+下列命令在仓库根目录启动已准备的全量实验；中断后同一命令恢复，成功槽核对后跳过，终态失败/超时保留：
+
+```powershell
+python -B A题/solution/experiments/run_problem1_structural_full.py --experiment exp137_20260926_structural_full --run
+```
+
+结果在`outputs/09_future/raw/problem_1/v012/exp137_20260926_structural_full`；`manifest.json`记录状态，`runs`保留逐槽日志，`candidates.json`/`selection.json`/`summary.json`完成后生成。不要以400组基线已归档误称3200候选已评估。预算粗估2.85小时，非时间保证。测试：`python -B -m unittest discover -s A题/solution/tests -p test_problem1_full_runner.py`。
+
+# 查看第一问实时进度
+
+在终端执行 `python -B "D:/workspace/HuaWei/A题/solution/experiments/watch_problem1_full.py"`，每5秒读取exp137的状态，显示完成数、当前候选、最近记录与超时数量。此命令不启动评估；Ctrl+C只关闭查看器。加`--once`可打印一次。此前打开的空闲Codex终端没有连接后台执行输出，因此请使用此只读查看器。
+
+# 第一问 v012 全量结果已完成
+
+[exp137完整报告与400份入选方案](outputs/16_problem1_structural_full/REPORT.md)：100图×2～5核审计通过，2/3/4/5核平均加速比为1.814779/2.516367/3.097692/3.583728。3200候选槽中3159成功、41生成或评估超时，失败图保留基线计入均值。原08_full不覆盖。下文“准备/运行中”为历史阶段说明；当前以本节和exp137 manifest为准。重建审计：`python -B A题/solution/experiments/report_problem1_structural_full.py`。
 
